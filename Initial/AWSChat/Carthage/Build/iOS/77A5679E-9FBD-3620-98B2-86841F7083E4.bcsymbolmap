@@ -1,0 +1,989 @@
+BCSymbolMap Version: 2.0
++[AWSLambdaAddPermissionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaAddPermissionRequest action]
+-[AWSLambdaAddPermissionRequest setAction:]
+-[AWSLambdaAddPermissionRequest eventSourceToken]
+-[AWSLambdaAddPermissionRequest setEventSourceToken:]
+-[AWSLambdaAddPermissionRequest functionName]
+-[AWSLambdaAddPermissionRequest setFunctionName:]
+-[AWSLambdaAddPermissionRequest principal]
+-[AWSLambdaAddPermissionRequest setPrincipal:]
+-[AWSLambdaAddPermissionRequest qualifier]
+-[AWSLambdaAddPermissionRequest setQualifier:]
+-[AWSLambdaAddPermissionRequest sourceAccount]
+-[AWSLambdaAddPermissionRequest setSourceAccount:]
+-[AWSLambdaAddPermissionRequest sourceArn]
+-[AWSLambdaAddPermissionRequest setSourceArn:]
+-[AWSLambdaAddPermissionRequest statementId]
+-[AWSLambdaAddPermissionRequest setStatementId:]
+-[AWSLambdaAddPermissionRequest .cxx_destruct]
++[AWSLambdaAddPermissionResponse JSONKeyPathsByPropertyKey]
+-[AWSLambdaAddPermissionResponse statement]
+-[AWSLambdaAddPermissionResponse setStatement:]
+-[AWSLambdaAddPermissionResponse .cxx_destruct]
++[AWSLambdaAliasConfiguration JSONKeyPathsByPropertyKey]
+-[AWSLambdaAliasConfiguration aliasArn]
+-[AWSLambdaAliasConfiguration setAliasArn:]
+-[AWSLambdaAliasConfiguration detail]
+-[AWSLambdaAliasConfiguration setDetail:]
+-[AWSLambdaAliasConfiguration functionVersion]
+-[AWSLambdaAliasConfiguration setFunctionVersion:]
+-[AWSLambdaAliasConfiguration name]
+-[AWSLambdaAliasConfiguration setName:]
+-[AWSLambdaAliasConfiguration .cxx_destruct]
++[AWSLambdaCreateAliasRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaCreateAliasRequest detail]
+-[AWSLambdaCreateAliasRequest setDetail:]
+-[AWSLambdaCreateAliasRequest functionName]
+-[AWSLambdaCreateAliasRequest setFunctionName:]
+-[AWSLambdaCreateAliasRequest functionVersion]
+-[AWSLambdaCreateAliasRequest setFunctionVersion:]
+-[AWSLambdaCreateAliasRequest name]
+-[AWSLambdaCreateAliasRequest setName:]
+-[AWSLambdaCreateAliasRequest .cxx_destruct]
++[AWSLambdaCreateEventSourceMappingRequest JSONKeyPathsByPropertyKey]
++[AWSLambdaCreateEventSourceMappingRequest startingPositionJSONTransformer]
+___75+[AWSLambdaCreateEventSourceMappingRequest startingPositionJSONTransformer]_block_invoke
+___75+[AWSLambdaCreateEventSourceMappingRequest startingPositionJSONTransformer]_block_invoke_2
+-[AWSLambdaCreateEventSourceMappingRequest batchSize]
+-[AWSLambdaCreateEventSourceMappingRequest setBatchSize:]
+-[AWSLambdaCreateEventSourceMappingRequest enabled]
+-[AWSLambdaCreateEventSourceMappingRequest setEnabled:]
+-[AWSLambdaCreateEventSourceMappingRequest eventSourceArn]
+-[AWSLambdaCreateEventSourceMappingRequest setEventSourceArn:]
+-[AWSLambdaCreateEventSourceMappingRequest functionName]
+-[AWSLambdaCreateEventSourceMappingRequest setFunctionName:]
+-[AWSLambdaCreateEventSourceMappingRequest startingPosition]
+-[AWSLambdaCreateEventSourceMappingRequest setStartingPosition:]
+-[AWSLambdaCreateEventSourceMappingRequest .cxx_destruct]
++[AWSLambdaCreateFunctionRequest JSONKeyPathsByPropertyKey]
++[AWSLambdaCreateFunctionRequest codeJSONTransformer]
++[AWSLambdaCreateFunctionRequest runtimeJSONTransformer]
+___56+[AWSLambdaCreateFunctionRequest runtimeJSONTransformer]_block_invoke
+___56+[AWSLambdaCreateFunctionRequest runtimeJSONTransformer]_block_invoke_2
++[AWSLambdaCreateFunctionRequest vpcConfigJSONTransformer]
+-[AWSLambdaCreateFunctionRequest code]
+-[AWSLambdaCreateFunctionRequest setCode:]
+-[AWSLambdaCreateFunctionRequest detail]
+-[AWSLambdaCreateFunctionRequest setDetail:]
+-[AWSLambdaCreateFunctionRequest functionName]
+-[AWSLambdaCreateFunctionRequest setFunctionName:]
+-[AWSLambdaCreateFunctionRequest handler]
+-[AWSLambdaCreateFunctionRequest setHandler:]
+-[AWSLambdaCreateFunctionRequest memorySize]
+-[AWSLambdaCreateFunctionRequest setMemorySize:]
+-[AWSLambdaCreateFunctionRequest publish]
+-[AWSLambdaCreateFunctionRequest setPublish:]
+-[AWSLambdaCreateFunctionRequest role]
+-[AWSLambdaCreateFunctionRequest setRole:]
+-[AWSLambdaCreateFunctionRequest runtime]
+-[AWSLambdaCreateFunctionRequest setRuntime:]
+-[AWSLambdaCreateFunctionRequest timeout]
+-[AWSLambdaCreateFunctionRequest setTimeout:]
+-[AWSLambdaCreateFunctionRequest vpcConfig]
+-[AWSLambdaCreateFunctionRequest setVpcConfig:]
+-[AWSLambdaCreateFunctionRequest .cxx_destruct]
++[AWSLambdaDeleteAliasRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaDeleteAliasRequest functionName]
+-[AWSLambdaDeleteAliasRequest setFunctionName:]
+-[AWSLambdaDeleteAliasRequest name]
+-[AWSLambdaDeleteAliasRequest setName:]
+-[AWSLambdaDeleteAliasRequest .cxx_destruct]
++[AWSLambdaDeleteEventSourceMappingRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaDeleteEventSourceMappingRequest UUID]
+-[AWSLambdaDeleteEventSourceMappingRequest setUUID:]
+-[AWSLambdaDeleteEventSourceMappingRequest .cxx_destruct]
++[AWSLambdaDeleteFunctionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaDeleteFunctionRequest functionName]
+-[AWSLambdaDeleteFunctionRequest setFunctionName:]
+-[AWSLambdaDeleteFunctionRequest qualifier]
+-[AWSLambdaDeleteFunctionRequest setQualifier:]
+-[AWSLambdaDeleteFunctionRequest .cxx_destruct]
++[AWSLambdaEventSourceMappingConfiguration JSONKeyPathsByPropertyKey]
++[AWSLambdaEventSourceMappingConfiguration lastModifiedJSONTransformer]
+___71+[AWSLambdaEventSourceMappingConfiguration lastModifiedJSONTransformer]_block_invoke
+___71+[AWSLambdaEventSourceMappingConfiguration lastModifiedJSONTransformer]_block_invoke_2
+-[AWSLambdaEventSourceMappingConfiguration batchSize]
+-[AWSLambdaEventSourceMappingConfiguration setBatchSize:]
+-[AWSLambdaEventSourceMappingConfiguration eventSourceArn]
+-[AWSLambdaEventSourceMappingConfiguration setEventSourceArn:]
+-[AWSLambdaEventSourceMappingConfiguration functionArn]
+-[AWSLambdaEventSourceMappingConfiguration setFunctionArn:]
+-[AWSLambdaEventSourceMappingConfiguration lastModified]
+-[AWSLambdaEventSourceMappingConfiguration setLastModified:]
+-[AWSLambdaEventSourceMappingConfiguration lastProcessingResult]
+-[AWSLambdaEventSourceMappingConfiguration setLastProcessingResult:]
+-[AWSLambdaEventSourceMappingConfiguration state]
+-[AWSLambdaEventSourceMappingConfiguration setState:]
+-[AWSLambdaEventSourceMappingConfiguration stateTransitionReason]
+-[AWSLambdaEventSourceMappingConfiguration setStateTransitionReason:]
+-[AWSLambdaEventSourceMappingConfiguration UUID]
+-[AWSLambdaEventSourceMappingConfiguration setUUID:]
+-[AWSLambdaEventSourceMappingConfiguration .cxx_destruct]
++[AWSLambdaFunctionCode JSONKeyPathsByPropertyKey]
+-[AWSLambdaFunctionCode s3Bucket]
+-[AWSLambdaFunctionCode setS3Bucket:]
+-[AWSLambdaFunctionCode s3Key]
+-[AWSLambdaFunctionCode setS3Key:]
+-[AWSLambdaFunctionCode s3ObjectVersion]
+-[AWSLambdaFunctionCode setS3ObjectVersion:]
+-[AWSLambdaFunctionCode zipFile]
+-[AWSLambdaFunctionCode setZipFile:]
+-[AWSLambdaFunctionCode .cxx_destruct]
++[AWSLambdaFunctionCodeLocation JSONKeyPathsByPropertyKey]
+-[AWSLambdaFunctionCodeLocation location]
+-[AWSLambdaFunctionCodeLocation setLocation:]
+-[AWSLambdaFunctionCodeLocation repositoryType]
+-[AWSLambdaFunctionCodeLocation setRepositoryType:]
+-[AWSLambdaFunctionCodeLocation .cxx_destruct]
++[AWSLambdaFunctionConfiguration JSONKeyPathsByPropertyKey]
++[AWSLambdaFunctionConfiguration runtimeJSONTransformer]
+___56+[AWSLambdaFunctionConfiguration runtimeJSONTransformer]_block_invoke
+___56+[AWSLambdaFunctionConfiguration runtimeJSONTransformer]_block_invoke_2
++[AWSLambdaFunctionConfiguration vpcConfigJSONTransformer]
+-[AWSLambdaFunctionConfiguration codeSha256]
+-[AWSLambdaFunctionConfiguration setCodeSha256:]
+-[AWSLambdaFunctionConfiguration codeSize]
+-[AWSLambdaFunctionConfiguration setCodeSize:]
+-[AWSLambdaFunctionConfiguration detail]
+-[AWSLambdaFunctionConfiguration setDetail:]
+-[AWSLambdaFunctionConfiguration functionArn]
+-[AWSLambdaFunctionConfiguration setFunctionArn:]
+-[AWSLambdaFunctionConfiguration functionName]
+-[AWSLambdaFunctionConfiguration setFunctionName:]
+-[AWSLambdaFunctionConfiguration handler]
+-[AWSLambdaFunctionConfiguration setHandler:]
+-[AWSLambdaFunctionConfiguration lastModified]
+-[AWSLambdaFunctionConfiguration setLastModified:]
+-[AWSLambdaFunctionConfiguration memorySize]
+-[AWSLambdaFunctionConfiguration setMemorySize:]
+-[AWSLambdaFunctionConfiguration role]
+-[AWSLambdaFunctionConfiguration setRole:]
+-[AWSLambdaFunctionConfiguration runtime]
+-[AWSLambdaFunctionConfiguration setRuntime:]
+-[AWSLambdaFunctionConfiguration timeout]
+-[AWSLambdaFunctionConfiguration setTimeout:]
+-[AWSLambdaFunctionConfiguration version]
+-[AWSLambdaFunctionConfiguration setVersion:]
+-[AWSLambdaFunctionConfiguration vpcConfig]
+-[AWSLambdaFunctionConfiguration setVpcConfig:]
+-[AWSLambdaFunctionConfiguration .cxx_destruct]
++[AWSLambdaGetAliasRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetAliasRequest functionName]
+-[AWSLambdaGetAliasRequest setFunctionName:]
+-[AWSLambdaGetAliasRequest name]
+-[AWSLambdaGetAliasRequest setName:]
+-[AWSLambdaGetAliasRequest .cxx_destruct]
++[AWSLambdaGetEventSourceMappingRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetEventSourceMappingRequest UUID]
+-[AWSLambdaGetEventSourceMappingRequest setUUID:]
+-[AWSLambdaGetEventSourceMappingRequest .cxx_destruct]
++[AWSLambdaGetFunctionConfigurationRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetFunctionConfigurationRequest functionName]
+-[AWSLambdaGetFunctionConfigurationRequest setFunctionName:]
+-[AWSLambdaGetFunctionConfigurationRequest qualifier]
+-[AWSLambdaGetFunctionConfigurationRequest setQualifier:]
+-[AWSLambdaGetFunctionConfigurationRequest .cxx_destruct]
++[AWSLambdaGetFunctionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetFunctionRequest functionName]
+-[AWSLambdaGetFunctionRequest setFunctionName:]
+-[AWSLambdaGetFunctionRequest qualifier]
+-[AWSLambdaGetFunctionRequest setQualifier:]
+-[AWSLambdaGetFunctionRequest .cxx_destruct]
++[AWSLambdaGetFunctionResponse JSONKeyPathsByPropertyKey]
++[AWSLambdaGetFunctionResponse codeJSONTransformer]
++[AWSLambdaGetFunctionResponse configurationJSONTransformer]
+-[AWSLambdaGetFunctionResponse code]
+-[AWSLambdaGetFunctionResponse setCode:]
+-[AWSLambdaGetFunctionResponse configuration]
+-[AWSLambdaGetFunctionResponse setConfiguration:]
+-[AWSLambdaGetFunctionResponse .cxx_destruct]
++[AWSLambdaGetPolicyRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetPolicyRequest functionName]
+-[AWSLambdaGetPolicyRequest setFunctionName:]
+-[AWSLambdaGetPolicyRequest qualifier]
+-[AWSLambdaGetPolicyRequest setQualifier:]
+-[AWSLambdaGetPolicyRequest .cxx_destruct]
++[AWSLambdaGetPolicyResponse JSONKeyPathsByPropertyKey]
+-[AWSLambdaGetPolicyResponse policy]
+-[AWSLambdaGetPolicyResponse setPolicy:]
+-[AWSLambdaGetPolicyResponse .cxx_destruct]
++[AWSLambdaInvocationRequest JSONKeyPathsByPropertyKey]
++[AWSLambdaInvocationRequest invocationTypeJSONTransformer]
+___59+[AWSLambdaInvocationRequest invocationTypeJSONTransformer]_block_invoke
+___59+[AWSLambdaInvocationRequest invocationTypeJSONTransformer]_block_invoke_2
++[AWSLambdaInvocationRequest logTypeJSONTransformer]
+___52+[AWSLambdaInvocationRequest logTypeJSONTransformer]_block_invoke
+___52+[AWSLambdaInvocationRequest logTypeJSONTransformer]_block_invoke_2
+-[AWSLambdaInvocationRequest clientContext]
+-[AWSLambdaInvocationRequest setClientContext:]
+-[AWSLambdaInvocationRequest functionName]
+-[AWSLambdaInvocationRequest setFunctionName:]
+-[AWSLambdaInvocationRequest invocationType]
+-[AWSLambdaInvocationRequest setInvocationType:]
+-[AWSLambdaInvocationRequest logType]
+-[AWSLambdaInvocationRequest setLogType:]
+-[AWSLambdaInvocationRequest payload]
+-[AWSLambdaInvocationRequest setPayload:]
+-[AWSLambdaInvocationRequest qualifier]
+-[AWSLambdaInvocationRequest setQualifier:]
+-[AWSLambdaInvocationRequest .cxx_destruct]
++[AWSLambdaInvocationResponse JSONKeyPathsByPropertyKey]
+-[AWSLambdaInvocationResponse functionError]
+-[AWSLambdaInvocationResponse setFunctionError:]
+-[AWSLambdaInvocationResponse logResult]
+-[AWSLambdaInvocationResponse setLogResult:]
+-[AWSLambdaInvocationResponse payload]
+-[AWSLambdaInvocationResponse setPayload:]
+-[AWSLambdaInvocationResponse statusCode]
+-[AWSLambdaInvocationResponse setStatusCode:]
+-[AWSLambdaInvocationResponse .cxx_destruct]
++[AWSLambdaInvokeAsyncRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaInvokeAsyncRequest functionName]
+-[AWSLambdaInvokeAsyncRequest setFunctionName:]
+-[AWSLambdaInvokeAsyncRequest invokeArgs]
+-[AWSLambdaInvokeAsyncRequest setInvokeArgs:]
+-[AWSLambdaInvokeAsyncRequest .cxx_destruct]
++[AWSLambdaInvokeAsyncResponse JSONKeyPathsByPropertyKey]
+-[AWSLambdaInvokeAsyncResponse status]
+-[AWSLambdaInvokeAsyncResponse setStatus:]
+-[AWSLambdaInvokeAsyncResponse .cxx_destruct]
++[AWSLambdaListAliasesRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaListAliasesRequest functionName]
+-[AWSLambdaListAliasesRequest setFunctionName:]
+-[AWSLambdaListAliasesRequest functionVersion]
+-[AWSLambdaListAliasesRequest setFunctionVersion:]
+-[AWSLambdaListAliasesRequest marker]
+-[AWSLambdaListAliasesRequest setMarker:]
+-[AWSLambdaListAliasesRequest maxItems]
+-[AWSLambdaListAliasesRequest setMaxItems:]
+-[AWSLambdaListAliasesRequest .cxx_destruct]
++[AWSLambdaListAliasesResponse JSONKeyPathsByPropertyKey]
++[AWSLambdaListAliasesResponse aliasesJSONTransformer]
+-[AWSLambdaListAliasesResponse aliases]
+-[AWSLambdaListAliasesResponse setAliases:]
+-[AWSLambdaListAliasesResponse nextMarker]
+-[AWSLambdaListAliasesResponse setNextMarker:]
+-[AWSLambdaListAliasesResponse .cxx_destruct]
++[AWSLambdaListEventSourceMappingsRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaListEventSourceMappingsRequest eventSourceArn]
+-[AWSLambdaListEventSourceMappingsRequest setEventSourceArn:]
+-[AWSLambdaListEventSourceMappingsRequest functionName]
+-[AWSLambdaListEventSourceMappingsRequest setFunctionName:]
+-[AWSLambdaListEventSourceMappingsRequest marker]
+-[AWSLambdaListEventSourceMappingsRequest setMarker:]
+-[AWSLambdaListEventSourceMappingsRequest maxItems]
+-[AWSLambdaListEventSourceMappingsRequest setMaxItems:]
+-[AWSLambdaListEventSourceMappingsRequest .cxx_destruct]
++[AWSLambdaListEventSourceMappingsResponse JSONKeyPathsByPropertyKey]
++[AWSLambdaListEventSourceMappingsResponse eventSourceMappingsJSONTransformer]
+-[AWSLambdaListEventSourceMappingsResponse eventSourceMappings]
+-[AWSLambdaListEventSourceMappingsResponse setEventSourceMappings:]
+-[AWSLambdaListEventSourceMappingsResponse nextMarker]
+-[AWSLambdaListEventSourceMappingsResponse setNextMarker:]
+-[AWSLambdaListEventSourceMappingsResponse .cxx_destruct]
++[AWSLambdaListFunctionsRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaListFunctionsRequest marker]
+-[AWSLambdaListFunctionsRequest setMarker:]
+-[AWSLambdaListFunctionsRequest maxItems]
+-[AWSLambdaListFunctionsRequest setMaxItems:]
+-[AWSLambdaListFunctionsRequest .cxx_destruct]
++[AWSLambdaListFunctionsResponse JSONKeyPathsByPropertyKey]
++[AWSLambdaListFunctionsResponse functionsJSONTransformer]
+-[AWSLambdaListFunctionsResponse functions]
+-[AWSLambdaListFunctionsResponse setFunctions:]
+-[AWSLambdaListFunctionsResponse nextMarker]
+-[AWSLambdaListFunctionsResponse setNextMarker:]
+-[AWSLambdaListFunctionsResponse .cxx_destruct]
++[AWSLambdaListVersionsByFunctionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaListVersionsByFunctionRequest functionName]
+-[AWSLambdaListVersionsByFunctionRequest setFunctionName:]
+-[AWSLambdaListVersionsByFunctionRequest marker]
+-[AWSLambdaListVersionsByFunctionRequest setMarker:]
+-[AWSLambdaListVersionsByFunctionRequest maxItems]
+-[AWSLambdaListVersionsByFunctionRequest setMaxItems:]
+-[AWSLambdaListVersionsByFunctionRequest .cxx_destruct]
++[AWSLambdaListVersionsByFunctionResponse JSONKeyPathsByPropertyKey]
++[AWSLambdaListVersionsByFunctionResponse versionsJSONTransformer]
+-[AWSLambdaListVersionsByFunctionResponse nextMarker]
+-[AWSLambdaListVersionsByFunctionResponse setNextMarker:]
+-[AWSLambdaListVersionsByFunctionResponse versions]
+-[AWSLambdaListVersionsByFunctionResponse setVersions:]
+-[AWSLambdaListVersionsByFunctionResponse .cxx_destruct]
++[AWSLambdaPublishVersionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaPublishVersionRequest codeSha256]
+-[AWSLambdaPublishVersionRequest setCodeSha256:]
+-[AWSLambdaPublishVersionRequest detail]
+-[AWSLambdaPublishVersionRequest setDetail:]
+-[AWSLambdaPublishVersionRequest functionName]
+-[AWSLambdaPublishVersionRequest setFunctionName:]
+-[AWSLambdaPublishVersionRequest .cxx_destruct]
++[AWSLambdaRemovePermissionRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaRemovePermissionRequest functionName]
+-[AWSLambdaRemovePermissionRequest setFunctionName:]
+-[AWSLambdaRemovePermissionRequest qualifier]
+-[AWSLambdaRemovePermissionRequest setQualifier:]
+-[AWSLambdaRemovePermissionRequest statementId]
+-[AWSLambdaRemovePermissionRequest setStatementId:]
+-[AWSLambdaRemovePermissionRequest .cxx_destruct]
++[AWSLambdaUpdateAliasRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaUpdateAliasRequest detail]
+-[AWSLambdaUpdateAliasRequest setDetail:]
+-[AWSLambdaUpdateAliasRequest functionName]
+-[AWSLambdaUpdateAliasRequest setFunctionName:]
+-[AWSLambdaUpdateAliasRequest functionVersion]
+-[AWSLambdaUpdateAliasRequest setFunctionVersion:]
+-[AWSLambdaUpdateAliasRequest name]
+-[AWSLambdaUpdateAliasRequest setName:]
+-[AWSLambdaUpdateAliasRequest .cxx_destruct]
++[AWSLambdaUpdateEventSourceMappingRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaUpdateEventSourceMappingRequest batchSize]
+-[AWSLambdaUpdateEventSourceMappingRequest setBatchSize:]
+-[AWSLambdaUpdateEventSourceMappingRequest enabled]
+-[AWSLambdaUpdateEventSourceMappingRequest setEnabled:]
+-[AWSLambdaUpdateEventSourceMappingRequest functionName]
+-[AWSLambdaUpdateEventSourceMappingRequest setFunctionName:]
+-[AWSLambdaUpdateEventSourceMappingRequest UUID]
+-[AWSLambdaUpdateEventSourceMappingRequest setUUID:]
+-[AWSLambdaUpdateEventSourceMappingRequest .cxx_destruct]
++[AWSLambdaUpdateFunctionCodeRequest JSONKeyPathsByPropertyKey]
+-[AWSLambdaUpdateFunctionCodeRequest functionName]
+-[AWSLambdaUpdateFunctionCodeRequest setFunctionName:]
+-[AWSLambdaUpdateFunctionCodeRequest publish]
+-[AWSLambdaUpdateFunctionCodeRequest setPublish:]
+-[AWSLambdaUpdateFunctionCodeRequest s3Bucket]
+-[AWSLambdaUpdateFunctionCodeRequest setS3Bucket:]
+-[AWSLambdaUpdateFunctionCodeRequest s3Key]
+-[AWSLambdaUpdateFunctionCodeRequest setS3Key:]
+-[AWSLambdaUpdateFunctionCodeRequest s3ObjectVersion]
+-[AWSLambdaUpdateFunctionCodeRequest setS3ObjectVersion:]
+-[AWSLambdaUpdateFunctionCodeRequest zipFile]
+-[AWSLambdaUpdateFunctionCodeRequest setZipFile:]
+-[AWSLambdaUpdateFunctionCodeRequest .cxx_destruct]
++[AWSLambdaUpdateFunctionConfigurationRequest JSONKeyPathsByPropertyKey]
++[AWSLambdaUpdateFunctionConfigurationRequest runtimeJSONTransformer]
+___69+[AWSLambdaUpdateFunctionConfigurationRequest runtimeJSONTransformer]_block_invoke
+___69+[AWSLambdaUpdateFunctionConfigurationRequest runtimeJSONTransformer]_block_invoke_2
++[AWSLambdaUpdateFunctionConfigurationRequest vpcConfigJSONTransformer]
+-[AWSLambdaUpdateFunctionConfigurationRequest detail]
+-[AWSLambdaUpdateFunctionConfigurationRequest setDetail:]
+-[AWSLambdaUpdateFunctionConfigurationRequest functionName]
+-[AWSLambdaUpdateFunctionConfigurationRequest setFunctionName:]
+-[AWSLambdaUpdateFunctionConfigurationRequest handler]
+-[AWSLambdaUpdateFunctionConfigurationRequest setHandler:]
+-[AWSLambdaUpdateFunctionConfigurationRequest memorySize]
+-[AWSLambdaUpdateFunctionConfigurationRequest setMemorySize:]
+-[AWSLambdaUpdateFunctionConfigurationRequest role]
+-[AWSLambdaUpdateFunctionConfigurationRequest setRole:]
+-[AWSLambdaUpdateFunctionConfigurationRequest runtime]
+-[AWSLambdaUpdateFunctionConfigurationRequest setRuntime:]
+-[AWSLambdaUpdateFunctionConfigurationRequest timeout]
+-[AWSLambdaUpdateFunctionConfigurationRequest setTimeout:]
+-[AWSLambdaUpdateFunctionConfigurationRequest vpcConfig]
+-[AWSLambdaUpdateFunctionConfigurationRequest setVpcConfig:]
+-[AWSLambdaUpdateFunctionConfigurationRequest .cxx_destruct]
++[AWSLambdaVpcConfig JSONKeyPathsByPropertyKey]
+-[AWSLambdaVpcConfig securityGroupIds]
+-[AWSLambdaVpcConfig setSecurityGroupIds:]
+-[AWSLambdaVpcConfig subnetIds]
+-[AWSLambdaVpcConfig setSubnetIds:]
+-[AWSLambdaVpcConfig .cxx_destruct]
++[AWSLambdaVpcConfigResponse JSONKeyPathsByPropertyKey]
+-[AWSLambdaVpcConfigResponse securityGroupIds]
+-[AWSLambdaVpcConfigResponse setSecurityGroupIds:]
+-[AWSLambdaVpcConfigResponse subnetIds]
+-[AWSLambdaVpcConfigResponse setSubnetIds:]
+-[AWSLambdaVpcConfigResponse vpcId]
+-[AWSLambdaVpcConfigResponse setVpcId:]
+-[AWSLambdaVpcConfigResponse .cxx_destruct]
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._action
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._eventSourceToken
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._principal
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._sourceAccount
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._sourceArn
+_OBJC_IVAR_$_AWSLambdaAddPermissionRequest._statementId
+_OBJC_IVAR_$_AWSLambdaAddPermissionResponse._statement
+_OBJC_IVAR_$_AWSLambdaAliasConfiguration._aliasArn
+_OBJC_IVAR_$_AWSLambdaAliasConfiguration._detail
+_OBJC_IVAR_$_AWSLambdaAliasConfiguration._functionVersion
+_OBJC_IVAR_$_AWSLambdaAliasConfiguration._name
+_OBJC_IVAR_$_AWSLambdaCreateAliasRequest._detail
+_OBJC_IVAR_$_AWSLambdaCreateAliasRequest._functionName
+_OBJC_IVAR_$_AWSLambdaCreateAliasRequest._functionVersion
+_OBJC_IVAR_$_AWSLambdaCreateAliasRequest._name
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp.159
+___block_literal_global.160
+_OBJC_IVAR_$_AWSLambdaCreateEventSourceMappingRequest._batchSize
+_OBJC_IVAR_$_AWSLambdaCreateEventSourceMappingRequest._enabled
+_OBJC_IVAR_$_AWSLambdaCreateEventSourceMappingRequest._eventSourceArn
+_OBJC_IVAR_$_AWSLambdaCreateEventSourceMappingRequest._functionName
+_OBJC_IVAR_$_AWSLambdaCreateEventSourceMappingRequest._startingPosition
+___block_descriptor_tmp.236
+___block_literal_global.237
+___block_descriptor_tmp.238
+___block_literal_global.239
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._code
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._detail
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._handler
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._memorySize
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._publish
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._role
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._runtime
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._timeout
+_OBJC_IVAR_$_AWSLambdaCreateFunctionRequest._vpcConfig
+_OBJC_IVAR_$_AWSLambdaDeleteAliasRequest._functionName
+_OBJC_IVAR_$_AWSLambdaDeleteAliasRequest._name
+_OBJC_IVAR_$_AWSLambdaDeleteEventSourceMappingRequest._UUID
+_OBJC_IVAR_$_AWSLambdaDeleteFunctionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaDeleteFunctionRequest._qualifier
+___block_descriptor_tmp.327
+___block_literal_global.328
+___block_descriptor_tmp.337
+___block_literal_global.338
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._batchSize
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._eventSourceArn
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._functionArn
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._lastModified
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._lastProcessingResult
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._state
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._stateTransitionReason
+_OBJC_IVAR_$_AWSLambdaEventSourceMappingConfiguration._UUID
+_OBJC_IVAR_$_AWSLambdaFunctionCode._s3Bucket
+_OBJC_IVAR_$_AWSLambdaFunctionCode._s3Key
+_OBJC_IVAR_$_AWSLambdaFunctionCode._s3ObjectVersion
+_OBJC_IVAR_$_AWSLambdaFunctionCode._zipFile
+_OBJC_IVAR_$_AWSLambdaFunctionCodeLocation._location
+_OBJC_IVAR_$_AWSLambdaFunctionCodeLocation._repositoryType
+___block_descriptor_tmp.439
+___block_literal_global.440
+___block_descriptor_tmp.441
+___block_literal_global.442
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._codeSha256
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._codeSize
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._detail
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._functionArn
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._functionName
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._handler
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._lastModified
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._memorySize
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._role
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._runtime
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._timeout
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._version
+_OBJC_IVAR_$_AWSLambdaFunctionConfiguration._vpcConfig
+_OBJC_IVAR_$_AWSLambdaGetAliasRequest._functionName
+_OBJC_IVAR_$_AWSLambdaGetAliasRequest._name
+_OBJC_IVAR_$_AWSLambdaGetEventSourceMappingRequest._UUID
+_OBJC_IVAR_$_AWSLambdaGetFunctionConfigurationRequest._functionName
+_OBJC_IVAR_$_AWSLambdaGetFunctionConfigurationRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaGetFunctionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaGetFunctionRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaGetFunctionResponse._code
+_OBJC_IVAR_$_AWSLambdaGetFunctionResponse._configuration
+_OBJC_IVAR_$_AWSLambdaGetPolicyRequest._functionName
+_OBJC_IVAR_$_AWSLambdaGetPolicyRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaGetPolicyResponse._policy
+___block_descriptor_tmp.524
+___block_literal_global.525
+___block_descriptor_tmp.526
+___block_literal_global.527
+___block_descriptor_tmp.532
+___block_literal_global.533
+___block_descriptor_tmp.534
+___block_literal_global.535
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._clientContext
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._functionName
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._invocationType
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._logType
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._payload
+_OBJC_IVAR_$_AWSLambdaInvocationRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaInvocationResponse._functionError
+_OBJC_IVAR_$_AWSLambdaInvocationResponse._logResult
+_OBJC_IVAR_$_AWSLambdaInvocationResponse._payload
+_OBJC_IVAR_$_AWSLambdaInvocationResponse._statusCode
+_OBJC_IVAR_$_AWSLambdaInvokeAsyncRequest._functionName
+_OBJC_IVAR_$_AWSLambdaInvokeAsyncRequest._invokeArgs
+_OBJC_IVAR_$_AWSLambdaInvokeAsyncResponse._status
+_OBJC_IVAR_$_AWSLambdaListAliasesRequest._functionName
+_OBJC_IVAR_$_AWSLambdaListAliasesRequest._functionVersion
+_OBJC_IVAR_$_AWSLambdaListAliasesRequest._marker
+_OBJC_IVAR_$_AWSLambdaListAliasesRequest._maxItems
+_OBJC_IVAR_$_AWSLambdaListAliasesResponse._aliases
+_OBJC_IVAR_$_AWSLambdaListAliasesResponse._nextMarker
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsRequest._eventSourceArn
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsRequest._functionName
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsRequest._marker
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsRequest._maxItems
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsResponse._eventSourceMappings
+_OBJC_IVAR_$_AWSLambdaListEventSourceMappingsResponse._nextMarker
+_OBJC_IVAR_$_AWSLambdaListFunctionsRequest._marker
+_OBJC_IVAR_$_AWSLambdaListFunctionsRequest._maxItems
+_OBJC_IVAR_$_AWSLambdaListFunctionsResponse._functions
+_OBJC_IVAR_$_AWSLambdaListFunctionsResponse._nextMarker
+_OBJC_IVAR_$_AWSLambdaListVersionsByFunctionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaListVersionsByFunctionRequest._marker
+_OBJC_IVAR_$_AWSLambdaListVersionsByFunctionRequest._maxItems
+_OBJC_IVAR_$_AWSLambdaListVersionsByFunctionResponse._nextMarker
+_OBJC_IVAR_$_AWSLambdaListVersionsByFunctionResponse._versions
+_OBJC_IVAR_$_AWSLambdaPublishVersionRequest._codeSha256
+_OBJC_IVAR_$_AWSLambdaPublishVersionRequest._detail
+_OBJC_IVAR_$_AWSLambdaPublishVersionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaRemovePermissionRequest._functionName
+_OBJC_IVAR_$_AWSLambdaRemovePermissionRequest._qualifier
+_OBJC_IVAR_$_AWSLambdaRemovePermissionRequest._statementId
+_OBJC_IVAR_$_AWSLambdaUpdateAliasRequest._detail
+_OBJC_IVAR_$_AWSLambdaUpdateAliasRequest._functionName
+_OBJC_IVAR_$_AWSLambdaUpdateAliasRequest._functionVersion
+_OBJC_IVAR_$_AWSLambdaUpdateAliasRequest._name
+_OBJC_IVAR_$_AWSLambdaUpdateEventSourceMappingRequest._batchSize
+_OBJC_IVAR_$_AWSLambdaUpdateEventSourceMappingRequest._enabled
+_OBJC_IVAR_$_AWSLambdaUpdateEventSourceMappingRequest._functionName
+_OBJC_IVAR_$_AWSLambdaUpdateEventSourceMappingRequest._UUID
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._functionName
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._publish
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._s3Bucket
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._s3Key
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._s3ObjectVersion
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionCodeRequest._zipFile
+___block_descriptor_tmp.710
+___block_literal_global.711
+___block_descriptor_tmp.712
+___block_literal_global.713
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._detail
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._functionName
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._handler
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._memorySize
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._role
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._runtime
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._timeout
+_OBJC_IVAR_$_AWSLambdaUpdateFunctionConfigurationRequest._vpcConfig
+_OBJC_IVAR_$_AWSLambdaVpcConfig._securityGroupIds
+_OBJC_IVAR_$_AWSLambdaVpcConfig._subnetIds
+_OBJC_IVAR_$_AWSLambdaVpcConfigResponse._securityGroupIds
+_OBJC_IVAR_$_AWSLambdaVpcConfigResponse._subnetIds
+_OBJC_IVAR_$_AWSLambdaVpcConfigResponse._vpcId
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaModel.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaModel.h
+__69+[AWSLambdaUpdateFunctionConfigurationRequest runtimeJSONTransformer]_block_invoke_2
+__69+[AWSLambdaUpdateFunctionConfigurationRequest runtimeJSONTransformer]_block_invoke
+__52+[AWSLambdaInvocationRequest logTypeJSONTransformer]_block_invoke_2
+__52+[AWSLambdaInvocationRequest logTypeJSONTransformer]_block_invoke
+__59+[AWSLambdaInvocationRequest invocationTypeJSONTransformer]_block_invoke_2
+__59+[AWSLambdaInvocationRequest invocationTypeJSONTransformer]_block_invoke
+__56+[AWSLambdaFunctionConfiguration runtimeJSONTransformer]_block_invoke_2
+__56+[AWSLambdaFunctionConfiguration runtimeJSONTransformer]_block_invoke
+__71+[AWSLambdaEventSourceMappingConfiguration lastModifiedJSONTransformer]_block_invoke_2
+__71+[AWSLambdaEventSourceMappingConfiguration lastModifiedJSONTransformer]_block_invoke
+__56+[AWSLambdaCreateFunctionRequest runtimeJSONTransformer]_block_invoke_2
+__56+[AWSLambdaCreateFunctionRequest runtimeJSONTransformer]_block_invoke
+__75+[AWSLambdaCreateEventSourceMappingRequest startingPositionJSONTransformer]_block_invoke_2
+__75+[AWSLambdaCreateEventSourceMappingRequest startingPositionJSONTransformer]_block_invoke
++[AWSLambdaResources sharedInstance]
+___36+[AWSLambdaResources sharedInstance]_block_invoke
+-[AWSLambdaResources JSONObject]
+-[AWSLambdaResources init]
+-[AWSLambdaResources definitionString]
+-[AWSLambdaResources definitionDictionary]
+-[AWSLambdaResources setDefinitionDictionary:]
+-[AWSLambdaResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSLambdaResources._definitionDictionary
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaResources.m
+__36+[AWSLambdaResources sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
++[AWSLambdaResponseSerializer initialize]
+-[AWSLambdaResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSLambda initialize]
++[AWSLambda defaultLambda]
+___26+[AWSLambda defaultLambda]_block_invoke
++[AWSLambda registerLambdaWithConfiguration:forKey:]
+___52+[AWSLambda registerLambdaWithConfiguration:forKey:]_block_invoke
++[AWSLambda LambdaForKey:]
++[AWSLambda removeLambdaForKey:]
+-[AWSLambda init]
+-[AWSLambda initWithConfiguration:]
+-[AWSLambda invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSLambda addPermission:]
+-[AWSLambda addPermission:completionHandler:]
+___45-[AWSLambda addPermission:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSLambda createAlias:]
+-[AWSLambda createAlias:completionHandler:]
+___43-[AWSLambda createAlias:completionHandler:]_block_invoke
+___copy_helper_block_.265
+___destroy_helper_block_.266
+-[AWSLambda createEventSourceMapping:]
+-[AWSLambda createEventSourceMapping:completionHandler:]
+___56-[AWSLambda createEventSourceMapping:completionHandler:]_block_invoke
+___copy_helper_block_.275
+___destroy_helper_block_.276
+-[AWSLambda createFunction:]
+-[AWSLambda createFunction:completionHandler:]
+___46-[AWSLambda createFunction:completionHandler:]_block_invoke
+___copy_helper_block_.285
+___destroy_helper_block_.286
+-[AWSLambda deleteAlias:]
+-[AWSLambda deleteAlias:completionHandler:]
+___43-[AWSLambda deleteAlias:completionHandler:]_block_invoke
+___copy_helper_block_.294
+___destroy_helper_block_.295
+-[AWSLambda deleteEventSourceMapping:]
+-[AWSLambda deleteEventSourceMapping:completionHandler:]
+___56-[AWSLambda deleteEventSourceMapping:completionHandler:]_block_invoke
+___copy_helper_block_.303
+___destroy_helper_block_.304
+-[AWSLambda deleteFunction:]
+-[AWSLambda deleteFunction:completionHandler:]
+___46-[AWSLambda deleteFunction:completionHandler:]_block_invoke
+___copy_helper_block_.312
+___destroy_helper_block_.313
+-[AWSLambda getAlias:]
+-[AWSLambda getAlias:completionHandler:]
+___40-[AWSLambda getAlias:completionHandler:]_block_invoke
+___copy_helper_block_.319
+___destroy_helper_block_.320
+-[AWSLambda getEventSourceMapping:]
+-[AWSLambda getEventSourceMapping:completionHandler:]
+___53-[AWSLambda getEventSourceMapping:completionHandler:]_block_invoke
+___copy_helper_block_.326
+___destroy_helper_block_.327
+-[AWSLambda getFunction:]
+-[AWSLambda getFunction:completionHandler:]
+___43-[AWSLambda getFunction:completionHandler:]_block_invoke
+___copy_helper_block_.334
+___destroy_helper_block_.335
+-[AWSLambda getFunctionConfiguration:]
+-[AWSLambda getFunctionConfiguration:completionHandler:]
+___56-[AWSLambda getFunctionConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.343
+___destroy_helper_block_.344
+-[AWSLambda getPolicy:]
+-[AWSLambda getPolicy:completionHandler:]
+___41-[AWSLambda getPolicy:completionHandler:]_block_invoke
+___copy_helper_block_.351
+___destroy_helper_block_.352
+-[AWSLambda invoke:]
+-[AWSLambda invoke:completionHandler:]
+___38-[AWSLambda invoke:completionHandler:]_block_invoke
+___copy_helper_block_.361
+___destroy_helper_block_.362
+-[AWSLambda invokeAsync:]
+-[AWSLambda invokeAsync:completionHandler:]
+___43-[AWSLambda invokeAsync:completionHandler:]_block_invoke
+___copy_helper_block_.371
+___destroy_helper_block_.372
+-[AWSLambda listAliases:]
+-[AWSLambda listAliases:completionHandler:]
+___43-[AWSLambda listAliases:completionHandler:]_block_invoke
+___copy_helper_block_.379
+___destroy_helper_block_.380
+-[AWSLambda listEventSourceMappings:]
+-[AWSLambda listEventSourceMappings:completionHandler:]
+___55-[AWSLambda listEventSourceMappings:completionHandler:]_block_invoke
+___copy_helper_block_.387
+___destroy_helper_block_.388
+-[AWSLambda listFunctions:]
+-[AWSLambda listFunctions:completionHandler:]
+___45-[AWSLambda listFunctions:completionHandler:]_block_invoke
+___copy_helper_block_.397
+___destroy_helper_block_.398
+-[AWSLambda listVersionsByFunction:]
+-[AWSLambda listVersionsByFunction:completionHandler:]
+___54-[AWSLambda listVersionsByFunction:completionHandler:]_block_invoke
+___copy_helper_block_.407
+___destroy_helper_block_.408
+-[AWSLambda publishVersion:]
+-[AWSLambda publishVersion:completionHandler:]
+___46-[AWSLambda publishVersion:completionHandler:]_block_invoke
+___copy_helper_block_.414
+___destroy_helper_block_.415
+-[AWSLambda removePermission:]
+-[AWSLambda removePermission:completionHandler:]
+___48-[AWSLambda removePermission:completionHandler:]_block_invoke
+___copy_helper_block_.423
+___destroy_helper_block_.424
+-[AWSLambda updateAlias:]
+-[AWSLambda updateAlias:completionHandler:]
+___43-[AWSLambda updateAlias:completionHandler:]_block_invoke
+___copy_helper_block_.430
+___destroy_helper_block_.431
+-[AWSLambda updateEventSourceMapping:]
+-[AWSLambda updateEventSourceMapping:completionHandler:]
+___56-[AWSLambda updateEventSourceMapping:completionHandler:]_block_invoke
+___copy_helper_block_.437
+___destroy_helper_block_.438
+-[AWSLambda updateFunctionCode:]
+-[AWSLambda updateFunctionCode:completionHandler:]
+___50-[AWSLambda updateFunctionCode:completionHandler:]_block_invoke
+___copy_helper_block_.446
+___destroy_helper_block_.447
+-[AWSLambda updateFunctionConfiguration:]
+-[AWSLambda updateFunctionConfiguration:completionHandler:]
+___59-[AWSLambda updateFunctionConfiguration:completionHandler:]_block_invoke
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[AWSLambda configuration]
+-[AWSLambda setConfiguration:]
+-[AWSLambda networking]
+-[AWSLambda setNetworking:]
+-[AWSLambda .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultLambda._defaultLambda
+_defaultLambda.onceToken
+_registerLambdaWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.150
+___block_literal_global.151
+_OBJC_IVAR_$_AWSLambda._configuration
+_OBJC_IVAR_$_AWSLambda._networking
+___block_descriptor_tmp.255
+___block_descriptor_tmp.267
+___block_descriptor_tmp.277
+___block_descriptor_tmp.287
+___block_descriptor_tmp.296
+___block_descriptor_tmp.305
+___block_descriptor_tmp.314
+___block_descriptor_tmp.321
+___block_descriptor_tmp.328
+___block_descriptor_tmp.336
+___block_descriptor_tmp.345
+___block_descriptor_tmp.353
+___block_descriptor_tmp.363
+___block_descriptor_tmp.373
+___block_descriptor_tmp.381
+___block_descriptor_tmp.389
+___block_descriptor_tmp.399
+___block_descriptor_tmp.409
+___block_descriptor_tmp.416
+___block_descriptor_tmp.425
+___block_descriptor_tmp.432
+___block_descriptor_tmp.448
+___block_descriptor_tmp.455
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaService.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaService.h
+__destroy_helper_block_
+__copy_helper_block_
+__59-[AWSLambda updateFunctionConfiguration:completionHandler:]_block_invoke
+__50-[AWSLambda updateFunctionCode:completionHandler:]_block_invoke
+__56-[AWSLambda updateEventSourceMapping:completionHandler:]_block_invoke
+__43-[AWSLambda updateAlias:completionHandler:]_block_invoke
+__48-[AWSLambda removePermission:completionHandler:]_block_invoke
+__46-[AWSLambda publishVersion:completionHandler:]_block_invoke
+__54-[AWSLambda listVersionsByFunction:completionHandler:]_block_invoke
+__45-[AWSLambda listFunctions:completionHandler:]_block_invoke
+__55-[AWSLambda listEventSourceMappings:completionHandler:]_block_invoke
+__43-[AWSLambda listAliases:completionHandler:]_block_invoke
+__43-[AWSLambda invokeAsync:completionHandler:]_block_invoke
+__38-[AWSLambda invoke:completionHandler:]_block_invoke
+__41-[AWSLambda getPolicy:completionHandler:]_block_invoke
+__56-[AWSLambda getFunctionConfiguration:completionHandler:]_block_invoke
+__43-[AWSLambda getFunction:completionHandler:]_block_invoke
+__53-[AWSLambda getEventSourceMapping:completionHandler:]_block_invoke
+__40-[AWSLambda getAlias:completionHandler:]_block_invoke
+__46-[AWSLambda deleteFunction:completionHandler:]_block_invoke
+__56-[AWSLambda deleteEventSourceMapping:completionHandler:]_block_invoke
+__43-[AWSLambda deleteAlias:completionHandler:]_block_invoke
+__46-[AWSLambda createFunction:completionHandler:]_block_invoke
+__56-[AWSLambda createEventSourceMapping:completionHandler:]_block_invoke
+__43-[AWSLambda createAlias:completionHandler:]_block_invoke
+__45-[AWSLambda addPermission:completionHandler:]_block_invoke
+__52+[AWSLambda registerLambdaWithConfiguration:forKey:]_block_invoke
+__26+[AWSLambda defaultLambda]_block_invoke
++[AWSLambdaInvoker defaultLambdaInvoker]
+___40+[AWSLambdaInvoker defaultLambdaInvoker]_block_invoke
++[AWSLambdaInvoker registerLambdaInvokerWithConfiguration:forKey:]
+___66+[AWSLambdaInvoker registerLambdaInvokerWithConfiguration:forKey:]_block_invoke
++[AWSLambdaInvoker LambdaInvokerForKey:]
++[AWSLambdaInvoker removeLambdaInvokerForKey:]
+-[AWSLambdaInvoker init]
+-[AWSLambdaInvoker initWithConfiguration:]
+-[AWSLambdaInvoker invoke:]
+___27-[AWSLambdaInvoker invoke:]_block_invoke
+-[AWSLambdaInvoker invoke:completionHandler:]
+___45-[AWSLambdaInvoker invoke:completionHandler:]_block_invoke
+-[AWSLambdaInvoker invokeFunction:JSONObject:]
+___46-[AWSLambdaInvoker invokeFunction:JSONObject:]_block_invoke
+-[AWSLambdaInvoker invokeFunction:JSONObject:completionHandler:]
+___64-[AWSLambdaInvoker invokeFunction:JSONObject:completionHandler:]_block_invoke
+___copy_helper_block_.125
+___destroy_helper_block_.126
+-[AWSLambdaInvoker clientContext]
+-[AWSLambdaInvoker setClientContext:]
+-[AWSLambdaInvoker lambda]
+-[AWSLambdaInvoker setLambda:]
+-[AWSLambdaInvoker .cxx_destruct]
+_defaultLambdaInvoker._defaultLambdaInvoker
+_defaultLambdaInvoker.onceToken
+_registerLambdaInvokerWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.41
+___block_literal_global.42
+_OBJC_IVAR_$_AWSLambdaInvoker._lambda
+_OBJC_IVAR_$_AWSLambdaInvoker._clientContext
+___block_descriptor_tmp.107
+___block_literal_global.108
+___block_descriptor_tmp.113
+___block_descriptor_tmp.121
+___block_literal_global.122
+___block_descriptor_tmp.127
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaInvoker.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSLambda/AWSLambdaInvoker.h
+__64-[AWSLambdaInvoker invokeFunction:JSONObject:completionHandler:]_block_invoke
+__46-[AWSLambdaInvoker invokeFunction:JSONObject:]_block_invoke
+__45-[AWSLambdaInvoker invoke:completionHandler:]_block_invoke
+__27-[AWSLambdaInvoker invoke:]_block_invoke
+__66+[AWSLambdaInvoker registerLambdaInvokerWithConfiguration:forKey:]_block_invoke
+__40+[AWSLambdaInvoker defaultLambdaInvoker]_block_invoke
+/Users/abhishekmishra/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-eivfqyjasjqboyexyyrqgmlqdazh/Build/Intermediates/AWSiOSSDKv2.build/Release-iphoneos/AWSLambda.build/DerivedSources/AWSLambda_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.2
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
