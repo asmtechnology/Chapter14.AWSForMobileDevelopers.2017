@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91004C101EA354E6000772E7 /* S3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91004C0F1EA354E6000772E7 /* S3Controller.swift */; };
+		9122B0301E6E98070024AE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B02F1E6E98070024AE10 /* AppDelegate.swift */; };
+		9122B0351E6E98070024AE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122B0331E6E98070024AE10 /* Main.storyboard */; };
+		9122B0371E6E98070024AE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9122B0361E6E98070024AE10 /* Assets.xcassets */; };
+		9122B03A1E6E98070024AE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122B0381E6E98070024AE10 /* LaunchScreen.storyboard */; };
+		9122B0421E6E98300024AE10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B0411E6E98300024AE10 /* LoginViewController.swift */; };
+		9122B0441E6E98470024AE10 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B0431E6E98470024AE10 /* SignupViewController.swift */; };
+		9122B0461E6E986C0024AE10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B0451E6E986C0024AE10 /* HomeViewController.swift */; };
+		9122B0481E6E98910024AE10 /* ChatJourney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122B0471E6E98910024AE10 /* ChatJourney.storyboard */; };
+		9122B04E1E6F43130024AE10 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04B1E6F43130024AE10 /* AWSCognito.framework */; };
+		9122B04F1E6F43130024AE10 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04B1E6F43130024AE10 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9122B0501E6F43130024AE10 /* AWSCognitoIdentityProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04C1E6F43130024AE10 /* AWSCognitoIdentityProvider.framework */; };
+		9122B0511E6F43130024AE10 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04C1E6F43130024AE10 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9122B0521E6F43130024AE10 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04D1E6F43130024AE10 /* AWSCore.framework */; };
+		9122B0531E6F43130024AE10 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9122B04D1E6F43130024AE10 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9122B0761E7842510024AE10 /* CognitoUserPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122B0751E7842510024AE10 /* CognitoUserPoolController.swift */; };
+		9135A4E61E81AE9500374DAE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9135A4E31E81AE9500374DAE /* Bolts.framework */; };
+		9135A4E71E81AE9500374DAE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9135A4E41E81AE9500374DAE /* FBSDKCoreKit.framework */; };
+		9135A4E81E81AE9500374DAE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9135A4E51E81AE9500374DAE /* FBSDKLoginKit.framework */; };
+		91B2DA311E8A3C2500FCFD3A /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA2C1E8A3C2500FCFD3A /* GoogleAppUtilities.framework */; };
+		91B2DA321E8A3C2500FCFD3A /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91B2DA2D1E8A3C2500FCFD3A /* GoogleSignIn.bundle */; };
+		91B2DA331E8A3C2500FCFD3A /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA2E1E8A3C2500FCFD3A /* GoogleSignIn.framework */; };
+		91B2DA341E8A3C2500FCFD3A /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA2F1E8A3C2500FCFD3A /* GoogleSignInDependencies.framework */; };
+		91B2DA351E8A3C2500FCFD3A /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA301E8A3C2500FCFD3A /* GoogleSymbolUtilities.framework */; };
+		91B2DA381E8A3CE700FCFD3A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA371E8A3CE700FCFD3A /* SafariServices.framework */; };
+		91B2DA3A1E8A3CED00FCFD3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2DA391E8A3CED00FCFD3A /* SystemConfiguration.framework */; };
+		91B2DA3C1E8AEB7C00FCFD3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B2DA3B1E8AEB7C00FCFD3A /* GoogleService-Info.plist */; };
+		91C5D4361E844B2200DAFD11 /* CognitoIdentityPoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C5D4351E844B2200DAFD11 /* CognitoIdentityPoolController.swift */; };
+		91C5D4381E8465FD00DAFD11 /* SocialIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C5D4371E8465FD00DAFD11 /* SocialIdentityManager.swift */; };
+		91D569801E9F918F0046E158 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D5697F1E9F918F0046E158 /* AWSS3.framework */; };
+		91D569811E9F918F0046E158 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91D5697F1E9F918F0046E158 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91D569831E9F92F20046E158 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D569821E9F92F20046E158 /* ChatViewController.swift */; };
+		91D569851E9FAA710046E158 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D569841E9FAA710046E158 /* UploadImageViewController.swift */; };
+		91D569871EA0C3C80046E158 /* SentTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D569861EA0C3C80046E158 /* SentTextTableViewCell.swift */; };
+		91D569891EA0C3DE0046E158 /* ReceivedTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D569881EA0C3DE0046E158 /* ReceivedTextTableViewCell.swift */; };
+		91D5698B1EA0C3EB0046E158 /* SentImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5698A1EA0C3EB0046E158 /* SentImageTableViewCell.swift */; };
+		91D5698D1EA0C3FB0046E158 /* ReceivedImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5698C1EA0C3FB0046E158 /* ReceivedImageTableViewCell.swift */; };
+		91D593601E9964EE0094160B /* DynamoDBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5935F1E9964EE0094160B /* DynamoDBController.swift */; };
+		91D593631E9A6B800094160B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D593621E9A6B800094160B /* User.swift */; };
+		91D593651E9A6B8B0094160B /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D593641E9A6B8B0094160B /* Friend.swift */; };
+		91D593671E9A6BA50094160B /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D593661E9A6BA50094160B /* Chat.swift */; };
+		91D5936B1E9A6BCB0094160B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5936A1E9A6BCB0094160B /* Message.swift */; };
+		91D5936D1E9A75960094160B /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5936C1E9A75960094160B /* FriendTableViewCell.swift */; };
+		91D5936F1E9A7A1E0094160B /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5936E1E9A7A1E0094160B /* ChatManager.swift */; };
+		91D593711E9A8F940094160B /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D593701E9A8F940094160B /* AWSDynamoDB.framework */; };
+		91D593721E9A8F940094160B /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91D593701E9A8F940094160B /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91D593741E9BE7A30094160B /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D593731E9BE7A30094160B /* AddFriendViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9122B0541E6F43130024AE10 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9122B04F1E6F43130024AE10 /* AWSCognito.framework in Embed Frameworks */,
+				9122B0511E6F43130024AE10 /* AWSCognitoIdentityProvider.framework in Embed Frameworks */,
+				91D593721E9A8F940094160B /* AWSDynamoDB.framework in Embed Frameworks */,
+				9122B0531E6F43130024AE10 /* AWSCore.framework in Embed Frameworks */,
+				91D569811E9F918F0046E158 /* AWSS3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91004C0F1EA354E6000772E7 /* S3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S3Controller.swift; sourceTree = "<group>"; };
+		9122B02C1E6E98070024AE10 /* AWSChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9122B02F1E6E98070024AE10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9122B0341E6E98070024AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9122B0361E6E98070024AE10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9122B0391E6E98070024AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9122B03B1E6E98070024AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9122B0411E6E98300024AE10 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9122B0431E6E98470024AE10 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9122B0451E6E986C0024AE10 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9122B0471E6E98910024AE10 /* ChatJourney.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChatJourney.storyboard; sourceTree = "<group>"; };
+		9122B04B1E6F43130024AE10 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = Carthage/Build/iOS/AWSCognito.framework; sourceTree = "<group>"; };
+		9122B04C1E6F43130024AE10 /* AWSCognitoIdentityProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognitoIdentityProvider.framework; path = Carthage/Build/iOS/AWSCognitoIdentityProvider.framework; sourceTree = "<group>"; };
+		9122B04D1E6F43130024AE10 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Carthage/Build/iOS/AWSCore.framework; sourceTree = "<group>"; };
+		9122B0751E7842510024AE10 /* CognitoUserPoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitoUserPoolController.swift; sourceTree = "<group>"; };
+		9135A4E31E81AE9500374DAE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4.20.2/Bolts.framework"; sourceTree = "<group>"; };
+		9135A4E41E81AE9500374DAE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.20.2/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		9135A4E51E81AE9500374DAE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.20.2/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		9140BCF31E825DF200AD650A /* ObjCBridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCBridging-Header.h"; sourceTree = "<group>"; };
+		91B2DA2C1E8A3C2500FCFD3A /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = google_signin_sdk_4_0_1/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		91B2DA2D1E8A3C2500FCFD3A /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = google_signin_sdk_4_0_1/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		91B2DA2E1E8A3C2500FCFD3A /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk_4_0_1/GoogleSignIn.framework; sourceTree = "<group>"; };
+		91B2DA2F1E8A3C2500FCFD3A /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = google_signin_sdk_4_0_1/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		91B2DA301E8A3C2500FCFD3A /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = google_signin_sdk_4_0_1/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		91B2DA371E8A3CE700FCFD3A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		91B2DA391E8A3CED00FCFD3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		91B2DA3B1E8AEB7C00FCFD3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		91C5D4351E844B2200DAFD11 /* CognitoIdentityPoolController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitoIdentityPoolController.swift; sourceTree = "<group>"; };
+		91C5D4371E8465FD00DAFD11 /* SocialIdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialIdentityManager.swift; sourceTree = "<group>"; };
+		91D5697D1E9F91630046E158 /* AWSSES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSES.framework; path = Carthage/Build/iOS/AWSSES.framework; sourceTree = "<group>"; };
+		91D5697F1E9F918F0046E158 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Carthage/Build/iOS/AWSS3.framework; sourceTree = "<group>"; };
+		91D569821E9F92F20046E158 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		91D569841E9FAA710046E158 /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		91D569861EA0C3C80046E158 /* SentTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTextTableViewCell.swift; sourceTree = "<group>"; };
+		91D569881EA0C3DE0046E158 /* ReceivedTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedTextTableViewCell.swift; sourceTree = "<group>"; };
+		91D5698A1EA0C3EB0046E158 /* SentImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentImageTableViewCell.swift; sourceTree = "<group>"; };
+		91D5698C1EA0C3FB0046E158 /* ReceivedImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedImageTableViewCell.swift; sourceTree = "<group>"; };
+		91D5935F1E9964EE0094160B /* DynamoDBController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamoDBController.swift; sourceTree = "<group>"; };
+		91D593621E9A6B800094160B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		91D593641E9A6B8B0094160B /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		91D593661E9A6BA50094160B /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		91D5936A1E9A6BCB0094160B /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		91D5936C1E9A75960094160B /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		91D5936E1E9A7A1E0094160B /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		91D593701E9A8F940094160B /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Carthage/Build/iOS/AWSDynamoDB.framework; sourceTree = "<group>"; };
+		91D593731E9BE7A30094160B /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9122B0291E6E98070024AE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2DA3A1E8A3CED00FCFD3A /* SystemConfiguration.framework in Frameworks */,
+				91B2DA381E8A3CE700FCFD3A /* SafariServices.framework in Frameworks */,
+				9135A4E71E81AE9500374DAE /* FBSDKCoreKit.framework in Frameworks */,
+				9122B04E1E6F43130024AE10 /* AWSCognito.framework in Frameworks */,
+				91B2DA351E8A3C2500FCFD3A /* GoogleSymbolUtilities.framework in Frameworks */,
+				91D593711E9A8F940094160B /* AWSDynamoDB.framework in Frameworks */,
+				9135A4E81E81AE9500374DAE /* FBSDKLoginKit.framework in Frameworks */,
+				9122B0501E6F43130024AE10 /* AWSCognitoIdentityProvider.framework in Frameworks */,
+				91B2DA311E8A3C2500FCFD3A /* GoogleAppUtilities.framework in Frameworks */,
+				9122B0521E6F43130024AE10 /* AWSCore.framework in Frameworks */,
+				91D569801E9F918F0046E158 /* AWSS3.framework in Frameworks */,
+				91B2DA341E8A3C2500FCFD3A /* GoogleSignInDependencies.framework in Frameworks */,
+				9135A4E61E81AE9500374DAE /* Bolts.framework in Frameworks */,
+				91B2DA331E8A3C2500FCFD3A /* GoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9122B0231E6E98070024AE10 = {
+			isa = PBXGroup;
+			children = (
+				91D5697F1E9F918F0046E158 /* AWSS3.framework */,
+				91D593701E9A8F940094160B /* AWSDynamoDB.framework */,
+				91B2DA2B1E8A3B7A00FCFD3A /* GoogleSDK */,
+				91B2DA2A1E8A3B2D00FCFD3A /* FacebookSDK */,
+				9122B02E1E6E98070024AE10 /* AWSChat */,
+				9122B02D1E6E98070024AE10 /* Products */,
+				91B2DA361E8A3CE600FCFD3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9122B02D1E6E98070024AE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9122B02C1E6E98070024AE10 /* AWSChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9122B02E1E6E98070024AE10 /* AWSChat */ = {
+			isa = PBXGroup;
+			children = (
+				91D593611E9A6B670094160B /* Model */,
+				91B2DA3B1E8AEB7C00FCFD3A /* GoogleService-Info.plist */,
+				9122B0741E7842170024AE10 /* Controller */,
+				9122B04A1E6E98D30024AE10 /* ViewControllers */,
+				91D5698E1EA0C4030046E158 /* TableViewCells */,
+				9122B0491E6E98C20024AE10 /* Storyboards */,
+				9122B02F1E6E98070024AE10 /* AppDelegate.swift */,
+				9122B0361E6E98070024AE10 /* Assets.xcassets */,
+				9122B03B1E6E98070024AE10 /* Info.plist */,
+				9140BCF31E825DF200AD650A /* ObjCBridging-Header.h */,
+			);
+			path = AWSChat;
+			sourceTree = "<group>";
+		};
+		9122B0491E6E98C20024AE10 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9122B0331E6E98070024AE10 /* Main.storyboard */,
+				9122B0381E6E98070024AE10 /* LaunchScreen.storyboard */,
+				9122B0471E6E98910024AE10 /* ChatJourney.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9122B04A1E6E98D30024AE10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9122B0411E6E98300024AE10 /* LoginViewController.swift */,
+				9122B0431E6E98470024AE10 /* SignupViewController.swift */,
+				9122B0451E6E986C0024AE10 /* HomeViewController.swift */,
+				91D593731E9BE7A30094160B /* AddFriendViewController.swift */,
+				91D569821E9F92F20046E158 /* ChatViewController.swift */,
+				91D569841E9FAA710046E158 /* UploadImageViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9122B0741E7842170024AE10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9122B0751E7842510024AE10 /* CognitoUserPoolController.swift */,
+				91C5D4351E844B2200DAFD11 /* CognitoIdentityPoolController.swift */,
+				91C5D4371E8465FD00DAFD11 /* SocialIdentityManager.swift */,
+				91D5935F1E9964EE0094160B /* DynamoDBController.swift */,
+				91D5936E1E9A7A1E0094160B /* ChatManager.swift */,
+				91004C0F1EA354E6000772E7 /* S3Controller.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		91B2DA2A1E8A3B2D00FCFD3A /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9135A4E31E81AE9500374DAE /* Bolts.framework */,
+				9135A4E41E81AE9500374DAE /* FBSDKCoreKit.framework */,
+				9135A4E51E81AE9500374DAE /* FBSDKLoginKit.framework */,
+				9122B04B1E6F43130024AE10 /* AWSCognito.framework */,
+				9122B04C1E6F43130024AE10 /* AWSCognitoIdentityProvider.framework */,
+				9122B04D1E6F43130024AE10 /* AWSCore.framework */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		91B2DA2B1E8A3B7A00FCFD3A /* GoogleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91B2DA2C1E8A3C2500FCFD3A /* GoogleAppUtilities.framework */,
+				91B2DA2D1E8A3C2500FCFD3A /* GoogleSignIn.bundle */,
+				91B2DA2E1E8A3C2500FCFD3A /* GoogleSignIn.framework */,
+				91B2DA2F1E8A3C2500FCFD3A /* GoogleSignInDependencies.framework */,
+				91B2DA301E8A3C2500FCFD3A /* GoogleSymbolUtilities.framework */,
+			);
+			name = GoogleSDK;
+			sourceTree = "<group>";
+		};
+		91B2DA361E8A3CE600FCFD3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D5697D1E9F91630046E158 /* AWSSES.framework */,
+				91B2DA391E8A3CED00FCFD3A /* SystemConfiguration.framework */,
+				91B2DA371E8A3CE700FCFD3A /* SafariServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91D5698E1EA0C4030046E158 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				91D5936C1E9A75960094160B /* FriendTableViewCell.swift */,
+				91D569861EA0C3C80046E158 /* SentTextTableViewCell.swift */,
+				91D569881EA0C3DE0046E158 /* ReceivedTextTableViewCell.swift */,
+				91D5698A1EA0C3EB0046E158 /* SentImageTableViewCell.swift */,
+				91D5698C1EA0C3FB0046E158 /* ReceivedImageTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		91D593611E9A6B670094160B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91D593621E9A6B800094160B /* User.swift */,
+				91D593641E9A6B8B0094160B /* Friend.swift */,
+				91D593661E9A6BA50094160B /* Chat.swift */,
+				91D5936A1E9A6BCB0094160B /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9122B02B1E6E98070024AE10 /* AWSChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9122B03E1E6E98070024AE10 /* Build configuration list for PBXNativeTarget "AWSChat" */;
+			buildPhases = (
+				9122B0281E6E98070024AE10 /* Sources */,
+				9122B0291E6E98070024AE10 /* Frameworks */,
+				9122B02A1E6E98070024AE10 /* Resources */,
+				9122B0541E6F43130024AE10 /* Embed Frameworks */,
+				9122B0551E6F43B40024AE10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSChat;
+			productName = AWSChat;
+			productReference = 9122B02C1E6E98070024AE10 /* AWSChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9122B0241E6E98070024AE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ASM Technology Ltd.";
+				TargetAttributes = {
+					9122B02B1E6E98070024AE10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R53MV2MVHS;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9122B0271E6E98070024AE10 /* Build configuration list for PBXProject "AWSChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9122B0231E6E98070024AE10;
+			productRefGroup = 9122B02D1E6E98070024AE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9122B02B1E6E98070024AE10 /* AWSChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9122B02A1E6E98070024AE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122B03A1E6E98070024AE10 /* LaunchScreen.storyboard in Resources */,
+				91B2DA321E8A3C2500FCFD3A /* GoogleSignIn.bundle in Resources */,
+				9122B0481E6E98910024AE10 /* ChatJourney.storyboard in Resources */,
+				9122B0371E6E98070024AE10 /* Assets.xcassets in Resources */,
+				9122B0351E6E98070024AE10 /* Main.storyboard in Resources */,
+				91B2DA3C1E8AEB7C00FCFD3A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9122B0551E6F43B40024AE10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9122B0281E6E98070024AE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122B0441E6E98470024AE10 /* SignupViewController.swift in Sources */,
+				91C5D4381E8465FD00DAFD11 /* SocialIdentityManager.swift in Sources */,
+				91D569831E9F92F20046E158 /* ChatViewController.swift in Sources */,
+				91D5698B1EA0C3EB0046E158 /* SentImageTableViewCell.swift in Sources */,
+				9122B0421E6E98300024AE10 /* LoginViewController.swift in Sources */,
+				9122B0301E6E98070024AE10 /* AppDelegate.swift in Sources */,
+				91C5D4361E844B2200DAFD11 /* CognitoIdentityPoolController.swift in Sources */,
+				91D593631E9A6B800094160B /* User.swift in Sources */,
+				91D593671E9A6BA50094160B /* Chat.swift in Sources */,
+				91D569891EA0C3DE0046E158 /* ReceivedTextTableViewCell.swift in Sources */,
+				91D5936D1E9A75960094160B /* FriendTableViewCell.swift in Sources */,
+				91004C101EA354E6000772E7 /* S3Controller.swift in Sources */,
+				91D593601E9964EE0094160B /* DynamoDBController.swift in Sources */,
+				91D5698D1EA0C3FB0046E158 /* ReceivedImageTableViewCell.swift in Sources */,
+				91D569851E9FAA710046E158 /* UploadImageViewController.swift in Sources */,
+				91D593651E9A6B8B0094160B /* Friend.swift in Sources */,
+				91D5936B1E9A6BCB0094160B /* Message.swift in Sources */,
+				91D5936F1E9A7A1E0094160B /* ChatManager.swift in Sources */,
+				91D593741E9BE7A30094160B /* AddFriendViewController.swift in Sources */,
+				9122B0761E7842510024AE10 /* CognitoUserPoolController.swift in Sources */,
+				91D569871EA0C3C80046E158 /* SentTextTableViewCell.swift in Sources */,
+				9122B0461E6E986C0024AE10 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9122B0331E6E98070024AE10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9122B0341E6E98070024AE10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9122B0381E6E98070024AE10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9122B0391E6E98070024AE10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9122B03C1E6E98070024AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9122B03D1E6E98070024AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9122B03F1E6E98070024AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R53MV2MVHS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.20.2",
+					"$(PROJECT_DIR)/google_signin_sdk_4_0_1",
+				);
+				INFOPLIST_FILE = AWSChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.AWSChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b8e9265-2a6f-414b-a882-966c19439132";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Provisioning Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSChat/ObjCBridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9122B0401E6E98070024AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.20.2",
+					"$(PROJECT_DIR)/google_signin_sdk_4_0_1",
+				);
+				INFOPLIST_FILE = AWSChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asmtechnology.AWSChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AWSChat/ObjCBridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9122B0271E6E98070024AE10 /* Build configuration list for PBXProject "AWSChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122B03C1E6E98070024AE10 /* Debug */,
+				9122B03D1E6E98070024AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9122B03E1E6E98070024AE10 /* Build configuration list for PBXNativeTarget "AWSChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122B03F1E6E98070024AE10 /* Debug */,
+				9122B0401E6E98070024AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9122B0241E6E98070024AE10 /* Project object */;
+}

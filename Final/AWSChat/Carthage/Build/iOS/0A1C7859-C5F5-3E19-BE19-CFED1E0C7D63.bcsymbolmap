@@ -1,0 +1,2015 @@
+BCSymbolMap Version: 2.0
+-[AWSDynamoDBRequestRetryHandler shouldRetry:originalRequest:response:data:error:]
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBRequestRetryHandler.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios
++[AWSDynamoDBResources sharedInstance]
+___38+[AWSDynamoDBResources sharedInstance]_block_invoke
+-[AWSDynamoDBResources JSONObject]
+-[AWSDynamoDBResources init]
+-[AWSDynamoDBResources definitionString]
+-[AWSDynamoDBResources definitionDictionary]
+-[AWSDynamoDBResources setDefinitionDictionary:]
+-[AWSDynamoDBResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AWSDynamoDBResources._definitionDictionary
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBResources.m
+__38+[AWSDynamoDBResources sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
++[AWSDynamoDBResponseSerializer initialize]
+-[AWSDynamoDBResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSDynamoDB initialize]
++[AWSDynamoDB defaultDynamoDB]
+___30+[AWSDynamoDB defaultDynamoDB]_block_invoke
++[AWSDynamoDB registerDynamoDBWithConfiguration:forKey:]
+___56+[AWSDynamoDB registerDynamoDBWithConfiguration:forKey:]_block_invoke
++[AWSDynamoDB DynamoDBForKey:]
++[AWSDynamoDB removeDynamoDBForKey:]
+-[AWSDynamoDB init]
+-[AWSDynamoDB initWithConfiguration:]
+-[AWSDynamoDB invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSDynamoDB batchGetItem:]
+-[AWSDynamoDB batchGetItem:completionHandler:]
+___46-[AWSDynamoDB batchGetItem:completionHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[AWSDynamoDB batchWriteItem:]
+-[AWSDynamoDB batchWriteItem:completionHandler:]
+___48-[AWSDynamoDB batchWriteItem:completionHandler:]_block_invoke
+___copy_helper_block_.212
+___destroy_helper_block_.213
+-[AWSDynamoDB createTable:]
+-[AWSDynamoDB createTable:completionHandler:]
+___45-[AWSDynamoDB createTable:completionHandler:]_block_invoke
+___copy_helper_block_.220
+___destroy_helper_block_.221
+-[AWSDynamoDB deleteItem:]
+-[AWSDynamoDB deleteItem:completionHandler:]
+___44-[AWSDynamoDB deleteItem:completionHandler:]_block_invoke
+___copy_helper_block_.228
+___destroy_helper_block_.229
+-[AWSDynamoDB deleteTable:]
+-[AWSDynamoDB deleteTable:completionHandler:]
+___45-[AWSDynamoDB deleteTable:completionHandler:]_block_invoke
+___copy_helper_block_.236
+___destroy_helper_block_.237
+-[AWSDynamoDB describeLimits:]
+-[AWSDynamoDB describeLimits:completionHandler:]
+___48-[AWSDynamoDB describeLimits:completionHandler:]_block_invoke
+___copy_helper_block_.244
+___destroy_helper_block_.245
+-[AWSDynamoDB describeTable:]
+-[AWSDynamoDB describeTable:completionHandler:]
+___47-[AWSDynamoDB describeTable:completionHandler:]_block_invoke
+___copy_helper_block_.252
+___destroy_helper_block_.253
+-[AWSDynamoDB getItem:]
+-[AWSDynamoDB getItem:completionHandler:]
+___41-[AWSDynamoDB getItem:completionHandler:]_block_invoke
+___copy_helper_block_.260
+___destroy_helper_block_.261
+-[AWSDynamoDB listTables:]
+-[AWSDynamoDB listTables:completionHandler:]
+___44-[AWSDynamoDB listTables:completionHandler:]_block_invoke
+___copy_helper_block_.268
+___destroy_helper_block_.269
+-[AWSDynamoDB putItem:]
+-[AWSDynamoDB putItem:completionHandler:]
+___41-[AWSDynamoDB putItem:completionHandler:]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[AWSDynamoDB query:]
+-[AWSDynamoDB query:completionHandler:]
+___39-[AWSDynamoDB query:completionHandler:]_block_invoke
+___copy_helper_block_.284
+___destroy_helper_block_.285
+-[AWSDynamoDB scan:]
+-[AWSDynamoDB scan:completionHandler:]
+___38-[AWSDynamoDB scan:completionHandler:]_block_invoke
+___copy_helper_block_.292
+___destroy_helper_block_.293
+-[AWSDynamoDB updateItem:]
+-[AWSDynamoDB updateItem:completionHandler:]
+___44-[AWSDynamoDB updateItem:completionHandler:]_block_invoke
+___copy_helper_block_.300
+___destroy_helper_block_.301
+-[AWSDynamoDB updateTable:]
+-[AWSDynamoDB updateTable:completionHandler:]
+___45-[AWSDynamoDB updateTable:completionHandler:]_block_invoke
+___copy_helper_block_.308
+___destroy_helper_block_.309
+-[AWSDynamoDB configuration]
+-[AWSDynamoDB setConfiguration:]
+-[AWSDynamoDB networking]
+-[AWSDynamoDB setNetworking:]
+-[AWSDynamoDB .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultDynamoDB._defaultDynamoDB
+_defaultDynamoDB.onceToken
+_registerDynamoDBWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.90
+___block_literal_global.91
+_OBJC_IVAR_$_AWSDynamoDB._configuration
+_OBJC_IVAR_$_AWSDynamoDB._networking
+___block_descriptor_tmp.204
+___block_descriptor_tmp.214
+___block_descriptor_tmp.222
+___block_descriptor_tmp.230
+___block_descriptor_tmp.238
+___block_descriptor_tmp.246
+___block_descriptor_tmp.254
+___block_descriptor_tmp.262
+___block_descriptor_tmp.270
+___block_descriptor_tmp.278
+___block_descriptor_tmp.286
+___block_descriptor_tmp.294
+___block_descriptor_tmp.302
+___block_descriptor_tmp.310
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBService.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBService.h
+__destroy_helper_block_
+__copy_helper_block_
+__45-[AWSDynamoDB updateTable:completionHandler:]_block_invoke
+__44-[AWSDynamoDB updateItem:completionHandler:]_block_invoke
+__38-[AWSDynamoDB scan:completionHandler:]_block_invoke
+__39-[AWSDynamoDB query:completionHandler:]_block_invoke
+__41-[AWSDynamoDB putItem:completionHandler:]_block_invoke
+__44-[AWSDynamoDB listTables:completionHandler:]_block_invoke
+__41-[AWSDynamoDB getItem:completionHandler:]_block_invoke
+__47-[AWSDynamoDB describeTable:completionHandler:]_block_invoke
+__48-[AWSDynamoDB describeLimits:completionHandler:]_block_invoke
+__45-[AWSDynamoDB deleteTable:completionHandler:]_block_invoke
+__44-[AWSDynamoDB deleteItem:completionHandler:]_block_invoke
+__45-[AWSDynamoDB createTable:completionHandler:]_block_invoke
+__48-[AWSDynamoDB batchWriteItem:completionHandler:]_block_invoke
+__46-[AWSDynamoDB batchGetItem:completionHandler:]_block_invoke
+__56+[AWSDynamoDB registerDynamoDBWithConfiguration:forKey:]_block_invoke
+__30+[AWSDynamoDB defaultDynamoDB]_block_invoke
++[AWSDynamoDBAttributeDefinition JSONKeyPathsByPropertyKey]
++[AWSDynamoDBAttributeDefinition attributeTypeJSONTransformer]
+___62+[AWSDynamoDBAttributeDefinition attributeTypeJSONTransformer]_block_invoke
+___62+[AWSDynamoDBAttributeDefinition attributeTypeJSONTransformer]_block_invoke_2
+-[AWSDynamoDBAttributeDefinition attributeName]
+-[AWSDynamoDBAttributeDefinition setAttributeName:]
+-[AWSDynamoDBAttributeDefinition attributeType]
+-[AWSDynamoDBAttributeDefinition setAttributeType:]
+-[AWSDynamoDBAttributeDefinition .cxx_destruct]
++[AWSDynamoDBAttributeValue JSONKeyPathsByPropertyKey]
++[AWSDynamoDBAttributeValue LJSONTransformer]
++[AWSDynamoDBAttributeValue MJSONTransformer]
+___45+[AWSDynamoDBAttributeValue MJSONTransformer]_block_invoke
+___45+[AWSDynamoDBAttributeValue MJSONTransformer]_block_invoke_2
+-[AWSDynamoDBAttributeValue B]
+-[AWSDynamoDBAttributeValue setB:]
+-[AWSDynamoDBAttributeValue BOOLEAN]
+-[AWSDynamoDBAttributeValue setBOOLEAN:]
+-[AWSDynamoDBAttributeValue BS]
+-[AWSDynamoDBAttributeValue setBS:]
+-[AWSDynamoDBAttributeValue L]
+-[AWSDynamoDBAttributeValue setL:]
+-[AWSDynamoDBAttributeValue M]
+-[AWSDynamoDBAttributeValue setM:]
+-[AWSDynamoDBAttributeValue N]
+-[AWSDynamoDBAttributeValue setN:]
+-[AWSDynamoDBAttributeValue NS]
+-[AWSDynamoDBAttributeValue setNS:]
+-[AWSDynamoDBAttributeValue NIL]
+-[AWSDynamoDBAttributeValue setNIL:]
+-[AWSDynamoDBAttributeValue S]
+-[AWSDynamoDBAttributeValue setS:]
+-[AWSDynamoDBAttributeValue SS]
+-[AWSDynamoDBAttributeValue setSS:]
+-[AWSDynamoDBAttributeValue .cxx_destruct]
++[AWSDynamoDBAttributeValueUpdate JSONKeyPathsByPropertyKey]
++[AWSDynamoDBAttributeValueUpdate actionJSONTransformer]
+___56+[AWSDynamoDBAttributeValueUpdate actionJSONTransformer]_block_invoke
+___56+[AWSDynamoDBAttributeValueUpdate actionJSONTransformer]_block_invoke_2
++[AWSDynamoDBAttributeValueUpdate valueJSONTransformer]
+-[AWSDynamoDBAttributeValueUpdate action]
+-[AWSDynamoDBAttributeValueUpdate setAction:]
+-[AWSDynamoDBAttributeValueUpdate value]
+-[AWSDynamoDBAttributeValueUpdate setValue:]
+-[AWSDynamoDBAttributeValueUpdate .cxx_destruct]
++[AWSDynamoDBBatchGetItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBBatchGetItemInput requestItemsJSONTransformer]
+___59+[AWSDynamoDBBatchGetItemInput requestItemsJSONTransformer]_block_invoke
+___59+[AWSDynamoDBBatchGetItemInput requestItemsJSONTransformer]_block_invoke_2
++[AWSDynamoDBBatchGetItemInput returnConsumedCapacityJSONTransformer]
+___69+[AWSDynamoDBBatchGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___69+[AWSDynamoDBBatchGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+-[AWSDynamoDBBatchGetItemInput requestItems]
+-[AWSDynamoDBBatchGetItemInput setRequestItems:]
+-[AWSDynamoDBBatchGetItemInput returnConsumedCapacity]
+-[AWSDynamoDBBatchGetItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBBatchGetItemInput .cxx_destruct]
++[AWSDynamoDBBatchGetItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBBatchGetItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBBatchGetItemOutput responsesJSONTransformer]
+___57+[AWSDynamoDBBatchGetItemOutput responsesJSONTransformer]_block_invoke
+___57+[AWSDynamoDBBatchGetItemOutput responsesJSONTransformer]_block_invoke_2
++[AWSDynamoDBBatchGetItemOutput unprocessedKeysJSONTransformer]
+___63+[AWSDynamoDBBatchGetItemOutput unprocessedKeysJSONTransformer]_block_invoke
+___63+[AWSDynamoDBBatchGetItemOutput unprocessedKeysJSONTransformer]_block_invoke_2
+-[AWSDynamoDBBatchGetItemOutput consumedCapacity]
+-[AWSDynamoDBBatchGetItemOutput setConsumedCapacity:]
+-[AWSDynamoDBBatchGetItemOutput responses]
+-[AWSDynamoDBBatchGetItemOutput setResponses:]
+-[AWSDynamoDBBatchGetItemOutput unprocessedKeys]
+-[AWSDynamoDBBatchGetItemOutput setUnprocessedKeys:]
+-[AWSDynamoDBBatchGetItemOutput .cxx_destruct]
++[AWSDynamoDBBatchWriteItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBBatchWriteItemInput requestItemsJSONTransformer]
+___61+[AWSDynamoDBBatchWriteItemInput requestItemsJSONTransformer]_block_invoke
+___61+[AWSDynamoDBBatchWriteItemInput requestItemsJSONTransformer]_block_invoke_2
++[AWSDynamoDBBatchWriteItemInput returnConsumedCapacityJSONTransformer]
+___71+[AWSDynamoDBBatchWriteItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___71+[AWSDynamoDBBatchWriteItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetricsJSONTransformer]
+___76+[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+___76+[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
+-[AWSDynamoDBBatchWriteItemInput requestItems]
+-[AWSDynamoDBBatchWriteItemInput setRequestItems:]
+-[AWSDynamoDBBatchWriteItemInput returnConsumedCapacity]
+-[AWSDynamoDBBatchWriteItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetrics]
+-[AWSDynamoDBBatchWriteItemInput setReturnItemCollectionMetrics:]
+-[AWSDynamoDBBatchWriteItemInput .cxx_destruct]
++[AWSDynamoDBBatchWriteItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBBatchWriteItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBBatchWriteItemOutput itemCollectionMetricsJSONTransformer]
+___71+[AWSDynamoDBBatchWriteItemOutput itemCollectionMetricsJSONTransformer]_block_invoke
+___71+[AWSDynamoDBBatchWriteItemOutput itemCollectionMetricsJSONTransformer]_block_invoke_2
++[AWSDynamoDBBatchWriteItemOutput unprocessedItemsJSONTransformer]
+___66+[AWSDynamoDBBatchWriteItemOutput unprocessedItemsJSONTransformer]_block_invoke
+___66+[AWSDynamoDBBatchWriteItemOutput unprocessedItemsJSONTransformer]_block_invoke_2
+-[AWSDynamoDBBatchWriteItemOutput consumedCapacity]
+-[AWSDynamoDBBatchWriteItemOutput setConsumedCapacity:]
+-[AWSDynamoDBBatchWriteItemOutput itemCollectionMetrics]
+-[AWSDynamoDBBatchWriteItemOutput setItemCollectionMetrics:]
+-[AWSDynamoDBBatchWriteItemOutput unprocessedItems]
+-[AWSDynamoDBBatchWriteItemOutput setUnprocessedItems:]
+-[AWSDynamoDBBatchWriteItemOutput .cxx_destruct]
++[AWSDynamoDBCapacity JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBCapacity capacityUnits]
+-[AWSDynamoDBCapacity setCapacityUnits:]
+-[AWSDynamoDBCapacity .cxx_destruct]
++[AWSDynamoDBCondition JSONKeyPathsByPropertyKey]
++[AWSDynamoDBCondition attributeValueListJSONTransformer]
++[AWSDynamoDBCondition comparisonOperatorJSONTransformer]
+___57+[AWSDynamoDBCondition comparisonOperatorJSONTransformer]_block_invoke
+___57+[AWSDynamoDBCondition comparisonOperatorJSONTransformer]_block_invoke_2
+-[AWSDynamoDBCondition attributeValueList]
+-[AWSDynamoDBCondition setAttributeValueList:]
+-[AWSDynamoDBCondition comparisonOperator]
+-[AWSDynamoDBCondition setComparisonOperator:]
+-[AWSDynamoDBCondition .cxx_destruct]
++[AWSDynamoDBConsumedCapacity JSONKeyPathsByPropertyKey]
++[AWSDynamoDBConsumedCapacity globalSecondaryIndexesJSONTransformer]
+___68+[AWSDynamoDBConsumedCapacity globalSecondaryIndexesJSONTransformer]_block_invoke
+___68+[AWSDynamoDBConsumedCapacity globalSecondaryIndexesJSONTransformer]_block_invoke_2
++[AWSDynamoDBConsumedCapacity localSecondaryIndexesJSONTransformer]
+___67+[AWSDynamoDBConsumedCapacity localSecondaryIndexesJSONTransformer]_block_invoke
+___67+[AWSDynamoDBConsumedCapacity localSecondaryIndexesJSONTransformer]_block_invoke_2
++[AWSDynamoDBConsumedCapacity tableJSONTransformer]
+-[AWSDynamoDBConsumedCapacity capacityUnits]
+-[AWSDynamoDBConsumedCapacity setCapacityUnits:]
+-[AWSDynamoDBConsumedCapacity globalSecondaryIndexes]
+-[AWSDynamoDBConsumedCapacity setGlobalSecondaryIndexes:]
+-[AWSDynamoDBConsumedCapacity localSecondaryIndexes]
+-[AWSDynamoDBConsumedCapacity setLocalSecondaryIndexes:]
+-[AWSDynamoDBConsumedCapacity table]
+-[AWSDynamoDBConsumedCapacity setTable:]
+-[AWSDynamoDBConsumedCapacity tableName]
+-[AWSDynamoDBConsumedCapacity setTableName:]
+-[AWSDynamoDBConsumedCapacity .cxx_destruct]
++[AWSDynamoDBCreateGlobalSecondaryIndexAction JSONKeyPathsByPropertyKey]
++[AWSDynamoDBCreateGlobalSecondaryIndexAction keySchemaJSONTransformer]
++[AWSDynamoDBCreateGlobalSecondaryIndexAction projectionJSONTransformer]
++[AWSDynamoDBCreateGlobalSecondaryIndexAction provisionedThroughputJSONTransformer]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction indexName]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction setIndexName:]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction keySchema]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction setKeySchema:]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction projection]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction setProjection:]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction provisionedThroughput]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction setProvisionedThroughput:]
+-[AWSDynamoDBCreateGlobalSecondaryIndexAction .cxx_destruct]
++[AWSDynamoDBCreateTableInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBCreateTableInput attributeDefinitionsJSONTransformer]
++[AWSDynamoDBCreateTableInput globalSecondaryIndexesJSONTransformer]
++[AWSDynamoDBCreateTableInput keySchemaJSONTransformer]
++[AWSDynamoDBCreateTableInput localSecondaryIndexesJSONTransformer]
++[AWSDynamoDBCreateTableInput provisionedThroughputJSONTransformer]
++[AWSDynamoDBCreateTableInput streamSpecificationJSONTransformer]
+-[AWSDynamoDBCreateTableInput attributeDefinitions]
+-[AWSDynamoDBCreateTableInput setAttributeDefinitions:]
+-[AWSDynamoDBCreateTableInput globalSecondaryIndexes]
+-[AWSDynamoDBCreateTableInput setGlobalSecondaryIndexes:]
+-[AWSDynamoDBCreateTableInput keySchema]
+-[AWSDynamoDBCreateTableInput setKeySchema:]
+-[AWSDynamoDBCreateTableInput localSecondaryIndexes]
+-[AWSDynamoDBCreateTableInput setLocalSecondaryIndexes:]
+-[AWSDynamoDBCreateTableInput provisionedThroughput]
+-[AWSDynamoDBCreateTableInput setProvisionedThroughput:]
+-[AWSDynamoDBCreateTableInput streamSpecification]
+-[AWSDynamoDBCreateTableInput setStreamSpecification:]
+-[AWSDynamoDBCreateTableInput tableName]
+-[AWSDynamoDBCreateTableInput setTableName:]
+-[AWSDynamoDBCreateTableInput .cxx_destruct]
++[AWSDynamoDBCreateTableOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBCreateTableOutput tableDescriptionJSONTransformer]
+-[AWSDynamoDBCreateTableOutput tableDescription]
+-[AWSDynamoDBCreateTableOutput setTableDescription:]
+-[AWSDynamoDBCreateTableOutput .cxx_destruct]
++[AWSDynamoDBDeleteGlobalSecondaryIndexAction JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBDeleteGlobalSecondaryIndexAction indexName]
+-[AWSDynamoDBDeleteGlobalSecondaryIndexAction setIndexName:]
+-[AWSDynamoDBDeleteGlobalSecondaryIndexAction .cxx_destruct]
++[AWSDynamoDBDeleteItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBDeleteItemInput conditionalOperatorJSONTransformer]
+___64+[AWSDynamoDBDeleteItemInput conditionalOperatorJSONTransformer]_block_invoke
+___64+[AWSDynamoDBDeleteItemInput conditionalOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput expectedJSONTransformer]
+___53+[AWSDynamoDBDeleteItemInput expectedJSONTransformer]_block_invoke
+___53+[AWSDynamoDBDeleteItemInput expectedJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput expressionAttributeValuesJSONTransformer]
+___70+[AWSDynamoDBDeleteItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+___70+[AWSDynamoDBDeleteItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput keyJSONTransformer]
+___48+[AWSDynamoDBDeleteItemInput keyJSONTransformer]_block_invoke
+___48+[AWSDynamoDBDeleteItemInput keyJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput returnConsumedCapacityJSONTransformer]
+___67+[AWSDynamoDBDeleteItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___67+[AWSDynamoDBDeleteItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput returnItemCollectionMetricsJSONTransformer]
+___72+[AWSDynamoDBDeleteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+___72+[AWSDynamoDBDeleteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemInput returnValuesJSONTransformer]
+___57+[AWSDynamoDBDeleteItemInput returnValuesJSONTransformer]_block_invoke
+___57+[AWSDynamoDBDeleteItemInput returnValuesJSONTransformer]_block_invoke_2
+-[AWSDynamoDBDeleteItemInput conditionExpression]
+-[AWSDynamoDBDeleteItemInput setConditionExpression:]
+-[AWSDynamoDBDeleteItemInput conditionalOperator]
+-[AWSDynamoDBDeleteItemInput setConditionalOperator:]
+-[AWSDynamoDBDeleteItemInput expected]
+-[AWSDynamoDBDeleteItemInput setExpected:]
+-[AWSDynamoDBDeleteItemInput expressionAttributeNames]
+-[AWSDynamoDBDeleteItemInput setExpressionAttributeNames:]
+-[AWSDynamoDBDeleteItemInput expressionAttributeValues]
+-[AWSDynamoDBDeleteItemInput setExpressionAttributeValues:]
+-[AWSDynamoDBDeleteItemInput key]
+-[AWSDynamoDBDeleteItemInput setKey:]
+-[AWSDynamoDBDeleteItemInput returnConsumedCapacity]
+-[AWSDynamoDBDeleteItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBDeleteItemInput returnItemCollectionMetrics]
+-[AWSDynamoDBDeleteItemInput setReturnItemCollectionMetrics:]
+-[AWSDynamoDBDeleteItemInput returnValues]
+-[AWSDynamoDBDeleteItemInput setReturnValues:]
+-[AWSDynamoDBDeleteItemInput tableName]
+-[AWSDynamoDBDeleteItemInput setTableName:]
+-[AWSDynamoDBDeleteItemInput .cxx_destruct]
++[AWSDynamoDBDeleteItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBDeleteItemOutput attributesJSONTransformer]
+___56+[AWSDynamoDBDeleteItemOutput attributesJSONTransformer]_block_invoke
+___56+[AWSDynamoDBDeleteItemOutput attributesJSONTransformer]_block_invoke_2
++[AWSDynamoDBDeleteItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBDeleteItemOutput itemCollectionMetricsJSONTransformer]
+-[AWSDynamoDBDeleteItemOutput attributes]
+-[AWSDynamoDBDeleteItemOutput setAttributes:]
+-[AWSDynamoDBDeleteItemOutput consumedCapacity]
+-[AWSDynamoDBDeleteItemOutput setConsumedCapacity:]
+-[AWSDynamoDBDeleteItemOutput itemCollectionMetrics]
+-[AWSDynamoDBDeleteItemOutput setItemCollectionMetrics:]
+-[AWSDynamoDBDeleteItemOutput .cxx_destruct]
++[AWSDynamoDBDeleteRequest JSONKeyPathsByPropertyKey]
++[AWSDynamoDBDeleteRequest keyJSONTransformer]
+___46+[AWSDynamoDBDeleteRequest keyJSONTransformer]_block_invoke
+___46+[AWSDynamoDBDeleteRequest keyJSONTransformer]_block_invoke_2
+-[AWSDynamoDBDeleteRequest key]
+-[AWSDynamoDBDeleteRequest setKey:]
+-[AWSDynamoDBDeleteRequest .cxx_destruct]
++[AWSDynamoDBDeleteTableInput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBDeleteTableInput tableName]
+-[AWSDynamoDBDeleteTableInput setTableName:]
+-[AWSDynamoDBDeleteTableInput .cxx_destruct]
++[AWSDynamoDBDeleteTableOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBDeleteTableOutput tableDescriptionJSONTransformer]
+-[AWSDynamoDBDeleteTableOutput tableDescription]
+-[AWSDynamoDBDeleteTableOutput setTableDescription:]
+-[AWSDynamoDBDeleteTableOutput .cxx_destruct]
++[AWSDynamoDBDescribeLimitsOutput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBDescribeLimitsOutput accountMaxReadCapacityUnits]
+-[AWSDynamoDBDescribeLimitsOutput setAccountMaxReadCapacityUnits:]
+-[AWSDynamoDBDescribeLimitsOutput accountMaxWriteCapacityUnits]
+-[AWSDynamoDBDescribeLimitsOutput setAccountMaxWriteCapacityUnits:]
+-[AWSDynamoDBDescribeLimitsOutput tableMaxReadCapacityUnits]
+-[AWSDynamoDBDescribeLimitsOutput setTableMaxReadCapacityUnits:]
+-[AWSDynamoDBDescribeLimitsOutput tableMaxWriteCapacityUnits]
+-[AWSDynamoDBDescribeLimitsOutput setTableMaxWriteCapacityUnits:]
+-[AWSDynamoDBDescribeLimitsOutput .cxx_destruct]
++[AWSDynamoDBDescribeTableInput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBDescribeTableInput tableName]
+-[AWSDynamoDBDescribeTableInput setTableName:]
+-[AWSDynamoDBDescribeTableInput .cxx_destruct]
++[AWSDynamoDBDescribeTableOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBDescribeTableOutput tableJSONTransformer]
+-[AWSDynamoDBDescribeTableOutput table]
+-[AWSDynamoDBDescribeTableOutput setTable:]
+-[AWSDynamoDBDescribeTableOutput .cxx_destruct]
++[AWSDynamoDBExpectedAttributeValue JSONKeyPathsByPropertyKey]
++[AWSDynamoDBExpectedAttributeValue attributeValueListJSONTransformer]
++[AWSDynamoDBExpectedAttributeValue comparisonOperatorJSONTransformer]
+___70+[AWSDynamoDBExpectedAttributeValue comparisonOperatorJSONTransformer]_block_invoke
+___70+[AWSDynamoDBExpectedAttributeValue comparisonOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBExpectedAttributeValue valueJSONTransformer]
+-[AWSDynamoDBExpectedAttributeValue attributeValueList]
+-[AWSDynamoDBExpectedAttributeValue setAttributeValueList:]
+-[AWSDynamoDBExpectedAttributeValue comparisonOperator]
+-[AWSDynamoDBExpectedAttributeValue setComparisonOperator:]
+-[AWSDynamoDBExpectedAttributeValue exists]
+-[AWSDynamoDBExpectedAttributeValue setExists:]
+-[AWSDynamoDBExpectedAttributeValue value]
+-[AWSDynamoDBExpectedAttributeValue setValue:]
+-[AWSDynamoDBExpectedAttributeValue .cxx_destruct]
++[AWSDynamoDBGetItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBGetItemInput keyJSONTransformer]
+___45+[AWSDynamoDBGetItemInput keyJSONTransformer]_block_invoke
+___45+[AWSDynamoDBGetItemInput keyJSONTransformer]_block_invoke_2
++[AWSDynamoDBGetItemInput returnConsumedCapacityJSONTransformer]
+___64+[AWSDynamoDBGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___64+[AWSDynamoDBGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+-[AWSDynamoDBGetItemInput attributesToGet]
+-[AWSDynamoDBGetItemInput setAttributesToGet:]
+-[AWSDynamoDBGetItemInput consistentRead]
+-[AWSDynamoDBGetItemInput setConsistentRead:]
+-[AWSDynamoDBGetItemInput expressionAttributeNames]
+-[AWSDynamoDBGetItemInput setExpressionAttributeNames:]
+-[AWSDynamoDBGetItemInput key]
+-[AWSDynamoDBGetItemInput setKey:]
+-[AWSDynamoDBGetItemInput projectionExpression]
+-[AWSDynamoDBGetItemInput setProjectionExpression:]
+-[AWSDynamoDBGetItemInput returnConsumedCapacity]
+-[AWSDynamoDBGetItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBGetItemInput tableName]
+-[AWSDynamoDBGetItemInput setTableName:]
+-[AWSDynamoDBGetItemInput .cxx_destruct]
++[AWSDynamoDBGetItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBGetItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBGetItemOutput itemJSONTransformer]
+___47+[AWSDynamoDBGetItemOutput itemJSONTransformer]_block_invoke
+___47+[AWSDynamoDBGetItemOutput itemJSONTransformer]_block_invoke_2
+-[AWSDynamoDBGetItemOutput consumedCapacity]
+-[AWSDynamoDBGetItemOutput setConsumedCapacity:]
+-[AWSDynamoDBGetItemOutput item]
+-[AWSDynamoDBGetItemOutput setItem:]
+-[AWSDynamoDBGetItemOutput .cxx_destruct]
++[AWSDynamoDBGlobalSecondaryIndex JSONKeyPathsByPropertyKey]
++[AWSDynamoDBGlobalSecondaryIndex keySchemaJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndex projectionJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndex provisionedThroughputJSONTransformer]
+-[AWSDynamoDBGlobalSecondaryIndex indexName]
+-[AWSDynamoDBGlobalSecondaryIndex setIndexName:]
+-[AWSDynamoDBGlobalSecondaryIndex keySchema]
+-[AWSDynamoDBGlobalSecondaryIndex setKeySchema:]
+-[AWSDynamoDBGlobalSecondaryIndex projection]
+-[AWSDynamoDBGlobalSecondaryIndex setProjection:]
+-[AWSDynamoDBGlobalSecondaryIndex provisionedThroughput]
+-[AWSDynamoDBGlobalSecondaryIndex setProvisionedThroughput:]
+-[AWSDynamoDBGlobalSecondaryIndex .cxx_destruct]
++[AWSDynamoDBGlobalSecondaryIndexDescription JSONKeyPathsByPropertyKey]
++[AWSDynamoDBGlobalSecondaryIndexDescription indexStatusJSONTransformer]
+___72+[AWSDynamoDBGlobalSecondaryIndexDescription indexStatusJSONTransformer]_block_invoke
+___72+[AWSDynamoDBGlobalSecondaryIndexDescription indexStatusJSONTransformer]_block_invoke_2
++[AWSDynamoDBGlobalSecondaryIndexDescription keySchemaJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndexDescription projectionJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndexDescription provisionedThroughputJSONTransformer]
+-[AWSDynamoDBGlobalSecondaryIndexDescription backfilling]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setBackfilling:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription indexArn]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setIndexArn:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription indexName]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setIndexName:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription indexSizeBytes]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setIndexSizeBytes:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription indexStatus]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setIndexStatus:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription itemCount]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setItemCount:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription keySchema]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setKeySchema:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription projection]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setProjection:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription provisionedThroughput]
+-[AWSDynamoDBGlobalSecondaryIndexDescription setProvisionedThroughput:]
+-[AWSDynamoDBGlobalSecondaryIndexDescription .cxx_destruct]
++[AWSDynamoDBGlobalSecondaryIndexUpdate JSONKeyPathsByPropertyKey]
++[AWSDynamoDBGlobalSecondaryIndexUpdate createJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndexUpdate removeJSONTransformer]
++[AWSDynamoDBGlobalSecondaryIndexUpdate updateJSONTransformer]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate create]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate setCreate:]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate remove]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate setRemove:]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate update]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate setUpdate:]
+-[AWSDynamoDBGlobalSecondaryIndexUpdate .cxx_destruct]
++[AWSDynamoDBItemCollectionMetrics JSONKeyPathsByPropertyKey]
++[AWSDynamoDBItemCollectionMetrics itemCollectionKeyJSONTransformer]
+___68+[AWSDynamoDBItemCollectionMetrics itemCollectionKeyJSONTransformer]_block_invoke
+___68+[AWSDynamoDBItemCollectionMetrics itemCollectionKeyJSONTransformer]_block_invoke_2
+-[AWSDynamoDBItemCollectionMetrics itemCollectionKey]
+-[AWSDynamoDBItemCollectionMetrics setItemCollectionKey:]
+-[AWSDynamoDBItemCollectionMetrics sizeEstimateRangeGB]
+-[AWSDynamoDBItemCollectionMetrics setSizeEstimateRangeGB:]
+-[AWSDynamoDBItemCollectionMetrics .cxx_destruct]
++[AWSDynamoDBKeySchemaElement JSONKeyPathsByPropertyKey]
++[AWSDynamoDBKeySchemaElement keyTypeJSONTransformer]
+___53+[AWSDynamoDBKeySchemaElement keyTypeJSONTransformer]_block_invoke
+___53+[AWSDynamoDBKeySchemaElement keyTypeJSONTransformer]_block_invoke_2
+-[AWSDynamoDBKeySchemaElement attributeName]
+-[AWSDynamoDBKeySchemaElement setAttributeName:]
+-[AWSDynamoDBKeySchemaElement keyType]
+-[AWSDynamoDBKeySchemaElement setKeyType:]
+-[AWSDynamoDBKeySchemaElement .cxx_destruct]
++[AWSDynamoDBKeysAndAttributes JSONKeyPathsByPropertyKey]
++[AWSDynamoDBKeysAndAttributes keysJSONTransformer]
+___51+[AWSDynamoDBKeysAndAttributes keysJSONTransformer]_block_invoke
+___51+[AWSDynamoDBKeysAndAttributes keysJSONTransformer]_block_invoke_2
+-[AWSDynamoDBKeysAndAttributes attributesToGet]
+-[AWSDynamoDBKeysAndAttributes setAttributesToGet:]
+-[AWSDynamoDBKeysAndAttributes consistentRead]
+-[AWSDynamoDBKeysAndAttributes setConsistentRead:]
+-[AWSDynamoDBKeysAndAttributes expressionAttributeNames]
+-[AWSDynamoDBKeysAndAttributes setExpressionAttributeNames:]
+-[AWSDynamoDBKeysAndAttributes keys]
+-[AWSDynamoDBKeysAndAttributes setKeys:]
+-[AWSDynamoDBKeysAndAttributes projectionExpression]
+-[AWSDynamoDBKeysAndAttributes setProjectionExpression:]
+-[AWSDynamoDBKeysAndAttributes .cxx_destruct]
++[AWSDynamoDBListTablesInput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBListTablesInput exclusiveStartTableName]
+-[AWSDynamoDBListTablesInput setExclusiveStartTableName:]
+-[AWSDynamoDBListTablesInput limit]
+-[AWSDynamoDBListTablesInput setLimit:]
+-[AWSDynamoDBListTablesInput .cxx_destruct]
++[AWSDynamoDBListTablesOutput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBListTablesOutput lastEvaluatedTableName]
+-[AWSDynamoDBListTablesOutput setLastEvaluatedTableName:]
+-[AWSDynamoDBListTablesOutput tableNames]
+-[AWSDynamoDBListTablesOutput setTableNames:]
+-[AWSDynamoDBListTablesOutput .cxx_destruct]
++[AWSDynamoDBLocalSecondaryIndex JSONKeyPathsByPropertyKey]
++[AWSDynamoDBLocalSecondaryIndex keySchemaJSONTransformer]
++[AWSDynamoDBLocalSecondaryIndex projectionJSONTransformer]
+-[AWSDynamoDBLocalSecondaryIndex indexName]
+-[AWSDynamoDBLocalSecondaryIndex setIndexName:]
+-[AWSDynamoDBLocalSecondaryIndex keySchema]
+-[AWSDynamoDBLocalSecondaryIndex setKeySchema:]
+-[AWSDynamoDBLocalSecondaryIndex projection]
+-[AWSDynamoDBLocalSecondaryIndex setProjection:]
+-[AWSDynamoDBLocalSecondaryIndex .cxx_destruct]
++[AWSDynamoDBLocalSecondaryIndexDescription JSONKeyPathsByPropertyKey]
++[AWSDynamoDBLocalSecondaryIndexDescription keySchemaJSONTransformer]
++[AWSDynamoDBLocalSecondaryIndexDescription projectionJSONTransformer]
+-[AWSDynamoDBLocalSecondaryIndexDescription indexArn]
+-[AWSDynamoDBLocalSecondaryIndexDescription setIndexArn:]
+-[AWSDynamoDBLocalSecondaryIndexDescription indexName]
+-[AWSDynamoDBLocalSecondaryIndexDescription setIndexName:]
+-[AWSDynamoDBLocalSecondaryIndexDescription indexSizeBytes]
+-[AWSDynamoDBLocalSecondaryIndexDescription setIndexSizeBytes:]
+-[AWSDynamoDBLocalSecondaryIndexDescription itemCount]
+-[AWSDynamoDBLocalSecondaryIndexDescription setItemCount:]
+-[AWSDynamoDBLocalSecondaryIndexDescription keySchema]
+-[AWSDynamoDBLocalSecondaryIndexDescription setKeySchema:]
+-[AWSDynamoDBLocalSecondaryIndexDescription projection]
+-[AWSDynamoDBLocalSecondaryIndexDescription setProjection:]
+-[AWSDynamoDBLocalSecondaryIndexDescription .cxx_destruct]
++[AWSDynamoDBProjection JSONKeyPathsByPropertyKey]
++[AWSDynamoDBProjection projectionTypeJSONTransformer]
+___54+[AWSDynamoDBProjection projectionTypeJSONTransformer]_block_invoke
+___54+[AWSDynamoDBProjection projectionTypeJSONTransformer]_block_invoke_2
+-[AWSDynamoDBProjection nonKeyAttributes]
+-[AWSDynamoDBProjection setNonKeyAttributes:]
+-[AWSDynamoDBProjection projectionType]
+-[AWSDynamoDBProjection setProjectionType:]
+-[AWSDynamoDBProjection .cxx_destruct]
++[AWSDynamoDBProvisionedThroughput JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBProvisionedThroughput readCapacityUnits]
+-[AWSDynamoDBProvisionedThroughput setReadCapacityUnits:]
+-[AWSDynamoDBProvisionedThroughput writeCapacityUnits]
+-[AWSDynamoDBProvisionedThroughput setWriteCapacityUnits:]
+-[AWSDynamoDBProvisionedThroughput .cxx_destruct]
++[AWSDynamoDBProvisionedThroughputDescription JSONKeyPathsByPropertyKey]
++[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTimeJSONTransformer]
+___82+[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTimeJSONTransformer]_block_invoke
+___82+[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTimeJSONTransformer]_block_invoke_2
++[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTimeJSONTransformer]
+___82+[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTimeJSONTransformer]_block_invoke
+___82+[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTimeJSONTransformer]_block_invoke_2
+-[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTime]
+-[AWSDynamoDBProvisionedThroughputDescription setLastDecreaseDateTime:]
+-[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTime]
+-[AWSDynamoDBProvisionedThroughputDescription setLastIncreaseDateTime:]
+-[AWSDynamoDBProvisionedThroughputDescription numberOfDecreasesToday]
+-[AWSDynamoDBProvisionedThroughputDescription setNumberOfDecreasesToday:]
+-[AWSDynamoDBProvisionedThroughputDescription readCapacityUnits]
+-[AWSDynamoDBProvisionedThroughputDescription setReadCapacityUnits:]
+-[AWSDynamoDBProvisionedThroughputDescription writeCapacityUnits]
+-[AWSDynamoDBProvisionedThroughputDescription setWriteCapacityUnits:]
+-[AWSDynamoDBProvisionedThroughputDescription .cxx_destruct]
++[AWSDynamoDBPutItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBPutItemInput conditionalOperatorJSONTransformer]
+___61+[AWSDynamoDBPutItemInput conditionalOperatorJSONTransformer]_block_invoke
+___61+[AWSDynamoDBPutItemInput conditionalOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput expectedJSONTransformer]
+___50+[AWSDynamoDBPutItemInput expectedJSONTransformer]_block_invoke
+___50+[AWSDynamoDBPutItemInput expectedJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput expressionAttributeValuesJSONTransformer]
+___67+[AWSDynamoDBPutItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+___67+[AWSDynamoDBPutItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput itemJSONTransformer]
+___46+[AWSDynamoDBPutItemInput itemJSONTransformer]_block_invoke
+___46+[AWSDynamoDBPutItemInput itemJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput returnConsumedCapacityJSONTransformer]
+___64+[AWSDynamoDBPutItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___64+[AWSDynamoDBPutItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput returnItemCollectionMetricsJSONTransformer]
+___69+[AWSDynamoDBPutItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+___69+[AWSDynamoDBPutItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemInput returnValuesJSONTransformer]
+___54+[AWSDynamoDBPutItemInput returnValuesJSONTransformer]_block_invoke
+___54+[AWSDynamoDBPutItemInput returnValuesJSONTransformer]_block_invoke_2
+-[AWSDynamoDBPutItemInput conditionExpression]
+-[AWSDynamoDBPutItemInput setConditionExpression:]
+-[AWSDynamoDBPutItemInput conditionalOperator]
+-[AWSDynamoDBPutItemInput setConditionalOperator:]
+-[AWSDynamoDBPutItemInput expected]
+-[AWSDynamoDBPutItemInput setExpected:]
+-[AWSDynamoDBPutItemInput expressionAttributeNames]
+-[AWSDynamoDBPutItemInput setExpressionAttributeNames:]
+-[AWSDynamoDBPutItemInput expressionAttributeValues]
+-[AWSDynamoDBPutItemInput setExpressionAttributeValues:]
+-[AWSDynamoDBPutItemInput item]
+-[AWSDynamoDBPutItemInput setItem:]
+-[AWSDynamoDBPutItemInput returnConsumedCapacity]
+-[AWSDynamoDBPutItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBPutItemInput returnItemCollectionMetrics]
+-[AWSDynamoDBPutItemInput setReturnItemCollectionMetrics:]
+-[AWSDynamoDBPutItemInput returnValues]
+-[AWSDynamoDBPutItemInput setReturnValues:]
+-[AWSDynamoDBPutItemInput tableName]
+-[AWSDynamoDBPutItemInput setTableName:]
+-[AWSDynamoDBPutItemInput .cxx_destruct]
++[AWSDynamoDBPutItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBPutItemOutput attributesJSONTransformer]
+___53+[AWSDynamoDBPutItemOutput attributesJSONTransformer]_block_invoke
+___53+[AWSDynamoDBPutItemOutput attributesJSONTransformer]_block_invoke_2
++[AWSDynamoDBPutItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBPutItemOutput itemCollectionMetricsJSONTransformer]
+-[AWSDynamoDBPutItemOutput attributes]
+-[AWSDynamoDBPutItemOutput setAttributes:]
+-[AWSDynamoDBPutItemOutput consumedCapacity]
+-[AWSDynamoDBPutItemOutput setConsumedCapacity:]
+-[AWSDynamoDBPutItemOutput itemCollectionMetrics]
+-[AWSDynamoDBPutItemOutput setItemCollectionMetrics:]
+-[AWSDynamoDBPutItemOutput .cxx_destruct]
++[AWSDynamoDBPutRequest JSONKeyPathsByPropertyKey]
++[AWSDynamoDBPutRequest itemJSONTransformer]
+___44+[AWSDynamoDBPutRequest itemJSONTransformer]_block_invoke
+___44+[AWSDynamoDBPutRequest itemJSONTransformer]_block_invoke_2
+-[AWSDynamoDBPutRequest item]
+-[AWSDynamoDBPutRequest setItem:]
+-[AWSDynamoDBPutRequest .cxx_destruct]
++[AWSDynamoDBQueryInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBQueryInput conditionalOperatorJSONTransformer]
+___59+[AWSDynamoDBQueryInput conditionalOperatorJSONTransformer]_block_invoke
+___59+[AWSDynamoDBQueryInput conditionalOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput exclusiveStartKeyJSONTransformer]
+___57+[AWSDynamoDBQueryInput exclusiveStartKeyJSONTransformer]_block_invoke
+___57+[AWSDynamoDBQueryInput exclusiveStartKeyJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput expressionAttributeValuesJSONTransformer]
+___65+[AWSDynamoDBQueryInput expressionAttributeValuesJSONTransformer]_block_invoke
+___65+[AWSDynamoDBQueryInput expressionAttributeValuesJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput keyConditionsJSONTransformer]
+___53+[AWSDynamoDBQueryInput keyConditionsJSONTransformer]_block_invoke
+___53+[AWSDynamoDBQueryInput keyConditionsJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput queryFilterJSONTransformer]
+___51+[AWSDynamoDBQueryInput queryFilterJSONTransformer]_block_invoke
+___51+[AWSDynamoDBQueryInput queryFilterJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput returnConsumedCapacityJSONTransformer]
+___62+[AWSDynamoDBQueryInput returnConsumedCapacityJSONTransformer]_block_invoke
+___62+[AWSDynamoDBQueryInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryInput selectJSONTransformer]
+___46+[AWSDynamoDBQueryInput selectJSONTransformer]_block_invoke
+___46+[AWSDynamoDBQueryInput selectJSONTransformer]_block_invoke_2
+-[AWSDynamoDBQueryInput attributesToGet]
+-[AWSDynamoDBQueryInput setAttributesToGet:]
+-[AWSDynamoDBQueryInput conditionalOperator]
+-[AWSDynamoDBQueryInput setConditionalOperator:]
+-[AWSDynamoDBQueryInput consistentRead]
+-[AWSDynamoDBQueryInput setConsistentRead:]
+-[AWSDynamoDBQueryInput exclusiveStartKey]
+-[AWSDynamoDBQueryInput setExclusiveStartKey:]
+-[AWSDynamoDBQueryInput expressionAttributeNames]
+-[AWSDynamoDBQueryInput setExpressionAttributeNames:]
+-[AWSDynamoDBQueryInput expressionAttributeValues]
+-[AWSDynamoDBQueryInput setExpressionAttributeValues:]
+-[AWSDynamoDBQueryInput filterExpression]
+-[AWSDynamoDBQueryInput setFilterExpression:]
+-[AWSDynamoDBQueryInput indexName]
+-[AWSDynamoDBQueryInput setIndexName:]
+-[AWSDynamoDBQueryInput keyConditionExpression]
+-[AWSDynamoDBQueryInput setKeyConditionExpression:]
+-[AWSDynamoDBQueryInput keyConditions]
+-[AWSDynamoDBQueryInput setKeyConditions:]
+-[AWSDynamoDBQueryInput limit]
+-[AWSDynamoDBQueryInput setLimit:]
+-[AWSDynamoDBQueryInput projectionExpression]
+-[AWSDynamoDBQueryInput setProjectionExpression:]
+-[AWSDynamoDBQueryInput queryFilter]
+-[AWSDynamoDBQueryInput setQueryFilter:]
+-[AWSDynamoDBQueryInput returnConsumedCapacity]
+-[AWSDynamoDBQueryInput setReturnConsumedCapacity:]
+-[AWSDynamoDBQueryInput scanIndexForward]
+-[AWSDynamoDBQueryInput setScanIndexForward:]
+-[AWSDynamoDBQueryInput select]
+-[AWSDynamoDBQueryInput setSelect:]
+-[AWSDynamoDBQueryInput tableName]
+-[AWSDynamoDBQueryInput setTableName:]
+-[AWSDynamoDBQueryInput .cxx_destruct]
++[AWSDynamoDBQueryOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBQueryOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBQueryOutput itemsJSONTransformer]
+___46+[AWSDynamoDBQueryOutput itemsJSONTransformer]_block_invoke
+___46+[AWSDynamoDBQueryOutput itemsJSONTransformer]_block_invoke_2
++[AWSDynamoDBQueryOutput lastEvaluatedKeyJSONTransformer]
+___57+[AWSDynamoDBQueryOutput lastEvaluatedKeyJSONTransformer]_block_invoke
+___57+[AWSDynamoDBQueryOutput lastEvaluatedKeyJSONTransformer]_block_invoke_2
+-[AWSDynamoDBQueryOutput consumedCapacity]
+-[AWSDynamoDBQueryOutput setConsumedCapacity:]
+-[AWSDynamoDBQueryOutput count]
+-[AWSDynamoDBQueryOutput setCount:]
+-[AWSDynamoDBQueryOutput items]
+-[AWSDynamoDBQueryOutput setItems:]
+-[AWSDynamoDBQueryOutput lastEvaluatedKey]
+-[AWSDynamoDBQueryOutput setLastEvaluatedKey:]
+-[AWSDynamoDBQueryOutput scannedCount]
+-[AWSDynamoDBQueryOutput setScannedCount:]
+-[AWSDynamoDBQueryOutput .cxx_destruct]
++[AWSDynamoDBScanInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBScanInput conditionalOperatorJSONTransformer]
+___58+[AWSDynamoDBScanInput conditionalOperatorJSONTransformer]_block_invoke
+___58+[AWSDynamoDBScanInput conditionalOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanInput exclusiveStartKeyJSONTransformer]
+___56+[AWSDynamoDBScanInput exclusiveStartKeyJSONTransformer]_block_invoke
+___56+[AWSDynamoDBScanInput exclusiveStartKeyJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanInput expressionAttributeValuesJSONTransformer]
+___64+[AWSDynamoDBScanInput expressionAttributeValuesJSONTransformer]_block_invoke
+___64+[AWSDynamoDBScanInput expressionAttributeValuesJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanInput returnConsumedCapacityJSONTransformer]
+___61+[AWSDynamoDBScanInput returnConsumedCapacityJSONTransformer]_block_invoke
+___61+[AWSDynamoDBScanInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanInput scanFilterJSONTransformer]
+___49+[AWSDynamoDBScanInput scanFilterJSONTransformer]_block_invoke
+___49+[AWSDynamoDBScanInput scanFilterJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanInput selectJSONTransformer]
+___45+[AWSDynamoDBScanInput selectJSONTransformer]_block_invoke
+___45+[AWSDynamoDBScanInput selectJSONTransformer]_block_invoke_2
+-[AWSDynamoDBScanInput attributesToGet]
+-[AWSDynamoDBScanInput setAttributesToGet:]
+-[AWSDynamoDBScanInput conditionalOperator]
+-[AWSDynamoDBScanInput setConditionalOperator:]
+-[AWSDynamoDBScanInput consistentRead]
+-[AWSDynamoDBScanInput setConsistentRead:]
+-[AWSDynamoDBScanInput exclusiveStartKey]
+-[AWSDynamoDBScanInput setExclusiveStartKey:]
+-[AWSDynamoDBScanInput expressionAttributeNames]
+-[AWSDynamoDBScanInput setExpressionAttributeNames:]
+-[AWSDynamoDBScanInput expressionAttributeValues]
+-[AWSDynamoDBScanInput setExpressionAttributeValues:]
+-[AWSDynamoDBScanInput filterExpression]
+-[AWSDynamoDBScanInput setFilterExpression:]
+-[AWSDynamoDBScanInput indexName]
+-[AWSDynamoDBScanInput setIndexName:]
+-[AWSDynamoDBScanInput limit]
+-[AWSDynamoDBScanInput setLimit:]
+-[AWSDynamoDBScanInput projectionExpression]
+-[AWSDynamoDBScanInput setProjectionExpression:]
+-[AWSDynamoDBScanInput returnConsumedCapacity]
+-[AWSDynamoDBScanInput setReturnConsumedCapacity:]
+-[AWSDynamoDBScanInput scanFilter]
+-[AWSDynamoDBScanInput setScanFilter:]
+-[AWSDynamoDBScanInput segment]
+-[AWSDynamoDBScanInput setSegment:]
+-[AWSDynamoDBScanInput select]
+-[AWSDynamoDBScanInput setSelect:]
+-[AWSDynamoDBScanInput tableName]
+-[AWSDynamoDBScanInput setTableName:]
+-[AWSDynamoDBScanInput totalSegments]
+-[AWSDynamoDBScanInput setTotalSegments:]
+-[AWSDynamoDBScanInput .cxx_destruct]
++[AWSDynamoDBScanOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBScanOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBScanOutput itemsJSONTransformer]
+___45+[AWSDynamoDBScanOutput itemsJSONTransformer]_block_invoke
+___45+[AWSDynamoDBScanOutput itemsJSONTransformer]_block_invoke_2
++[AWSDynamoDBScanOutput lastEvaluatedKeyJSONTransformer]
+___56+[AWSDynamoDBScanOutput lastEvaluatedKeyJSONTransformer]_block_invoke
+___56+[AWSDynamoDBScanOutput lastEvaluatedKeyJSONTransformer]_block_invoke_2
+-[AWSDynamoDBScanOutput consumedCapacity]
+-[AWSDynamoDBScanOutput setConsumedCapacity:]
+-[AWSDynamoDBScanOutput count]
+-[AWSDynamoDBScanOutput setCount:]
+-[AWSDynamoDBScanOutput items]
+-[AWSDynamoDBScanOutput setItems:]
+-[AWSDynamoDBScanOutput lastEvaluatedKey]
+-[AWSDynamoDBScanOutput setLastEvaluatedKey:]
+-[AWSDynamoDBScanOutput scannedCount]
+-[AWSDynamoDBScanOutput setScannedCount:]
+-[AWSDynamoDBScanOutput .cxx_destruct]
++[AWSDynamoDBStreamSpecification JSONKeyPathsByPropertyKey]
++[AWSDynamoDBStreamSpecification streamViewTypeJSONTransformer]
+___63+[AWSDynamoDBStreamSpecification streamViewTypeJSONTransformer]_block_invoke
+___63+[AWSDynamoDBStreamSpecification streamViewTypeJSONTransformer]_block_invoke_2
+-[AWSDynamoDBStreamSpecification streamEnabled]
+-[AWSDynamoDBStreamSpecification setStreamEnabled:]
+-[AWSDynamoDBStreamSpecification streamViewType]
+-[AWSDynamoDBStreamSpecification setStreamViewType:]
+-[AWSDynamoDBStreamSpecification .cxx_destruct]
++[AWSDynamoDBTableDescription JSONKeyPathsByPropertyKey]
++[AWSDynamoDBTableDescription attributeDefinitionsJSONTransformer]
++[AWSDynamoDBTableDescription creationDateTimeJSONTransformer]
+___62+[AWSDynamoDBTableDescription creationDateTimeJSONTransformer]_block_invoke
+___62+[AWSDynamoDBTableDescription creationDateTimeJSONTransformer]_block_invoke_2
++[AWSDynamoDBTableDescription globalSecondaryIndexesJSONTransformer]
++[AWSDynamoDBTableDescription keySchemaJSONTransformer]
++[AWSDynamoDBTableDescription localSecondaryIndexesJSONTransformer]
++[AWSDynamoDBTableDescription provisionedThroughputJSONTransformer]
++[AWSDynamoDBTableDescription streamSpecificationJSONTransformer]
++[AWSDynamoDBTableDescription tableStatusJSONTransformer]
+___57+[AWSDynamoDBTableDescription tableStatusJSONTransformer]_block_invoke
+___57+[AWSDynamoDBTableDescription tableStatusJSONTransformer]_block_invoke_2
+-[AWSDynamoDBTableDescription attributeDefinitions]
+-[AWSDynamoDBTableDescription setAttributeDefinitions:]
+-[AWSDynamoDBTableDescription creationDateTime]
+-[AWSDynamoDBTableDescription setCreationDateTime:]
+-[AWSDynamoDBTableDescription globalSecondaryIndexes]
+-[AWSDynamoDBTableDescription setGlobalSecondaryIndexes:]
+-[AWSDynamoDBTableDescription itemCount]
+-[AWSDynamoDBTableDescription setItemCount:]
+-[AWSDynamoDBTableDescription keySchema]
+-[AWSDynamoDBTableDescription setKeySchema:]
+-[AWSDynamoDBTableDescription latestStreamArn]
+-[AWSDynamoDBTableDescription setLatestStreamArn:]
+-[AWSDynamoDBTableDescription latestStreamLabel]
+-[AWSDynamoDBTableDescription setLatestStreamLabel:]
+-[AWSDynamoDBTableDescription localSecondaryIndexes]
+-[AWSDynamoDBTableDescription setLocalSecondaryIndexes:]
+-[AWSDynamoDBTableDescription provisionedThroughput]
+-[AWSDynamoDBTableDescription setProvisionedThroughput:]
+-[AWSDynamoDBTableDescription streamSpecification]
+-[AWSDynamoDBTableDescription setStreamSpecification:]
+-[AWSDynamoDBTableDescription tableArn]
+-[AWSDynamoDBTableDescription setTableArn:]
+-[AWSDynamoDBTableDescription tableName]
+-[AWSDynamoDBTableDescription setTableName:]
+-[AWSDynamoDBTableDescription tableSizeBytes]
+-[AWSDynamoDBTableDescription setTableSizeBytes:]
+-[AWSDynamoDBTableDescription tableStatus]
+-[AWSDynamoDBTableDescription setTableStatus:]
+-[AWSDynamoDBTableDescription .cxx_destruct]
++[AWSDynamoDBUpdateGlobalSecondaryIndexAction JSONKeyPathsByPropertyKey]
++[AWSDynamoDBUpdateGlobalSecondaryIndexAction provisionedThroughputJSONTransformer]
+-[AWSDynamoDBUpdateGlobalSecondaryIndexAction indexName]
+-[AWSDynamoDBUpdateGlobalSecondaryIndexAction setIndexName:]
+-[AWSDynamoDBUpdateGlobalSecondaryIndexAction provisionedThroughput]
+-[AWSDynamoDBUpdateGlobalSecondaryIndexAction setProvisionedThroughput:]
+-[AWSDynamoDBUpdateGlobalSecondaryIndexAction .cxx_destruct]
++[AWSDynamoDBUpdateItemInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBUpdateItemInput attributeUpdatesJSONTransformer]
+___61+[AWSDynamoDBUpdateItemInput attributeUpdatesJSONTransformer]_block_invoke
+___61+[AWSDynamoDBUpdateItemInput attributeUpdatesJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput conditionalOperatorJSONTransformer]
+___64+[AWSDynamoDBUpdateItemInput conditionalOperatorJSONTransformer]_block_invoke
+___64+[AWSDynamoDBUpdateItemInput conditionalOperatorJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput expectedJSONTransformer]
+___53+[AWSDynamoDBUpdateItemInput expectedJSONTransformer]_block_invoke
+___53+[AWSDynamoDBUpdateItemInput expectedJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput expressionAttributeValuesJSONTransformer]
+___70+[AWSDynamoDBUpdateItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+___70+[AWSDynamoDBUpdateItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput keyJSONTransformer]
+___48+[AWSDynamoDBUpdateItemInput keyJSONTransformer]_block_invoke
+___48+[AWSDynamoDBUpdateItemInput keyJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput returnConsumedCapacityJSONTransformer]
+___67+[AWSDynamoDBUpdateItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+___67+[AWSDynamoDBUpdateItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput returnItemCollectionMetricsJSONTransformer]
+___72+[AWSDynamoDBUpdateItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+___72+[AWSDynamoDBUpdateItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemInput returnValuesJSONTransformer]
+___57+[AWSDynamoDBUpdateItemInput returnValuesJSONTransformer]_block_invoke
+___57+[AWSDynamoDBUpdateItemInput returnValuesJSONTransformer]_block_invoke_2
+-[AWSDynamoDBUpdateItemInput attributeUpdates]
+-[AWSDynamoDBUpdateItemInput setAttributeUpdates:]
+-[AWSDynamoDBUpdateItemInput conditionExpression]
+-[AWSDynamoDBUpdateItemInput setConditionExpression:]
+-[AWSDynamoDBUpdateItemInput conditionalOperator]
+-[AWSDynamoDBUpdateItemInput setConditionalOperator:]
+-[AWSDynamoDBUpdateItemInput expected]
+-[AWSDynamoDBUpdateItemInput setExpected:]
+-[AWSDynamoDBUpdateItemInput expressionAttributeNames]
+-[AWSDynamoDBUpdateItemInput setExpressionAttributeNames:]
+-[AWSDynamoDBUpdateItemInput expressionAttributeValues]
+-[AWSDynamoDBUpdateItemInput setExpressionAttributeValues:]
+-[AWSDynamoDBUpdateItemInput key]
+-[AWSDynamoDBUpdateItemInput setKey:]
+-[AWSDynamoDBUpdateItemInput returnConsumedCapacity]
+-[AWSDynamoDBUpdateItemInput setReturnConsumedCapacity:]
+-[AWSDynamoDBUpdateItemInput returnItemCollectionMetrics]
+-[AWSDynamoDBUpdateItemInput setReturnItemCollectionMetrics:]
+-[AWSDynamoDBUpdateItemInput returnValues]
+-[AWSDynamoDBUpdateItemInput setReturnValues:]
+-[AWSDynamoDBUpdateItemInput tableName]
+-[AWSDynamoDBUpdateItemInput setTableName:]
+-[AWSDynamoDBUpdateItemInput updateExpression]
+-[AWSDynamoDBUpdateItemInput setUpdateExpression:]
+-[AWSDynamoDBUpdateItemInput .cxx_destruct]
++[AWSDynamoDBUpdateItemOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBUpdateItemOutput attributesJSONTransformer]
+___56+[AWSDynamoDBUpdateItemOutput attributesJSONTransformer]_block_invoke
+___56+[AWSDynamoDBUpdateItemOutput attributesJSONTransformer]_block_invoke_2
++[AWSDynamoDBUpdateItemOutput consumedCapacityJSONTransformer]
++[AWSDynamoDBUpdateItemOutput itemCollectionMetricsJSONTransformer]
+-[AWSDynamoDBUpdateItemOutput attributes]
+-[AWSDynamoDBUpdateItemOutput setAttributes:]
+-[AWSDynamoDBUpdateItemOutput consumedCapacity]
+-[AWSDynamoDBUpdateItemOutput setConsumedCapacity:]
+-[AWSDynamoDBUpdateItemOutput itemCollectionMetrics]
+-[AWSDynamoDBUpdateItemOutput setItemCollectionMetrics:]
+-[AWSDynamoDBUpdateItemOutput .cxx_destruct]
++[AWSDynamoDBUpdateTableInput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBUpdateTableInput attributeDefinitionsJSONTransformer]
++[AWSDynamoDBUpdateTableInput globalSecondaryIndexUpdatesJSONTransformer]
++[AWSDynamoDBUpdateTableInput provisionedThroughputJSONTransformer]
++[AWSDynamoDBUpdateTableInput streamSpecificationJSONTransformer]
+-[AWSDynamoDBUpdateTableInput attributeDefinitions]
+-[AWSDynamoDBUpdateTableInput setAttributeDefinitions:]
+-[AWSDynamoDBUpdateTableInput globalSecondaryIndexUpdates]
+-[AWSDynamoDBUpdateTableInput setGlobalSecondaryIndexUpdates:]
+-[AWSDynamoDBUpdateTableInput provisionedThroughput]
+-[AWSDynamoDBUpdateTableInput setProvisionedThroughput:]
+-[AWSDynamoDBUpdateTableInput streamSpecification]
+-[AWSDynamoDBUpdateTableInput setStreamSpecification:]
+-[AWSDynamoDBUpdateTableInput tableName]
+-[AWSDynamoDBUpdateTableInput setTableName:]
+-[AWSDynamoDBUpdateTableInput .cxx_destruct]
++[AWSDynamoDBUpdateTableOutput JSONKeyPathsByPropertyKey]
++[AWSDynamoDBUpdateTableOutput tableDescriptionJSONTransformer]
+-[AWSDynamoDBUpdateTableOutput tableDescription]
+-[AWSDynamoDBUpdateTableOutput setTableDescription:]
+-[AWSDynamoDBUpdateTableOutput .cxx_destruct]
++[AWSDynamoDBWriteRequest JSONKeyPathsByPropertyKey]
++[AWSDynamoDBWriteRequest deleteRequestJSONTransformer]
++[AWSDynamoDBWriteRequest putRequestJSONTransformer]
+-[AWSDynamoDBWriteRequest deleteRequest]
+-[AWSDynamoDBWriteRequest setDeleteRequest:]
+-[AWSDynamoDBWriteRequest putRequest]
+-[AWSDynamoDBWriteRequest setPutRequest:]
+-[AWSDynamoDBWriteRequest .cxx_destruct]
+___block_descriptor_tmp.25
+___block_literal_global.26
+_OBJC_IVAR_$_AWSDynamoDBAttributeDefinition._attributeName
+_OBJC_IVAR_$_AWSDynamoDBAttributeDefinition._attributeType
+___block_descriptor_tmp.76
+___block_literal_global.77
+___block_descriptor_tmp.80
+___block_literal_global.81
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._B
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._BOOLEAN
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._BS
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._L
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._M
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._N
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._NS
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._NIL
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._S
+_OBJC_IVAR_$_AWSDynamoDBAttributeValue._SS
+___block_descriptor_tmp.154
+___block_literal_global.155
+___block_descriptor_tmp.156
+___block_literal_global.157
+_OBJC_IVAR_$_AWSDynamoDBAttributeValueUpdate._action
+_OBJC_IVAR_$_AWSDynamoDBAttributeValueUpdate._value
+___block_descriptor_tmp.184
+___block_literal_global.185
+___block_descriptor_tmp.186
+___block_literal_global.187
+___block_descriptor_tmp.194
+___block_literal_global.195
+___block_descriptor_tmp.196
+___block_literal_global.197
+_OBJC_IVAR_$_AWSDynamoDBBatchGetItemInput._requestItems
+_OBJC_IVAR_$_AWSDynamoDBBatchGetItemInput._returnConsumedCapacity
+___block_descriptor_tmp.229
+___block_literal_global.230
+___block_descriptor_tmp.233
+___block_literal_global.234
+___block_descriptor_tmp.235
+___block_literal_global.236
+___block_descriptor_tmp.237
+___block_literal_global.238
+_OBJC_IVAR_$_AWSDynamoDBBatchGetItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBBatchGetItemOutput._responses
+_OBJC_IVAR_$_AWSDynamoDBBatchGetItemOutput._unprocessedKeys
+___block_descriptor_tmp.266
+___block_literal_global.267
+___block_descriptor_tmp.268
+___block_literal_global.269
+___block_literal_global.271
+___block_descriptor_tmp.272
+___block_literal_global.273
+___block_descriptor_tmp.276
+___block_literal_global.277
+___block_literal_global.279
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemInput._requestItems
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemInput._returnItemCollectionMetrics
+___block_descriptor_tmp.297
+___block_literal_global.298
+___block_descriptor_tmp.299
+___block_literal_global.300
+___block_descriptor_tmp.301
+___block_literal_global.302
+___block_descriptor_tmp.303
+___block_literal_global.304
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemOutput._itemCollectionMetrics
+_OBJC_IVAR_$_AWSDynamoDBBatchWriteItemOutput._unprocessedItems
+_OBJC_IVAR_$_AWSDynamoDBCapacity._capacityUnits
+___block_descriptor_tmp.362
+___block_literal_global.363
+___block_descriptor_tmp.364
+___block_literal_global.365
+_OBJC_IVAR_$_AWSDynamoDBCondition._attributeValueList
+_OBJC_IVAR_$_AWSDynamoDBCondition._comparisonOperator
+___block_descriptor_tmp.397
+___block_literal_global.398
+___block_descriptor_tmp.399
+___block_literal_global.400
+___block_descriptor_tmp.401
+___block_literal_global.402
+___block_descriptor_tmp.403
+___block_literal_global.404
+_OBJC_IVAR_$_AWSDynamoDBConsumedCapacity._capacityUnits
+_OBJC_IVAR_$_AWSDynamoDBConsumedCapacity._globalSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBConsumedCapacity._localSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBConsumedCapacity._table
+_OBJC_IVAR_$_AWSDynamoDBConsumedCapacity._tableName
+_OBJC_IVAR_$_AWSDynamoDBCreateGlobalSecondaryIndexAction._indexName
+_OBJC_IVAR_$_AWSDynamoDBCreateGlobalSecondaryIndexAction._keySchema
+_OBJC_IVAR_$_AWSDynamoDBCreateGlobalSecondaryIndexAction._projection
+_OBJC_IVAR_$_AWSDynamoDBCreateGlobalSecondaryIndexAction._provisionedThroughput
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._attributeDefinitions
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._globalSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._keySchema
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._localSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._provisionedThroughput
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._streamSpecification
+_OBJC_IVAR_$_AWSDynamoDBCreateTableInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBCreateTableOutput._tableDescription
+_OBJC_IVAR_$_AWSDynamoDBDeleteGlobalSecondaryIndexAction._indexName
+___block_descriptor_tmp.554
+___block_literal_global.555
+___block_descriptor_tmp.556
+___block_literal_global.557
+___block_descriptor_tmp.559
+___block_literal_global.560
+___block_descriptor_tmp.561
+___block_literal_global.562
+___block_descriptor_tmp.563
+___block_literal_global.564
+___block_descriptor_tmp.565
+___block_literal_global.566
+___block_descriptor_tmp.567
+___block_literal_global.568
+___block_descriptor_tmp.569
+___block_literal_global.570
+___block_descriptor_tmp.571
+___block_literal_global.572
+___block_descriptor_tmp.573
+___block_literal_global.574
+___block_descriptor_tmp.575
+___block_literal_global.576
+___block_descriptor_tmp.577
+___block_literal_global.578
+___block_descriptor_tmp.587
+___block_literal_global.588
+___block_descriptor_tmp.589
+___block_literal_global.590
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._conditionExpression
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._conditionalOperator
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._expected
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._key
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._returnItemCollectionMetrics
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._returnValues
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemInput._tableName
+___block_descriptor_tmp.637
+___block_literal_global.638
+___block_descriptor_tmp.639
+___block_literal_global.640
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemOutput._attributes
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBDeleteItemOutput._itemCollectionMetrics
+___block_descriptor_tmp.653
+___block_literal_global.654
+___block_descriptor_tmp.655
+___block_literal_global.656
+_OBJC_IVAR_$_AWSDynamoDBDeleteRequest._key
+_OBJC_IVAR_$_AWSDynamoDBDeleteTableInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBDeleteTableOutput._tableDescription
+_OBJC_IVAR_$_AWSDynamoDBDescribeLimitsOutput._accountMaxReadCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBDescribeLimitsOutput._accountMaxWriteCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBDescribeLimitsOutput._tableMaxReadCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBDescribeLimitsOutput._tableMaxWriteCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBDescribeTableInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBDescribeTableOutput._table
+___block_descriptor_tmp.711
+___block_literal_global.712
+___block_descriptor_tmp.713
+___block_literal_global.714
+_OBJC_IVAR_$_AWSDynamoDBExpectedAttributeValue._attributeValueList
+_OBJC_IVAR_$_AWSDynamoDBExpectedAttributeValue._comparisonOperator
+_OBJC_IVAR_$_AWSDynamoDBExpectedAttributeValue._exists
+_OBJC_IVAR_$_AWSDynamoDBExpectedAttributeValue._value
+___block_descriptor_tmp.734
+___block_literal_global.735
+___block_descriptor_tmp.736
+___block_literal_global.737
+___block_descriptor_tmp.738
+___block_literal_global.739
+___block_descriptor_tmp.740
+___block_literal_global.741
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._attributesToGet
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._consistentRead
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._key
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBGetItemInput._tableName
+___block_descriptor_tmp.763
+___block_literal_global.764
+___block_descriptor_tmp.765
+___block_literal_global.766
+_OBJC_IVAR_$_AWSDynamoDBGetItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBGetItemOutput._item
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndex._indexName
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndex._keySchema
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndex._projection
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndex._provisionedThroughput
+___block_descriptor_tmp.805
+___block_literal_global.806
+___block_descriptor_tmp.807
+___block_literal_global.808
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._backfilling
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._indexArn
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._indexName
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._indexSizeBytes
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._indexStatus
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._itemCount
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._keySchema
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._projection
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexDescription._provisionedThroughput
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexUpdate._create
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexUpdate._remove
+_OBJC_IVAR_$_AWSDynamoDBGlobalSecondaryIndexUpdate._update
+___block_descriptor_tmp.886
+___block_literal_global.887
+___block_descriptor_tmp.888
+___block_literal_global.889
+_OBJC_IVAR_$_AWSDynamoDBItemCollectionMetrics._itemCollectionKey
+_OBJC_IVAR_$_AWSDynamoDBItemCollectionMetrics._sizeEstimateRangeGB
+___block_descriptor_tmp.911
+___block_literal_global.912
+___block_descriptor_tmp.913
+___block_literal_global.914
+_OBJC_IVAR_$_AWSDynamoDBKeySchemaElement._attributeName
+_OBJC_IVAR_$_AWSDynamoDBKeySchemaElement._keyType
+___block_descriptor_tmp.929
+___block_literal_global.930
+___block_descriptor_tmp.933
+___block_literal_global.934
+_OBJC_IVAR_$_AWSDynamoDBKeysAndAttributes._attributesToGet
+_OBJC_IVAR_$_AWSDynamoDBKeysAndAttributes._consistentRead
+_OBJC_IVAR_$_AWSDynamoDBKeysAndAttributes._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBKeysAndAttributes._keys
+_OBJC_IVAR_$_AWSDynamoDBKeysAndAttributes._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBListTablesInput._exclusiveStartTableName
+_OBJC_IVAR_$_AWSDynamoDBListTablesInput._limit
+_OBJC_IVAR_$_AWSDynamoDBListTablesOutput._lastEvaluatedTableName
+_OBJC_IVAR_$_AWSDynamoDBListTablesOutput._tableNames
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndex._indexName
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndex._keySchema
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndex._projection
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._indexArn
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._indexName
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._indexSizeBytes
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._itemCount
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._keySchema
+_OBJC_IVAR_$_AWSDynamoDBLocalSecondaryIndexDescription._projection
+___block_descriptor_tmp.1001
+___block_literal_global.1002
+___block_descriptor_tmp.1003
+___block_literal_global.1004
+_OBJC_IVAR_$_AWSDynamoDBProjection._nonKeyAttributes
+_OBJC_IVAR_$_AWSDynamoDBProjection._projectionType
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughput._readCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughput._writeCapacityUnits
+___block_descriptor_tmp.1056
+___block_literal_global.1057
+___block_descriptor_tmp.1066
+___block_literal_global.1067
+___block_descriptor_tmp.1068
+___block_literal_global.1069
+___block_descriptor_tmp.1070
+___block_literal_global.1071
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughputDescription._lastDecreaseDateTime
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughputDescription._lastIncreaseDateTime
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughputDescription._numberOfDecreasesToday
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughputDescription._readCapacityUnits
+_OBJC_IVAR_$_AWSDynamoDBProvisionedThroughputDescription._writeCapacityUnits
+___block_descriptor_tmp.1092
+___block_literal_global.1093
+___block_descriptor_tmp.1094
+___block_literal_global.1095
+___block_descriptor_tmp.1096
+___block_literal_global.1097
+___block_descriptor_tmp.1098
+___block_literal_global.1099
+___block_descriptor_tmp.1100
+___block_literal_global.1101
+___block_descriptor_tmp.1102
+___block_literal_global.1103
+___block_descriptor_tmp.1104
+___block_literal_global.1105
+___block_descriptor_tmp.1106
+___block_literal_global.1107
+___block_descriptor_tmp.1108
+___block_literal_global.1109
+___block_descriptor_tmp.1110
+___block_literal_global.1111
+___block_descriptor_tmp.1112
+___block_literal_global.1113
+___block_descriptor_tmp.1114
+___block_literal_global.1115
+___block_descriptor_tmp.1116
+___block_literal_global.1117
+___block_descriptor_tmp.1118
+___block_literal_global.1119
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._conditionExpression
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._conditionalOperator
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._expected
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._item
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._returnItemCollectionMetrics
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._returnValues
+_OBJC_IVAR_$_AWSDynamoDBPutItemInput._tableName
+___block_descriptor_tmp.1122
+___block_literal_global.1123
+___block_descriptor_tmp.1124
+___block_literal_global.1125
+_OBJC_IVAR_$_AWSDynamoDBPutItemOutput._attributes
+_OBJC_IVAR_$_AWSDynamoDBPutItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBPutItemOutput._itemCollectionMetrics
+___block_descriptor_tmp.1128
+___block_literal_global.1129
+___block_descriptor_tmp.1130
+___block_literal_global.1131
+_OBJC_IVAR_$_AWSDynamoDBPutRequest._item
+___block_descriptor_tmp.1162
+___block_literal_global.1163
+___block_descriptor_tmp.1164
+___block_literal_global.1165
+___block_descriptor_tmp.1166
+___block_literal_global.1167
+___block_descriptor_tmp.1168
+___block_literal_global.1169
+___block_descriptor_tmp.1170
+___block_literal_global.1171
+___block_descriptor_tmp.1172
+___block_literal_global.1173
+___block_descriptor_tmp.1175
+___block_literal_global.1176
+___block_descriptor_tmp.1177
+___block_literal_global.1178
+___block_descriptor_tmp.1179
+___block_literal_global.1180
+___block_descriptor_tmp.1181
+___block_literal_global.1182
+___block_descriptor_tmp.1183
+___block_literal_global.1184
+___block_descriptor_tmp.1185
+___block_literal_global.1186
+___block_descriptor_tmp.1195
+___block_literal_global.1196
+___block_descriptor_tmp.1197
+___block_literal_global.1198
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._attributesToGet
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._conditionalOperator
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._consistentRead
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._exclusiveStartKey
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._filterExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._indexName
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._keyConditionExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._keyConditions
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._limit
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._queryFilter
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._scanIndexForward
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._select
+_OBJC_IVAR_$_AWSDynamoDBQueryInput._tableName
+___block_descriptor_tmp.1256
+___block_literal_global.1257
+___block_descriptor_tmp.1258
+___block_literal_global.1259
+___block_descriptor_tmp.1260
+___block_literal_global.1261
+___block_descriptor_tmp.1262
+___block_literal_global.1263
+_OBJC_IVAR_$_AWSDynamoDBQueryOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBQueryOutput._count
+_OBJC_IVAR_$_AWSDynamoDBQueryOutput._items
+_OBJC_IVAR_$_AWSDynamoDBQueryOutput._lastEvaluatedKey
+_OBJC_IVAR_$_AWSDynamoDBQueryOutput._scannedCount
+___block_descriptor_tmp.1300
+___block_literal_global.1301
+___block_descriptor_tmp.1302
+___block_literal_global.1303
+___block_descriptor_tmp.1304
+___block_literal_global.1305
+___block_descriptor_tmp.1306
+___block_literal_global.1307
+___block_descriptor_tmp.1308
+___block_literal_global.1309
+___block_descriptor_tmp.1310
+___block_literal_global.1311
+___block_descriptor_tmp.1312
+___block_literal_global.1313
+___block_descriptor_tmp.1314
+___block_literal_global.1315
+___block_descriptor_tmp.1316
+___block_literal_global.1317
+___block_descriptor_tmp.1318
+___block_literal_global.1319
+___block_descriptor_tmp.1320
+___block_literal_global.1321
+___block_descriptor_tmp.1322
+___block_literal_global.1323
+_OBJC_IVAR_$_AWSDynamoDBScanInput._attributesToGet
+_OBJC_IVAR_$_AWSDynamoDBScanInput._conditionalOperator
+_OBJC_IVAR_$_AWSDynamoDBScanInput._consistentRead
+_OBJC_IVAR_$_AWSDynamoDBScanInput._exclusiveStartKey
+_OBJC_IVAR_$_AWSDynamoDBScanInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBScanInput._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBScanInput._filterExpression
+_OBJC_IVAR_$_AWSDynamoDBScanInput._indexName
+_OBJC_IVAR_$_AWSDynamoDBScanInput._limit
+_OBJC_IVAR_$_AWSDynamoDBScanInput._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBScanInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBScanInput._scanFilter
+_OBJC_IVAR_$_AWSDynamoDBScanInput._segment
+_OBJC_IVAR_$_AWSDynamoDBScanInput._select
+_OBJC_IVAR_$_AWSDynamoDBScanInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBScanInput._totalSegments
+___block_descriptor_tmp.1342
+___block_literal_global.1343
+___block_descriptor_tmp.1344
+___block_literal_global.1345
+___block_descriptor_tmp.1346
+___block_literal_global.1347
+___block_descriptor_tmp.1348
+___block_literal_global.1349
+_OBJC_IVAR_$_AWSDynamoDBScanOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBScanOutput._count
+_OBJC_IVAR_$_AWSDynamoDBScanOutput._items
+_OBJC_IVAR_$_AWSDynamoDBScanOutput._lastEvaluatedKey
+_OBJC_IVAR_$_AWSDynamoDBScanOutput._scannedCount
+___block_descriptor_tmp.1366
+___block_literal_global.1367
+___block_descriptor_tmp.1368
+___block_literal_global.1369
+_OBJC_IVAR_$_AWSDynamoDBStreamSpecification._streamEnabled
+_OBJC_IVAR_$_AWSDynamoDBStreamSpecification._streamViewType
+___block_descriptor_tmp.1407
+___block_literal_global.1408
+___block_descriptor_tmp.1409
+___block_literal_global.1410
+___block_descriptor_tmp.1413
+___block_literal_global.1414
+___block_descriptor_tmp.1415
+___block_literal_global.1416
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._attributeDefinitions
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._creationDateTime
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._globalSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._itemCount
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._keySchema
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._latestStreamArn
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._latestStreamLabel
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._localSecondaryIndexes
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._provisionedThroughput
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._streamSpecification
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._tableArn
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._tableName
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._tableSizeBytes
+_OBJC_IVAR_$_AWSDynamoDBTableDescription._tableStatus
+_OBJC_IVAR_$_AWSDynamoDBUpdateGlobalSecondaryIndexAction._indexName
+_OBJC_IVAR_$_AWSDynamoDBUpdateGlobalSecondaryIndexAction._provisionedThroughput
+___block_descriptor_tmp.1462
+___block_literal_global.1463
+___block_descriptor_tmp.1464
+___block_literal_global.1465
+___block_descriptor_tmp.1466
+___block_literal_global.1467
+___block_descriptor_tmp.1468
+___block_literal_global.1469
+___block_descriptor_tmp.1470
+___block_literal_global.1471
+___block_descriptor_tmp.1472
+___block_literal_global.1473
+___block_descriptor_tmp.1474
+___block_literal_global.1475
+___block_descriptor_tmp.1476
+___block_literal_global.1477
+___block_descriptor_tmp.1478
+___block_literal_global.1479
+___block_descriptor_tmp.1480
+___block_literal_global.1481
+___block_descriptor_tmp.1482
+___block_literal_global.1483
+___block_descriptor_tmp.1484
+___block_literal_global.1485
+___block_descriptor_tmp.1486
+___block_literal_global.1487
+___block_descriptor_tmp.1488
+___block_literal_global.1489
+___block_descriptor_tmp.1490
+___block_literal_global.1491
+___block_descriptor_tmp.1492
+___block_literal_global.1493
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._attributeUpdates
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._conditionExpression
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._conditionalOperator
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._expected
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._key
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._returnConsumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._returnItemCollectionMetrics
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._returnValues
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemInput._updateExpression
+___block_descriptor_tmp.1507
+___block_literal_global.1508
+___block_descriptor_tmp.1509
+___block_literal_global.1510
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemOutput._attributes
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemOutput._consumedCapacity
+_OBJC_IVAR_$_AWSDynamoDBUpdateItemOutput._itemCollectionMetrics
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableInput._attributeDefinitions
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableInput._globalSecondaryIndexUpdates
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableInput._provisionedThroughput
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableInput._streamSpecification
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableInput._tableName
+_OBJC_IVAR_$_AWSDynamoDBUpdateTableOutput._tableDescription
+_OBJC_IVAR_$_AWSDynamoDBWriteRequest._deleteRequest
+_OBJC_IVAR_$_AWSDynamoDBWriteRequest._putRequest
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBModel.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBModel.h
+__56+[AWSDynamoDBUpdateItemOutput attributesJSONTransformer]_block_invoke_2
+__56+[AWSDynamoDBUpdateItemOutput attributesJSONTransformer]_block_invoke
+__57+[AWSDynamoDBUpdateItemInput returnValuesJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBUpdateItemInput returnValuesJSONTransformer]_block_invoke
+__72+[AWSDynamoDBUpdateItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
+__72+[AWSDynamoDBUpdateItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+__67+[AWSDynamoDBUpdateItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__67+[AWSDynamoDBUpdateItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__48+[AWSDynamoDBUpdateItemInput keyJSONTransformer]_block_invoke_2
+__48+[AWSDynamoDBUpdateItemInput keyJSONTransformer]_block_invoke
+__70+[AWSDynamoDBUpdateItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
+__70+[AWSDynamoDBUpdateItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+__53+[AWSDynamoDBUpdateItemInput expectedJSONTransformer]_block_invoke_2
+__53+[AWSDynamoDBUpdateItemInput expectedJSONTransformer]_block_invoke
+__64+[AWSDynamoDBUpdateItemInput conditionalOperatorJSONTransformer]_block_invoke_2
+__64+[AWSDynamoDBUpdateItemInput conditionalOperatorJSONTransformer]_block_invoke
+__61+[AWSDynamoDBUpdateItemInput attributeUpdatesJSONTransformer]_block_invoke_2
+__61+[AWSDynamoDBUpdateItemInput attributeUpdatesJSONTransformer]_block_invoke
+__57+[AWSDynamoDBTableDescription tableStatusJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBTableDescription tableStatusJSONTransformer]_block_invoke
+__62+[AWSDynamoDBTableDescription creationDateTimeJSONTransformer]_block_invoke_2
+__62+[AWSDynamoDBTableDescription creationDateTimeJSONTransformer]_block_invoke
+__63+[AWSDynamoDBStreamSpecification streamViewTypeJSONTransformer]_block_invoke_2
+__63+[AWSDynamoDBStreamSpecification streamViewTypeJSONTransformer]_block_invoke
+__56+[AWSDynamoDBScanOutput lastEvaluatedKeyJSONTransformer]_block_invoke_2
+__56+[AWSDynamoDBScanOutput lastEvaluatedKeyJSONTransformer]_block_invoke
+__45+[AWSDynamoDBScanOutput itemsJSONTransformer]_block_invoke_2
+__45+[AWSDynamoDBScanOutput itemsJSONTransformer]_block_invoke
+__45+[AWSDynamoDBScanInput selectJSONTransformer]_block_invoke_2
+__45+[AWSDynamoDBScanInput selectJSONTransformer]_block_invoke
+__49+[AWSDynamoDBScanInput scanFilterJSONTransformer]_block_invoke_2
+__49+[AWSDynamoDBScanInput scanFilterJSONTransformer]_block_invoke
+__61+[AWSDynamoDBScanInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__61+[AWSDynamoDBScanInput returnConsumedCapacityJSONTransformer]_block_invoke
+__64+[AWSDynamoDBScanInput expressionAttributeValuesJSONTransformer]_block_invoke_2
+__64+[AWSDynamoDBScanInput expressionAttributeValuesJSONTransformer]_block_invoke
+__56+[AWSDynamoDBScanInput exclusiveStartKeyJSONTransformer]_block_invoke_2
+__56+[AWSDynamoDBScanInput exclusiveStartKeyJSONTransformer]_block_invoke
+__58+[AWSDynamoDBScanInput conditionalOperatorJSONTransformer]_block_invoke_2
+__58+[AWSDynamoDBScanInput conditionalOperatorJSONTransformer]_block_invoke
+__57+[AWSDynamoDBQueryOutput lastEvaluatedKeyJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBQueryOutput lastEvaluatedKeyJSONTransformer]_block_invoke
+__46+[AWSDynamoDBQueryOutput itemsJSONTransformer]_block_invoke_2
+__46+[AWSDynamoDBQueryOutput itemsJSONTransformer]_block_invoke
+__46+[AWSDynamoDBQueryInput selectJSONTransformer]_block_invoke_2
+__46+[AWSDynamoDBQueryInput selectJSONTransformer]_block_invoke
+__62+[AWSDynamoDBQueryInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__62+[AWSDynamoDBQueryInput returnConsumedCapacityJSONTransformer]_block_invoke
+__51+[AWSDynamoDBQueryInput queryFilterJSONTransformer]_block_invoke_2
+__51+[AWSDynamoDBQueryInput queryFilterJSONTransformer]_block_invoke
+__53+[AWSDynamoDBQueryInput keyConditionsJSONTransformer]_block_invoke_2
+__53+[AWSDynamoDBQueryInput keyConditionsJSONTransformer]_block_invoke
+__65+[AWSDynamoDBQueryInput expressionAttributeValuesJSONTransformer]_block_invoke_2
+__65+[AWSDynamoDBQueryInput expressionAttributeValuesJSONTransformer]_block_invoke
+__57+[AWSDynamoDBQueryInput exclusiveStartKeyJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBQueryInput exclusiveStartKeyJSONTransformer]_block_invoke
+__59+[AWSDynamoDBQueryInput conditionalOperatorJSONTransformer]_block_invoke_2
+__59+[AWSDynamoDBQueryInput conditionalOperatorJSONTransformer]_block_invoke
+__44+[AWSDynamoDBPutRequest itemJSONTransformer]_block_invoke_2
+__44+[AWSDynamoDBPutRequest itemJSONTransformer]_block_invoke
+__53+[AWSDynamoDBPutItemOutput attributesJSONTransformer]_block_invoke_2
+__53+[AWSDynamoDBPutItemOutput attributesJSONTransformer]_block_invoke
+__54+[AWSDynamoDBPutItemInput returnValuesJSONTransformer]_block_invoke_2
+__54+[AWSDynamoDBPutItemInput returnValuesJSONTransformer]_block_invoke
+__69+[AWSDynamoDBPutItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
+__69+[AWSDynamoDBPutItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+__64+[AWSDynamoDBPutItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__64+[AWSDynamoDBPutItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__46+[AWSDynamoDBPutItemInput itemJSONTransformer]_block_invoke_2
+__46+[AWSDynamoDBPutItemInput itemJSONTransformer]_block_invoke
+__67+[AWSDynamoDBPutItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
+__67+[AWSDynamoDBPutItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+__50+[AWSDynamoDBPutItemInput expectedJSONTransformer]_block_invoke_2
+__50+[AWSDynamoDBPutItemInput expectedJSONTransformer]_block_invoke
+__61+[AWSDynamoDBPutItemInput conditionalOperatorJSONTransformer]_block_invoke_2
+__61+[AWSDynamoDBPutItemInput conditionalOperatorJSONTransformer]_block_invoke
+__82+[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTimeJSONTransformer]_block_invoke_2
+__82+[AWSDynamoDBProvisionedThroughputDescription lastIncreaseDateTimeJSONTransformer]_block_invoke
+__82+[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTimeJSONTransformer]_block_invoke_2
+__82+[AWSDynamoDBProvisionedThroughputDescription lastDecreaseDateTimeJSONTransformer]_block_invoke
+__54+[AWSDynamoDBProjection projectionTypeJSONTransformer]_block_invoke_2
+__54+[AWSDynamoDBProjection projectionTypeJSONTransformer]_block_invoke
+__51+[AWSDynamoDBKeysAndAttributes keysJSONTransformer]_block_invoke_2
+__51+[AWSDynamoDBKeysAndAttributes keysJSONTransformer]_block_invoke
+__53+[AWSDynamoDBKeySchemaElement keyTypeJSONTransformer]_block_invoke_2
+__53+[AWSDynamoDBKeySchemaElement keyTypeJSONTransformer]_block_invoke
+__68+[AWSDynamoDBItemCollectionMetrics itemCollectionKeyJSONTransformer]_block_invoke_2
+__68+[AWSDynamoDBItemCollectionMetrics itemCollectionKeyJSONTransformer]_block_invoke
+__72+[AWSDynamoDBGlobalSecondaryIndexDescription indexStatusJSONTransformer]_block_invoke_2
+__72+[AWSDynamoDBGlobalSecondaryIndexDescription indexStatusJSONTransformer]_block_invoke
+__47+[AWSDynamoDBGetItemOutput itemJSONTransformer]_block_invoke_2
+__47+[AWSDynamoDBGetItemOutput itemJSONTransformer]_block_invoke
+__64+[AWSDynamoDBGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__64+[AWSDynamoDBGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__45+[AWSDynamoDBGetItemInput keyJSONTransformer]_block_invoke_2
+__45+[AWSDynamoDBGetItemInput keyJSONTransformer]_block_invoke
+__70+[AWSDynamoDBExpectedAttributeValue comparisonOperatorJSONTransformer]_block_invoke_2
+__70+[AWSDynamoDBExpectedAttributeValue comparisonOperatorJSONTransformer]_block_invoke
+__46+[AWSDynamoDBDeleteRequest keyJSONTransformer]_block_invoke_2
+__46+[AWSDynamoDBDeleteRequest keyJSONTransformer]_block_invoke
+__56+[AWSDynamoDBDeleteItemOutput attributesJSONTransformer]_block_invoke_2
+__56+[AWSDynamoDBDeleteItemOutput attributesJSONTransformer]_block_invoke
+__57+[AWSDynamoDBDeleteItemInput returnValuesJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBDeleteItemInput returnValuesJSONTransformer]_block_invoke
+__72+[AWSDynamoDBDeleteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
+__72+[AWSDynamoDBDeleteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+__67+[AWSDynamoDBDeleteItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__67+[AWSDynamoDBDeleteItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__48+[AWSDynamoDBDeleteItemInput keyJSONTransformer]_block_invoke_2
+__48+[AWSDynamoDBDeleteItemInput keyJSONTransformer]_block_invoke
+__70+[AWSDynamoDBDeleteItemInput expressionAttributeValuesJSONTransformer]_block_invoke_2
+__70+[AWSDynamoDBDeleteItemInput expressionAttributeValuesJSONTransformer]_block_invoke
+__53+[AWSDynamoDBDeleteItemInput expectedJSONTransformer]_block_invoke_2
+__53+[AWSDynamoDBDeleteItemInput expectedJSONTransformer]_block_invoke
+__64+[AWSDynamoDBDeleteItemInput conditionalOperatorJSONTransformer]_block_invoke_2
+__64+[AWSDynamoDBDeleteItemInput conditionalOperatorJSONTransformer]_block_invoke
+__67+[AWSDynamoDBConsumedCapacity localSecondaryIndexesJSONTransformer]_block_invoke_2
+__67+[AWSDynamoDBConsumedCapacity localSecondaryIndexesJSONTransformer]_block_invoke
+__68+[AWSDynamoDBConsumedCapacity globalSecondaryIndexesJSONTransformer]_block_invoke_2
+__68+[AWSDynamoDBConsumedCapacity globalSecondaryIndexesJSONTransformer]_block_invoke
+__57+[AWSDynamoDBCondition comparisonOperatorJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBCondition comparisonOperatorJSONTransformer]_block_invoke
+__66+[AWSDynamoDBBatchWriteItemOutput unprocessedItemsJSONTransformer]_block_invoke_2
+__66+[AWSDynamoDBBatchWriteItemOutput unprocessedItemsJSONTransformer]_block_invoke
+__71+[AWSDynamoDBBatchWriteItemOutput itemCollectionMetricsJSONTransformer]_block_invoke_2
+__71+[AWSDynamoDBBatchWriteItemOutput itemCollectionMetricsJSONTransformer]_block_invoke
+__76+[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke_2
+__76+[AWSDynamoDBBatchWriteItemInput returnItemCollectionMetricsJSONTransformer]_block_invoke
+__71+[AWSDynamoDBBatchWriteItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__71+[AWSDynamoDBBatchWriteItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__61+[AWSDynamoDBBatchWriteItemInput requestItemsJSONTransformer]_block_invoke_2
+__61+[AWSDynamoDBBatchWriteItemInput requestItemsJSONTransformer]_block_invoke
+__63+[AWSDynamoDBBatchGetItemOutput unprocessedKeysJSONTransformer]_block_invoke_2
+__63+[AWSDynamoDBBatchGetItemOutput unprocessedKeysJSONTransformer]_block_invoke
+__57+[AWSDynamoDBBatchGetItemOutput responsesJSONTransformer]_block_invoke_2
+__57+[AWSDynamoDBBatchGetItemOutput responsesJSONTransformer]_block_invoke
+__69+[AWSDynamoDBBatchGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke_2
+__69+[AWSDynamoDBBatchGetItemInput returnConsumedCapacityJSONTransformer]_block_invoke
+__59+[AWSDynamoDBBatchGetItemInput requestItemsJSONTransformer]_block_invoke_2
+__59+[AWSDynamoDBBatchGetItemInput requestItemsJSONTransformer]_block_invoke
+__56+[AWSDynamoDBAttributeValueUpdate actionJSONTransformer]_block_invoke_2
+__56+[AWSDynamoDBAttributeValueUpdate actionJSONTransformer]_block_invoke
+__45+[AWSDynamoDBAttributeValue MJSONTransformer]_block_invoke_2
+__45+[AWSDynamoDBAttributeValue MJSONTransformer]_block_invoke
+__62+[AWSDynamoDBAttributeDefinition attributeTypeJSONTransformer]_block_invoke_2
+__62+[AWSDynamoDBAttributeDefinition attributeTypeJSONTransformer]_block_invoke
+-[NSString(AWSDynamoDBObjectMapperSaveBehavior) aws_saveBehaviorValue]
+-[NSObject(AWSDynamoDBObjectMapper) aws_hashKeyAttributeForClass:]
+-[NSObject(AWSDynamoDBObjectMapper) aws_rangeKeyAttributeForClass:]
+-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_setAttributeValue:]
+___76-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_setAttributeValue:]_block_invoke
+-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_getAttributeValue]
+___75-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_getAttributeValue]_block_invoke
+___copy_helper_block_.106
+___destroy_helper_block_.107
++[AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper]
+___54+[AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper]_block_invoke
++[AWSDynamoDBObjectMapper registerDynamoDBObjectMapperWithConfiguration:objectMapperConfiguration:forKey:]
+___106+[AWSDynamoDBObjectMapper registerDynamoDBObjectMapperWithConfiguration:objectMapperConfiguration:forKey:]_block_invoke
++[AWSDynamoDBObjectMapper DynamoDBObjectMapperForKey:]
++[AWSDynamoDBObjectMapper removeDynamoDBObjectMapperForKey:]
+-[AWSDynamoDBObjectMapper init]
+-[AWSDynamoDBObjectMapper initWithConfiguration:objectMapperConfiguration:]
+-[AWSDynamoDBObjectMapper save:]
+-[AWSDynamoDBObjectMapper save:completionHandler:]
+-[AWSDynamoDBObjectMapper save:configuration:]
+-[AWSDynamoDBObjectMapper save:configuration:completionHandler:]
+___64-[AWSDynamoDBObjectMapper save:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.214
+___destroy_helper_block_.215
+-[AWSDynamoDBObjectMapper remove:]
+-[AWSDynamoDBObjectMapper remove:completionHandler:]
+-[AWSDynamoDBObjectMapper remove:configuration:]
+-[AWSDynamoDBObjectMapper remove:configuration:completionHandler:]
+___66-[AWSDynamoDBObjectMapper remove:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.227
+___destroy_helper_block_.228
+-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:]
+-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:completionHandler:]
+-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:]
+___63-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:completionHandler:]
+___81-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.257
+___destroy_helper_block_.258
+-[AWSDynamoDBObjectMapper query:expression:]
+-[AWSDynamoDBObjectMapper query:expression:completionHandler:]
+-[AWSDynamoDBObjectMapper query:expression:configuration:]
+-[AWSDynamoDBObjectMapper query:queryInput:]
+___44-[AWSDynamoDBObjectMapper query:queryInput:]_block_invoke
+___copy_helper_block_.342
+___destroy_helper_block_.343
+-[AWSDynamoDBObjectMapper query:expression:configuration:completionHandler:]
+___76-[AWSDynamoDBObjectMapper query:expression:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.346
+___destroy_helper_block_.347
+-[AWSDynamoDBObjectMapper scan:expression:]
+-[AWSDynamoDBObjectMapper scan:expression:completionHandler:]
+-[AWSDynamoDBObjectMapper scan:expression:configuration:]
+-[AWSDynamoDBObjectMapper scan:scanInput:]
+___42-[AWSDynamoDBObjectMapper scan:scanInput:]_block_invoke
+___copy_helper_block_.360
+___destroy_helper_block_.361
+-[AWSDynamoDBObjectMapper scan:expression:configuration:completionHandler:]
+___75-[AWSDynamoDBObjectMapper scan:expression:configuration:completionHandler:]_block_invoke
+___copy_helper_block_.364
+___destroy_helper_block_.365
+-[AWSDynamoDBObjectMapper removeAttributes:]
+___44-[AWSDynamoDBObjectMapper removeAttributes:]_block_invoke
+___copy_helper_block_.367
+___destroy_helper_block_.368
+-[AWSDynamoDBObjectMapper objectMapperConfiguration]
+-[AWSDynamoDBObjectMapper setObjectMapperConfiguration:]
+-[AWSDynamoDBObjectMapper dynamoDB]
+-[AWSDynamoDBObjectMapper setDynamoDB:]
+-[AWSDynamoDBObjectMapper .cxx_destruct]
++[AWSDynamoDBObjectModel JSONKeyPathsByPropertyKey]
+-[AWSDynamoDBObjectModel removeIgnoredAttributesFromJSONDictionary:]
+-[AWSDynamoDBObjectModel itemForPutItemInput]
+-[AWSDynamoDBObjectModel itemForUpdateItemInput:]
+-[AWSDynamoDBObjectModel key]
+-[AWSDynamoDBObjectMapperConfiguration init]
+-[AWSDynamoDBObjectMapperConfiguration copyWithZone:]
+-[AWSDynamoDBObjectMapperConfiguration saveBehavior]
+-[AWSDynamoDBObjectMapperConfiguration setSaveBehavior:]
+-[AWSDynamoDBObjectMapperConfiguration consistentRead]
+-[AWSDynamoDBObjectMapperConfiguration setConsistentRead:]
+-[AWSDynamoDBObjectMapperConfiguration .cxx_destruct]
+-[AWSDynamoDBQueryExpression indexName]
+-[AWSDynamoDBQueryExpression setIndexName:]
+-[AWSDynamoDBQueryExpression keyConditionExpression]
+-[AWSDynamoDBQueryExpression setKeyConditionExpression:]
+-[AWSDynamoDBQueryExpression filterExpression]
+-[AWSDynamoDBQueryExpression setFilterExpression:]
+-[AWSDynamoDBQueryExpression projectionExpression]
+-[AWSDynamoDBQueryExpression setProjectionExpression:]
+-[AWSDynamoDBQueryExpression expressionAttributeValues]
+-[AWSDynamoDBQueryExpression setExpressionAttributeValues:]
+-[AWSDynamoDBQueryExpression expressionAttributeNames]
+-[AWSDynamoDBQueryExpression setExpressionAttributeNames:]
+-[AWSDynamoDBQueryExpression limit]
+-[AWSDynamoDBQueryExpression setLimit:]
+-[AWSDynamoDBQueryExpression scanIndexForward]
+-[AWSDynamoDBQueryExpression setScanIndexForward:]
+-[AWSDynamoDBQueryExpression exclusiveStartKey]
+-[AWSDynamoDBQueryExpression setExclusiveStartKey:]
+-[AWSDynamoDBQueryExpression hashKeyAttribute]
+-[AWSDynamoDBQueryExpression setHashKeyAttribute:]
+-[AWSDynamoDBQueryExpression hashKeyValues]
+-[AWSDynamoDBQueryExpression setHashKeyValues:]
+-[AWSDynamoDBQueryExpression rangeKeyConditionExpression]
+-[AWSDynamoDBQueryExpression setRangeKeyConditionExpression:]
+-[AWSDynamoDBQueryExpression .cxx_destruct]
+-[AWSDynamoDBScanExpression filterExpression]
+-[AWSDynamoDBScanExpression setFilterExpression:]
+-[AWSDynamoDBScanExpression projectionExpression]
+-[AWSDynamoDBScanExpression setProjectionExpression:]
+-[AWSDynamoDBScanExpression expressionAttributeNames]
+-[AWSDynamoDBScanExpression setExpressionAttributeNames:]
+-[AWSDynamoDBScanExpression expressionAttributeValues]
+-[AWSDynamoDBScanExpression setExpressionAttributeValues:]
+-[AWSDynamoDBScanExpression exclusiveStartKey]
+-[AWSDynamoDBScanExpression setExclusiveStartKey:]
+-[AWSDynamoDBScanExpression limit]
+-[AWSDynamoDBScanExpression setLimit:]
+-[AWSDynamoDBScanExpression indexName]
+-[AWSDynamoDBScanExpression setIndexName:]
+-[AWSDynamoDBScanExpression .cxx_destruct]
+-[AWSDynamoDBPaginatedOutput loadNextPage]
+-[AWSDynamoDBPaginatedOutput loadNextPageWithCompletionHandler:]
+___64-[AWSDynamoDBPaginatedOutput loadNextPageWithCompletionHandler:]_block_invoke
+___copy_helper_block_.507
+___destroy_helper_block_.508
+-[AWSDynamoDBPaginatedOutput reload]
+-[AWSDynamoDBPaginatedOutput reloadWithCompletionHandler:]
+___58-[AWSDynamoDBPaginatedOutput reloadWithCompletionHandler:]_block_invoke
+___copy_helper_block_.512
+___destroy_helper_block_.513
+-[AWSDynamoDBPaginatedOutput loadPage]
+___38-[AWSDynamoDBPaginatedOutput loadPage]_block_invoke
+___copy_helper_block_.521
+___destroy_helper_block_.522
+___38-[AWSDynamoDBPaginatedOutput loadPage]_block_invoke.526
+___copy_helper_block_.527
+___destroy_helper_block_.528
+-[AWSDynamoDBPaginatedOutput items]
+-[AWSDynamoDBPaginatedOutput setItems:]
+-[AWSDynamoDBPaginatedOutput lastEvaluatedKey]
+-[AWSDynamoDBPaginatedOutput setLastEvaluatedKey:]
+-[AWSDynamoDBPaginatedOutput dynamoDBObjectMapper]
+-[AWSDynamoDBPaginatedOutput setDynamoDBObjectMapper:]
+-[AWSDynamoDBPaginatedOutput resultClass]
+-[AWSDynamoDBPaginatedOutput setResultClass:]
+-[AWSDynamoDBPaginatedOutput scanInput]
+-[AWSDynamoDBPaginatedOutput setScanInput:]
+-[AWSDynamoDBPaginatedOutput queryInput]
+-[AWSDynamoDBPaginatedOutput setQueryInput:]
+-[AWSDynamoDBPaginatedOutput .cxx_destruct]
+___block_descriptor_tmp.108
+_defaultDynamoDBObjectMapper._dynamoDBObjectMapper
+_defaultDynamoDBObjectMapper.onceToken
+___block_descriptor_tmp.148
+_registerDynamoDBObjectMapperWithConfiguration:objectMapperConfiguration:forKey:.onceToken
+___block_descriptor_tmp.150
+___block_literal_global.151
+_OBJC_IVAR_$_AWSDynamoDBObjectMapper._dynamoDB
+_OBJC_IVAR_$_AWSDynamoDBObjectMapper._objectMapperConfiguration
+___block_descriptor_tmp.217
+___block_descriptor_tmp.259
+___block_descriptor_tmp.345
+___block_descriptor_tmp.348
+___block_descriptor_tmp.363
+___block_descriptor_tmp.366
+___block_descriptor_tmp.370
+l_OBJC_PROTOCOL_$_AWSMTLJSONSerializing
+l_OBJC_LABEL_PROTOCOL_$_AWSMTLJSONSerializing
+_OBJC_IVAR_$_AWSDynamoDBObjectMapperConfiguration._saveBehavior
+_OBJC_IVAR_$_AWSDynamoDBObjectMapperConfiguration._consistentRead
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._indexName
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._keyConditionExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._filterExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._limit
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._scanIndexForward
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._exclusiveStartKey
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._hashKeyAttribute
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._hashKeyValues
+_OBJC_IVAR_$_AWSDynamoDBQueryExpression._rangeKeyConditionExpression
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._filterExpression
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._projectionExpression
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._expressionAttributeNames
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._expressionAttributeValues
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._exclusiveStartKey
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._limit
+_OBJC_IVAR_$_AWSDynamoDBScanExpression._indexName
+___block_descriptor_tmp.509
+___block_descriptor_tmp.514
+___block_descriptor_tmp.523
+___block_descriptor_tmp.529
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._items
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._lastEvaluatedKey
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._dynamoDBObjectMapper
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._resultClass
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._scanInput
+_OBJC_IVAR_$_AWSDynamoDBPaginatedOutput._queryInput
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBObjectMapper.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSDynamoDB/AWSDynamoDBObjectMapper.h
+__38-[AWSDynamoDBPaginatedOutput loadPage]_block_invoke.526
+__38-[AWSDynamoDBPaginatedOutput loadPage]_block_invoke
+__58-[AWSDynamoDBPaginatedOutput reloadWithCompletionHandler:]_block_invoke
+__64-[AWSDynamoDBPaginatedOutput loadNextPageWithCompletionHandler:]_block_invoke
+__44-[AWSDynamoDBObjectMapper removeAttributes:]_block_invoke
+__75-[AWSDynamoDBObjectMapper scan:expression:configuration:completionHandler:]_block_invoke
+__42-[AWSDynamoDBObjectMapper scan:scanInput:]_block_invoke
+__76-[AWSDynamoDBObjectMapper query:expression:configuration:completionHandler:]_block_invoke
+__44-[AWSDynamoDBObjectMapper query:queryInput:]_block_invoke
+__81-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:completionHandler:]_block_invoke
+__63-[AWSDynamoDBObjectMapper load:hashKey:rangeKey:configuration:]_block_invoke
+__66-[AWSDynamoDBObjectMapper remove:configuration:completionHandler:]_block_invoke
+__64-[AWSDynamoDBObjectMapper save:configuration:completionHandler:]_block_invoke
+__106+[AWSDynamoDBObjectMapper registerDynamoDBObjectMapperWithConfiguration:objectMapperConfiguration:forKey:]_block_invoke
+__54+[AWSDynamoDBObjectMapper defaultDynamoDBObjectMapper]_block_invoke
+__75-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_getAttributeValue]_block_invoke
+__76-[AWSDynamoDBAttributeValue(AWSDynamoDBObjectMapper) aws_setAttributeValue:]_block_invoke
+/Users/abhishekmishra/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-eivfqyjasjqboyexyyrqgmlqdazh/Build/Intermediates/AWSiOSSDKv2.build/Release-iphoneos/AWSDynamoDB.build/DerivedSources/AWSDynamoDB_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.2
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

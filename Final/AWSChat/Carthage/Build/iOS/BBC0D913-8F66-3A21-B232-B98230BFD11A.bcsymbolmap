@@ -1,0 +1,2557 @@
+BCSymbolMap Version: 2.0
+-[AWSPinpointClientContext dictionaryRepresentation]
+-[AWSPinpointClientContext clientId]
+-[AWSPinpointClientContext setClientId:]
+-[AWSPinpointClientContext .cxx_destruct]
++[AWSPinpointContext contextWithConfiguration:]
+-[AWSPinpointContext legacyUniqueIdWithConfiguration:]
+-[AWSPinpointContext removeLegacyFileWithConfiguration:]
+-[AWSPinpointContext retrieveUniqueId]
+___38-[AWSPinpointContext retrieveUniqueId]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___38-[AWSPinpointContext retrieveUniqueId]_block_invoke.92
+___copy_helper_block_.93
+___destroy_helper_block_.94
+___38-[AWSPinpointContext retrieveUniqueId]_block_invoke.101
+___copy_helper_block_.107
+___destroy_helper_block_.108
+-[AWSPinpointContext initWithConfiguration:]
+-[AWSPinpointContext clientContext]
+-[AWSPinpointContext setClientContext:]
+-[AWSPinpointContext uniqueId]
+-[AWSPinpointContext setUniqueId:]
+-[AWSPinpointContext analyticsService]
+-[AWSPinpointContext setAnalyticsService:]
+-[AWSPinpointContext targetingService]
+-[AWSPinpointContext setTargetingService:]
+-[AWSPinpointContext configuration]
+-[AWSPinpointContext setConfiguration:]
+-[AWSPinpointContext targetingClient]
+-[AWSPinpointContext setTargetingClient:]
+-[AWSPinpointContext analyticsClient]
+-[AWSPinpointContext setAnalyticsClient:]
+-[AWSPinpointContext sessionClient]
+-[AWSPinpointContext setSessionClient:]
+-[AWSPinpointContext keychain]
+-[AWSPinpointContext setKeychain:]
+-[AWSPinpointContext .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointClientContext._clientId
+_retrieveUniqueId.onceToken
+___block_descriptor_tmp
+_retrieveUniqueId.onceToken.91
+___block_descriptor_tmp.95
+_retrieveUniqueId.onceToken.100
+___block_descriptor_tmp.109
+_OBJC_IVAR_$_AWSPinpointContext._configuration
+_OBJC_IVAR_$_AWSPinpointContext._keychain
+_OBJC_IVAR_$_AWSPinpointContext._uniqueId
+_OBJC_IVAR_$_AWSPinpointContext._clientContext
+_OBJC_IVAR_$_AWSPinpointContext._analyticsService
+_OBJC_IVAR_$_AWSPinpointContext._targetingService
+_OBJC_IVAR_$_AWSPinpointContext._targetingClient
+_OBJC_IVAR_$_AWSPinpointContext._analyticsClient
+_OBJC_IVAR_$_AWSPinpointContext._sessionClient
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/Internal/AWSPinpointContext.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/Internal/AWSPinpointContext.h
+__destroy_helper_block_
+__copy_helper_block_
+__38-[AWSPinpointContext retrieveUniqueId]_block_invoke.101
+__38-[AWSPinpointContext retrieveUniqueId]_block_invoke.92
+__38-[AWSPinpointContext retrieveUniqueId]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
++[AWSPinpointTargetingAPNSChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingAPNSChannelRequest certificate]
+-[AWSPinpointTargetingAPNSChannelRequest setCertificate:]
+-[AWSPinpointTargetingAPNSChannelRequest privateKey]
+-[AWSPinpointTargetingAPNSChannelRequest setPrivateKey:]
+-[AWSPinpointTargetingAPNSChannelRequest .cxx_destruct]
++[AWSPinpointTargetingAPNSChannelResponse JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingAPNSChannelResponse applicationId]
+-[AWSPinpointTargetingAPNSChannelResponse setApplicationId:]
+-[AWSPinpointTargetingAPNSChannelResponse creationDate]
+-[AWSPinpointTargetingAPNSChannelResponse setCreationDate:]
+-[AWSPinpointTargetingAPNSChannelResponse identifier]
+-[AWSPinpointTargetingAPNSChannelResponse setIdentifier:]
+-[AWSPinpointTargetingAPNSChannelResponse isArchived]
+-[AWSPinpointTargetingAPNSChannelResponse setIsArchived:]
+-[AWSPinpointTargetingAPNSChannelResponse lastModifiedBy]
+-[AWSPinpointTargetingAPNSChannelResponse setLastModifiedBy:]
+-[AWSPinpointTargetingAPNSChannelResponse lastModifiedDate]
+-[AWSPinpointTargetingAPNSChannelResponse setLastModifiedDate:]
+-[AWSPinpointTargetingAPNSChannelResponse platform]
+-[AWSPinpointTargetingAPNSChannelResponse setPlatform:]
+-[AWSPinpointTargetingAPNSChannelResponse version]
+-[AWSPinpointTargetingAPNSChannelResponse setVersion:]
+-[AWSPinpointTargetingAPNSChannelResponse .cxx_destruct]
++[AWSPinpointTargetingActivitiesResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingActivitiesResponse itemJSONTransformer]
+-[AWSPinpointTargetingActivitiesResponse item]
+-[AWSPinpointTargetingActivitiesResponse setItem:]
+-[AWSPinpointTargetingActivitiesResponse .cxx_destruct]
++[AWSPinpointTargetingActivityResponse JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingActivityResponse applicationId]
+-[AWSPinpointTargetingActivityResponse setApplicationId:]
+-[AWSPinpointTargetingActivityResponse campaignId]
+-[AWSPinpointTargetingActivityResponse setCampaignId:]
+-[AWSPinpointTargetingActivityResponse end]
+-[AWSPinpointTargetingActivityResponse setEnd:]
+-[AWSPinpointTargetingActivityResponse identifier]
+-[AWSPinpointTargetingActivityResponse setIdentifier:]
+-[AWSPinpointTargetingActivityResponse result]
+-[AWSPinpointTargetingActivityResponse setResult:]
+-[AWSPinpointTargetingActivityResponse scheduledStart]
+-[AWSPinpointTargetingActivityResponse setScheduledStart:]
+-[AWSPinpointTargetingActivityResponse start]
+-[AWSPinpointTargetingActivityResponse setStart:]
+-[AWSPinpointTargetingActivityResponse state]
+-[AWSPinpointTargetingActivityResponse setState:]
+-[AWSPinpointTargetingActivityResponse successfulEndpointCount]
+-[AWSPinpointTargetingActivityResponse setSuccessfulEndpointCount:]
+-[AWSPinpointTargetingActivityResponse totalEndpointCount]
+-[AWSPinpointTargetingActivityResponse setTotalEndpointCount:]
+-[AWSPinpointTargetingActivityResponse treatmentId]
+-[AWSPinpointTargetingActivityResponse setTreatmentId:]
+-[AWSPinpointTargetingActivityResponse .cxx_destruct]
++[AWSPinpointTargetingApplicationSettingsResource JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingApplicationSettingsResource limitsJSONTransformer]
++[AWSPinpointTargetingApplicationSettingsResource quietTimeJSONTransformer]
+-[AWSPinpointTargetingApplicationSettingsResource applicationId]
+-[AWSPinpointTargetingApplicationSettingsResource setApplicationId:]
+-[AWSPinpointTargetingApplicationSettingsResource lastModifiedDate]
+-[AWSPinpointTargetingApplicationSettingsResource setLastModifiedDate:]
+-[AWSPinpointTargetingApplicationSettingsResource limits]
+-[AWSPinpointTargetingApplicationSettingsResource setLimits:]
+-[AWSPinpointTargetingApplicationSettingsResource quietTime]
+-[AWSPinpointTargetingApplicationSettingsResource setQuietTime:]
+-[AWSPinpointTargetingApplicationSettingsResource .cxx_destruct]
++[AWSPinpointTargetingAttributeDimension JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingAttributeDimension attributeTypeJSONTransformer]
+___70+[AWSPinpointTargetingAttributeDimension attributeTypeJSONTransformer]_block_invoke
+___70+[AWSPinpointTargetingAttributeDimension attributeTypeJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingAttributeDimension attributeType]
+-[AWSPinpointTargetingAttributeDimension setAttributeType:]
+-[AWSPinpointTargetingAttributeDimension values]
+-[AWSPinpointTargetingAttributeDimension setValues:]
+-[AWSPinpointTargetingAttributeDimension .cxx_destruct]
++[AWSPinpointTargetingCampaignLimits JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingCampaignLimits daily]
+-[AWSPinpointTargetingCampaignLimits setDaily:]
+-[AWSPinpointTargetingCampaignLimits total]
+-[AWSPinpointTargetingCampaignLimits setTotal:]
+-[AWSPinpointTargetingCampaignLimits .cxx_destruct]
++[AWSPinpointTargetingCampaignResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCampaignResponse additionalTreatmentsJSONTransformer]
++[AWSPinpointTargetingCampaignResponse defaultStateJSONTransformer]
++[AWSPinpointTargetingCampaignResponse limitsJSONTransformer]
++[AWSPinpointTargetingCampaignResponse messageConfigurationJSONTransformer]
++[AWSPinpointTargetingCampaignResponse scheduleJSONTransformer]
++[AWSPinpointTargetingCampaignResponse stateJSONTransformer]
+-[AWSPinpointTargetingCampaignResponse additionalTreatments]
+-[AWSPinpointTargetingCampaignResponse setAdditionalTreatments:]
+-[AWSPinpointTargetingCampaignResponse applicationId]
+-[AWSPinpointTargetingCampaignResponse setApplicationId:]
+-[AWSPinpointTargetingCampaignResponse creationDate]
+-[AWSPinpointTargetingCampaignResponse setCreationDate:]
+-[AWSPinpointTargetingCampaignResponse defaultState]
+-[AWSPinpointTargetingCampaignResponse setDefaultState:]
+-[AWSPinpointTargetingCampaignResponse detail]
+-[AWSPinpointTargetingCampaignResponse setDetail:]
+-[AWSPinpointTargetingCampaignResponse holdoutPercent]
+-[AWSPinpointTargetingCampaignResponse setHoldoutPercent:]
+-[AWSPinpointTargetingCampaignResponse identifier]
+-[AWSPinpointTargetingCampaignResponse setIdentifier:]
+-[AWSPinpointTargetingCampaignResponse isPaused]
+-[AWSPinpointTargetingCampaignResponse setIsPaused:]
+-[AWSPinpointTargetingCampaignResponse lastModifiedDate]
+-[AWSPinpointTargetingCampaignResponse setLastModifiedDate:]
+-[AWSPinpointTargetingCampaignResponse limits]
+-[AWSPinpointTargetingCampaignResponse setLimits:]
+-[AWSPinpointTargetingCampaignResponse messageConfiguration]
+-[AWSPinpointTargetingCampaignResponse setMessageConfiguration:]
+-[AWSPinpointTargetingCampaignResponse name]
+-[AWSPinpointTargetingCampaignResponse setName:]
+-[AWSPinpointTargetingCampaignResponse schedule]
+-[AWSPinpointTargetingCampaignResponse setSchedule:]
+-[AWSPinpointTargetingCampaignResponse segmentId]
+-[AWSPinpointTargetingCampaignResponse setSegmentId:]
+-[AWSPinpointTargetingCampaignResponse segmentVersion]
+-[AWSPinpointTargetingCampaignResponse setSegmentVersion:]
+-[AWSPinpointTargetingCampaignResponse state]
+-[AWSPinpointTargetingCampaignResponse setState:]
+-[AWSPinpointTargetingCampaignResponse treatmentDescription]
+-[AWSPinpointTargetingCampaignResponse setTreatmentDescription:]
+-[AWSPinpointTargetingCampaignResponse treatmentName]
+-[AWSPinpointTargetingCampaignResponse setTreatmentName:]
+-[AWSPinpointTargetingCampaignResponse version]
+-[AWSPinpointTargetingCampaignResponse setVersion:]
+-[AWSPinpointTargetingCampaignResponse .cxx_destruct]
++[AWSPinpointTargetingCampaignState JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCampaignState campaignStatusJSONTransformer]
+___66+[AWSPinpointTargetingCampaignState campaignStatusJSONTransformer]_block_invoke
+___66+[AWSPinpointTargetingCampaignState campaignStatusJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingCampaignState campaignStatus]
+-[AWSPinpointTargetingCampaignState setCampaignStatus:]
++[AWSPinpointTargetingCampaignsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCampaignsResponse itemJSONTransformer]
+-[AWSPinpointTargetingCampaignsResponse item]
+-[AWSPinpointTargetingCampaignsResponse setItem:]
+-[AWSPinpointTargetingCampaignsResponse nextToken]
+-[AWSPinpointTargetingCampaignsResponse setNextToken:]
+-[AWSPinpointTargetingCampaignsResponse .cxx_destruct]
++[AWSPinpointTargetingCreateCampaignRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateCampaignRequest writeCampaignRequestJSONTransformer]
+-[AWSPinpointTargetingCreateCampaignRequest applicationId]
+-[AWSPinpointTargetingCreateCampaignRequest setApplicationId:]
+-[AWSPinpointTargetingCreateCampaignRequest writeCampaignRequest]
+-[AWSPinpointTargetingCreateCampaignRequest setWriteCampaignRequest:]
+-[AWSPinpointTargetingCreateCampaignRequest .cxx_destruct]
++[AWSPinpointTargetingCreateCampaignResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateCampaignResponse campaignResponseJSONTransformer]
+-[AWSPinpointTargetingCreateCampaignResponse campaignResponse]
+-[AWSPinpointTargetingCreateCampaignResponse setCampaignResponse:]
+-[AWSPinpointTargetingCreateCampaignResponse .cxx_destruct]
++[AWSPinpointTargetingCreateImportJobRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateImportJobRequest importJobRequestJSONTransformer]
+-[AWSPinpointTargetingCreateImportJobRequest applicationId]
+-[AWSPinpointTargetingCreateImportJobRequest setApplicationId:]
+-[AWSPinpointTargetingCreateImportJobRequest importJobRequest]
+-[AWSPinpointTargetingCreateImportJobRequest setImportJobRequest:]
+-[AWSPinpointTargetingCreateImportJobRequest .cxx_destruct]
++[AWSPinpointTargetingCreateImportJobResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateImportJobResponse importJobResponseJSONTransformer]
+-[AWSPinpointTargetingCreateImportJobResponse importJobResponse]
+-[AWSPinpointTargetingCreateImportJobResponse setImportJobResponse:]
+-[AWSPinpointTargetingCreateImportJobResponse .cxx_destruct]
++[AWSPinpointTargetingCreateSegmentRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateSegmentRequest writeSegmentRequestJSONTransformer]
+-[AWSPinpointTargetingCreateSegmentRequest applicationId]
+-[AWSPinpointTargetingCreateSegmentRequest setApplicationId:]
+-[AWSPinpointTargetingCreateSegmentRequest writeSegmentRequest]
+-[AWSPinpointTargetingCreateSegmentRequest setWriteSegmentRequest:]
+-[AWSPinpointTargetingCreateSegmentRequest .cxx_destruct]
++[AWSPinpointTargetingCreateSegmentResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingCreateSegmentResponse segmentResponseJSONTransformer]
+-[AWSPinpointTargetingCreateSegmentResponse segmentResponse]
+-[AWSPinpointTargetingCreateSegmentResponse setSegmentResponse:]
+-[AWSPinpointTargetingCreateSegmentResponse .cxx_destruct]
++[AWSPinpointTargetingDeleteApnsChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingDeleteApnsChannelRequest applicationId]
+-[AWSPinpointTargetingDeleteApnsChannelRequest setApplicationId:]
+-[AWSPinpointTargetingDeleteApnsChannelRequest .cxx_destruct]
++[AWSPinpointTargetingDeleteApnsChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingDeleteApnsChannelResponse APNSChannelResponseJSONTransformer]
+-[AWSPinpointTargetingDeleteApnsChannelResponse APNSChannelResponse]
+-[AWSPinpointTargetingDeleteApnsChannelResponse setAPNSChannelResponse:]
+-[AWSPinpointTargetingDeleteApnsChannelResponse .cxx_destruct]
++[AWSPinpointTargetingDeleteCampaignRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingDeleteCampaignRequest applicationId]
+-[AWSPinpointTargetingDeleteCampaignRequest setApplicationId:]
+-[AWSPinpointTargetingDeleteCampaignRequest campaignId]
+-[AWSPinpointTargetingDeleteCampaignRequest setCampaignId:]
+-[AWSPinpointTargetingDeleteCampaignRequest .cxx_destruct]
++[AWSPinpointTargetingDeleteCampaignResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingDeleteCampaignResponse campaignResponseJSONTransformer]
+-[AWSPinpointTargetingDeleteCampaignResponse campaignResponse]
+-[AWSPinpointTargetingDeleteCampaignResponse setCampaignResponse:]
+-[AWSPinpointTargetingDeleteCampaignResponse .cxx_destruct]
++[AWSPinpointTargetingDeleteGcmChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingDeleteGcmChannelRequest applicationId]
+-[AWSPinpointTargetingDeleteGcmChannelRequest setApplicationId:]
+-[AWSPinpointTargetingDeleteGcmChannelRequest .cxx_destruct]
++[AWSPinpointTargetingDeleteGcmChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingDeleteGcmChannelResponse GCMChannelResponseJSONTransformer]
+-[AWSPinpointTargetingDeleteGcmChannelResponse GCMChannelResponse]
+-[AWSPinpointTargetingDeleteGcmChannelResponse setGCMChannelResponse:]
+-[AWSPinpointTargetingDeleteGcmChannelResponse .cxx_destruct]
++[AWSPinpointTargetingDeleteSegmentRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingDeleteSegmentRequest applicationId]
+-[AWSPinpointTargetingDeleteSegmentRequest setApplicationId:]
+-[AWSPinpointTargetingDeleteSegmentRequest segmentId]
+-[AWSPinpointTargetingDeleteSegmentRequest setSegmentId:]
+-[AWSPinpointTargetingDeleteSegmentRequest .cxx_destruct]
++[AWSPinpointTargetingDeleteSegmentResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingDeleteSegmentResponse segmentResponseJSONTransformer]
+-[AWSPinpointTargetingDeleteSegmentResponse segmentResponse]
+-[AWSPinpointTargetingDeleteSegmentResponse setSegmentResponse:]
+-[AWSPinpointTargetingDeleteSegmentResponse .cxx_destruct]
++[AWSPinpointTargetingEndpointBatchItem JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingEndpointBatchItem channelTypeJSONTransformer]
+___67+[AWSPinpointTargetingEndpointBatchItem channelTypeJSONTransformer]_block_invoke
+___67+[AWSPinpointTargetingEndpointBatchItem channelTypeJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingEndpointBatchItem demographicJSONTransformer]
++[AWSPinpointTargetingEndpointBatchItem locationJSONTransformer]
++[AWSPinpointTargetingEndpointBatchItem userJSONTransformer]
+-[AWSPinpointTargetingEndpointBatchItem address]
+-[AWSPinpointTargetingEndpointBatchItem setAddress:]
+-[AWSPinpointTargetingEndpointBatchItem attributes]
+-[AWSPinpointTargetingEndpointBatchItem setAttributes:]
+-[AWSPinpointTargetingEndpointBatchItem channelType]
+-[AWSPinpointTargetingEndpointBatchItem setChannelType:]
+-[AWSPinpointTargetingEndpointBatchItem demographic]
+-[AWSPinpointTargetingEndpointBatchItem setDemographic:]
+-[AWSPinpointTargetingEndpointBatchItem effectiveDate]
+-[AWSPinpointTargetingEndpointBatchItem setEffectiveDate:]
+-[AWSPinpointTargetingEndpointBatchItem endpointStatus]
+-[AWSPinpointTargetingEndpointBatchItem setEndpointStatus:]
+-[AWSPinpointTargetingEndpointBatchItem identifier]
+-[AWSPinpointTargetingEndpointBatchItem setIdentifier:]
+-[AWSPinpointTargetingEndpointBatchItem location]
+-[AWSPinpointTargetingEndpointBatchItem setLocation:]
+-[AWSPinpointTargetingEndpointBatchItem metrics]
+-[AWSPinpointTargetingEndpointBatchItem setMetrics:]
+-[AWSPinpointTargetingEndpointBatchItem optOut]
+-[AWSPinpointTargetingEndpointBatchItem setOptOut:]
+-[AWSPinpointTargetingEndpointBatchItem requestId]
+-[AWSPinpointTargetingEndpointBatchItem setRequestId:]
+-[AWSPinpointTargetingEndpointBatchItem user]
+-[AWSPinpointTargetingEndpointBatchItem setUser:]
+-[AWSPinpointTargetingEndpointBatchItem .cxx_destruct]
++[AWSPinpointTargetingEndpointBatchRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingEndpointBatchRequest itemJSONTransformer]
+-[AWSPinpointTargetingEndpointBatchRequest item]
+-[AWSPinpointTargetingEndpointBatchRequest setItem:]
+-[AWSPinpointTargetingEndpointBatchRequest .cxx_destruct]
++[AWSPinpointTargetingEndpointDemographic JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingEndpointDemographic appVersion]
+-[AWSPinpointTargetingEndpointDemographic setAppVersion:]
+-[AWSPinpointTargetingEndpointDemographic locale]
+-[AWSPinpointTargetingEndpointDemographic setLocale:]
+-[AWSPinpointTargetingEndpointDemographic make]
+-[AWSPinpointTargetingEndpointDemographic setMake:]
+-[AWSPinpointTargetingEndpointDemographic model]
+-[AWSPinpointTargetingEndpointDemographic setModel:]
+-[AWSPinpointTargetingEndpointDemographic modelVersion]
+-[AWSPinpointTargetingEndpointDemographic setModelVersion:]
+-[AWSPinpointTargetingEndpointDemographic platform]
+-[AWSPinpointTargetingEndpointDemographic setPlatform:]
+-[AWSPinpointTargetingEndpointDemographic platformVersion]
+-[AWSPinpointTargetingEndpointDemographic setPlatformVersion:]
+-[AWSPinpointTargetingEndpointDemographic timezone]
+-[AWSPinpointTargetingEndpointDemographic setTimezone:]
+-[AWSPinpointTargetingEndpointDemographic .cxx_destruct]
++[AWSPinpointTargetingEndpointLocation JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingEndpointLocation city]
+-[AWSPinpointTargetingEndpointLocation setCity:]
+-[AWSPinpointTargetingEndpointLocation country]
+-[AWSPinpointTargetingEndpointLocation setCountry:]
+-[AWSPinpointTargetingEndpointLocation latitude]
+-[AWSPinpointTargetingEndpointLocation setLatitude:]
+-[AWSPinpointTargetingEndpointLocation longitude]
+-[AWSPinpointTargetingEndpointLocation setLongitude:]
+-[AWSPinpointTargetingEndpointLocation postalCode]
+-[AWSPinpointTargetingEndpointLocation setPostalCode:]
+-[AWSPinpointTargetingEndpointLocation region]
+-[AWSPinpointTargetingEndpointLocation setRegion:]
+-[AWSPinpointTargetingEndpointLocation .cxx_destruct]
++[AWSPinpointTargetingEndpointRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingEndpointRequest channelTypeJSONTransformer]
+___65+[AWSPinpointTargetingEndpointRequest channelTypeJSONTransformer]_block_invoke
+___65+[AWSPinpointTargetingEndpointRequest channelTypeJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingEndpointRequest demographicJSONTransformer]
++[AWSPinpointTargetingEndpointRequest locationJSONTransformer]
++[AWSPinpointTargetingEndpointRequest userJSONTransformer]
+-[AWSPinpointTargetingEndpointRequest address]
+-[AWSPinpointTargetingEndpointRequest setAddress:]
+-[AWSPinpointTargetingEndpointRequest attributes]
+-[AWSPinpointTargetingEndpointRequest setAttributes:]
+-[AWSPinpointTargetingEndpointRequest channelType]
+-[AWSPinpointTargetingEndpointRequest setChannelType:]
+-[AWSPinpointTargetingEndpointRequest demographic]
+-[AWSPinpointTargetingEndpointRequest setDemographic:]
+-[AWSPinpointTargetingEndpointRequest effectiveDate]
+-[AWSPinpointTargetingEndpointRequest setEffectiveDate:]
+-[AWSPinpointTargetingEndpointRequest endpointStatus]
+-[AWSPinpointTargetingEndpointRequest setEndpointStatus:]
+-[AWSPinpointTargetingEndpointRequest location]
+-[AWSPinpointTargetingEndpointRequest setLocation:]
+-[AWSPinpointTargetingEndpointRequest metrics]
+-[AWSPinpointTargetingEndpointRequest setMetrics:]
+-[AWSPinpointTargetingEndpointRequest optOut]
+-[AWSPinpointTargetingEndpointRequest setOptOut:]
+-[AWSPinpointTargetingEndpointRequest requestId]
+-[AWSPinpointTargetingEndpointRequest setRequestId:]
+-[AWSPinpointTargetingEndpointRequest user]
+-[AWSPinpointTargetingEndpointRequest setUser:]
+-[AWSPinpointTargetingEndpointRequest .cxx_destruct]
++[AWSPinpointTargetingEndpointResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingEndpointResponse channelTypeJSONTransformer]
+___66+[AWSPinpointTargetingEndpointResponse channelTypeJSONTransformer]_block_invoke
+___66+[AWSPinpointTargetingEndpointResponse channelTypeJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingEndpointResponse demographicJSONTransformer]
++[AWSPinpointTargetingEndpointResponse locationJSONTransformer]
++[AWSPinpointTargetingEndpointResponse userJSONTransformer]
+-[AWSPinpointTargetingEndpointResponse address]
+-[AWSPinpointTargetingEndpointResponse setAddress:]
+-[AWSPinpointTargetingEndpointResponse applicationId]
+-[AWSPinpointTargetingEndpointResponse setApplicationId:]
+-[AWSPinpointTargetingEndpointResponse attributes]
+-[AWSPinpointTargetingEndpointResponse setAttributes:]
+-[AWSPinpointTargetingEndpointResponse channelType]
+-[AWSPinpointTargetingEndpointResponse setChannelType:]
+-[AWSPinpointTargetingEndpointResponse cohortId]
+-[AWSPinpointTargetingEndpointResponse setCohortId:]
+-[AWSPinpointTargetingEndpointResponse creationDate]
+-[AWSPinpointTargetingEndpointResponse setCreationDate:]
+-[AWSPinpointTargetingEndpointResponse demographic]
+-[AWSPinpointTargetingEndpointResponse setDemographic:]
+-[AWSPinpointTargetingEndpointResponse effectiveDate]
+-[AWSPinpointTargetingEndpointResponse setEffectiveDate:]
+-[AWSPinpointTargetingEndpointResponse endpointStatus]
+-[AWSPinpointTargetingEndpointResponse setEndpointStatus:]
+-[AWSPinpointTargetingEndpointResponse identifier]
+-[AWSPinpointTargetingEndpointResponse setIdentifier:]
+-[AWSPinpointTargetingEndpointResponse location]
+-[AWSPinpointTargetingEndpointResponse setLocation:]
+-[AWSPinpointTargetingEndpointResponse metrics]
+-[AWSPinpointTargetingEndpointResponse setMetrics:]
+-[AWSPinpointTargetingEndpointResponse optOut]
+-[AWSPinpointTargetingEndpointResponse setOptOut:]
+-[AWSPinpointTargetingEndpointResponse requestId]
+-[AWSPinpointTargetingEndpointResponse setRequestId:]
+-[AWSPinpointTargetingEndpointResponse shardId]
+-[AWSPinpointTargetingEndpointResponse setShardId:]
+-[AWSPinpointTargetingEndpointResponse user]
+-[AWSPinpointTargetingEndpointResponse setUser:]
+-[AWSPinpointTargetingEndpointResponse .cxx_destruct]
++[AWSPinpointTargetingEndpointUser JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingEndpointUser userAttributes]
+-[AWSPinpointTargetingEndpointUser setUserAttributes:]
+-[AWSPinpointTargetingEndpointUser userId]
+-[AWSPinpointTargetingEndpointUser setUserId:]
+-[AWSPinpointTargetingEndpointUser .cxx_destruct]
++[AWSPinpointTargetingGCMChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGCMChannelRequest apiKey]
+-[AWSPinpointTargetingGCMChannelRequest setApiKey:]
+-[AWSPinpointTargetingGCMChannelRequest .cxx_destruct]
++[AWSPinpointTargetingGCMChannelResponse JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGCMChannelResponse applicationId]
+-[AWSPinpointTargetingGCMChannelResponse setApplicationId:]
+-[AWSPinpointTargetingGCMChannelResponse creationDate]
+-[AWSPinpointTargetingGCMChannelResponse setCreationDate:]
+-[AWSPinpointTargetingGCMChannelResponse credential]
+-[AWSPinpointTargetingGCMChannelResponse setCredential:]
+-[AWSPinpointTargetingGCMChannelResponse identifier]
+-[AWSPinpointTargetingGCMChannelResponse setIdentifier:]
+-[AWSPinpointTargetingGCMChannelResponse isArchived]
+-[AWSPinpointTargetingGCMChannelResponse setIsArchived:]
+-[AWSPinpointTargetingGCMChannelResponse lastModifiedBy]
+-[AWSPinpointTargetingGCMChannelResponse setLastModifiedBy:]
+-[AWSPinpointTargetingGCMChannelResponse lastModifiedDate]
+-[AWSPinpointTargetingGCMChannelResponse setLastModifiedDate:]
+-[AWSPinpointTargetingGCMChannelResponse platform]
+-[AWSPinpointTargetingGCMChannelResponse setPlatform:]
+-[AWSPinpointTargetingGCMChannelResponse version]
+-[AWSPinpointTargetingGCMChannelResponse setVersion:]
+-[AWSPinpointTargetingGCMChannelResponse .cxx_destruct]
++[AWSPinpointTargetingGetApnsChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetApnsChannelRequest applicationId]
+-[AWSPinpointTargetingGetApnsChannelRequest setApplicationId:]
+-[AWSPinpointTargetingGetApnsChannelRequest .cxx_destruct]
++[AWSPinpointTargetingGetApnsChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetApnsChannelResponse APNSChannelResponseJSONTransformer]
+-[AWSPinpointTargetingGetApnsChannelResponse APNSChannelResponse]
+-[AWSPinpointTargetingGetApnsChannelResponse setAPNSChannelResponse:]
+-[AWSPinpointTargetingGetApnsChannelResponse .cxx_destruct]
++[AWSPinpointTargetingGetApplicationSettingsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetApplicationSettingsRequest applicationId]
+-[AWSPinpointTargetingGetApplicationSettingsRequest setApplicationId:]
+-[AWSPinpointTargetingGetApplicationSettingsRequest .cxx_destruct]
++[AWSPinpointTargetingGetApplicationSettingsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetApplicationSettingsResponse applicationSettingsResourceJSONTransformer]
+-[AWSPinpointTargetingGetApplicationSettingsResponse applicationSettingsResource]
+-[AWSPinpointTargetingGetApplicationSettingsResponse setApplicationSettingsResource:]
+-[AWSPinpointTargetingGetApplicationSettingsResponse .cxx_destruct]
++[AWSPinpointTargetingGetCampaignActivitiesRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest applicationId]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest setApplicationId:]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest campaignId]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest setCampaignId:]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest pageSize]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest setPageSize:]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest token]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest setToken:]
+-[AWSPinpointTargetingGetCampaignActivitiesRequest .cxx_destruct]
++[AWSPinpointTargetingGetCampaignActivitiesResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetCampaignActivitiesResponse activitiesResponseJSONTransformer]
+-[AWSPinpointTargetingGetCampaignActivitiesResponse activitiesResponse]
+-[AWSPinpointTargetingGetCampaignActivitiesResponse setActivitiesResponse:]
+-[AWSPinpointTargetingGetCampaignActivitiesResponse .cxx_destruct]
++[AWSPinpointTargetingGetCampaignRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetCampaignRequest applicationId]
+-[AWSPinpointTargetingGetCampaignRequest setApplicationId:]
+-[AWSPinpointTargetingGetCampaignRequest campaignId]
+-[AWSPinpointTargetingGetCampaignRequest setCampaignId:]
+-[AWSPinpointTargetingGetCampaignRequest .cxx_destruct]
++[AWSPinpointTargetingGetCampaignResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetCampaignResponse campaignResponseJSONTransformer]
+-[AWSPinpointTargetingGetCampaignResponse campaignResponse]
+-[AWSPinpointTargetingGetCampaignResponse setCampaignResponse:]
+-[AWSPinpointTargetingGetCampaignResponse .cxx_destruct]
++[AWSPinpointTargetingGetCampaignVersionRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetCampaignVersionRequest applicationId]
+-[AWSPinpointTargetingGetCampaignVersionRequest setApplicationId:]
+-[AWSPinpointTargetingGetCampaignVersionRequest campaignId]
+-[AWSPinpointTargetingGetCampaignVersionRequest setCampaignId:]
+-[AWSPinpointTargetingGetCampaignVersionRequest version]
+-[AWSPinpointTargetingGetCampaignVersionRequest setVersion:]
+-[AWSPinpointTargetingGetCampaignVersionRequest .cxx_destruct]
++[AWSPinpointTargetingGetCampaignVersionResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetCampaignVersionResponse campaignResponseJSONTransformer]
+-[AWSPinpointTargetingGetCampaignVersionResponse campaignResponse]
+-[AWSPinpointTargetingGetCampaignVersionResponse setCampaignResponse:]
+-[AWSPinpointTargetingGetCampaignVersionResponse .cxx_destruct]
++[AWSPinpointTargetingGetCampaignVersionsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetCampaignVersionsRequest applicationId]
+-[AWSPinpointTargetingGetCampaignVersionsRequest setApplicationId:]
+-[AWSPinpointTargetingGetCampaignVersionsRequest campaignId]
+-[AWSPinpointTargetingGetCampaignVersionsRequest setCampaignId:]
+-[AWSPinpointTargetingGetCampaignVersionsRequest pageSize]
+-[AWSPinpointTargetingGetCampaignVersionsRequest setPageSize:]
+-[AWSPinpointTargetingGetCampaignVersionsRequest token]
+-[AWSPinpointTargetingGetCampaignVersionsRequest setToken:]
+-[AWSPinpointTargetingGetCampaignVersionsRequest .cxx_destruct]
++[AWSPinpointTargetingGetCampaignVersionsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetCampaignVersionsResponse campaignsResponseJSONTransformer]
+-[AWSPinpointTargetingGetCampaignVersionsResponse campaignsResponse]
+-[AWSPinpointTargetingGetCampaignVersionsResponse setCampaignsResponse:]
+-[AWSPinpointTargetingGetCampaignVersionsResponse .cxx_destruct]
++[AWSPinpointTargetingGetCampaignsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetCampaignsRequest applicationId]
+-[AWSPinpointTargetingGetCampaignsRequest setApplicationId:]
+-[AWSPinpointTargetingGetCampaignsRequest pageSize]
+-[AWSPinpointTargetingGetCampaignsRequest setPageSize:]
+-[AWSPinpointTargetingGetCampaignsRequest token]
+-[AWSPinpointTargetingGetCampaignsRequest setToken:]
+-[AWSPinpointTargetingGetCampaignsRequest .cxx_destruct]
++[AWSPinpointTargetingGetCampaignsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetCampaignsResponse campaignsResponseJSONTransformer]
+-[AWSPinpointTargetingGetCampaignsResponse campaignsResponse]
+-[AWSPinpointTargetingGetCampaignsResponse setCampaignsResponse:]
+-[AWSPinpointTargetingGetCampaignsResponse .cxx_destruct]
++[AWSPinpointTargetingGetEndpointRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetEndpointRequest applicationId]
+-[AWSPinpointTargetingGetEndpointRequest setApplicationId:]
+-[AWSPinpointTargetingGetEndpointRequest endpointId]
+-[AWSPinpointTargetingGetEndpointRequest setEndpointId:]
+-[AWSPinpointTargetingGetEndpointRequest .cxx_destruct]
++[AWSPinpointTargetingGetEndpointResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetEndpointResponse endpointResponseJSONTransformer]
+-[AWSPinpointTargetingGetEndpointResponse endpointResponse]
+-[AWSPinpointTargetingGetEndpointResponse setEndpointResponse:]
+-[AWSPinpointTargetingGetEndpointResponse .cxx_destruct]
++[AWSPinpointTargetingGetGcmChannelRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetGcmChannelRequest applicationId]
+-[AWSPinpointTargetingGetGcmChannelRequest setApplicationId:]
+-[AWSPinpointTargetingGetGcmChannelRequest .cxx_destruct]
++[AWSPinpointTargetingGetGcmChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetGcmChannelResponse GCMChannelResponseJSONTransformer]
+-[AWSPinpointTargetingGetGcmChannelResponse GCMChannelResponse]
+-[AWSPinpointTargetingGetGcmChannelResponse setGCMChannelResponse:]
+-[AWSPinpointTargetingGetGcmChannelResponse .cxx_destruct]
++[AWSPinpointTargetingGetImportJobRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetImportJobRequest applicationId]
+-[AWSPinpointTargetingGetImportJobRequest setApplicationId:]
+-[AWSPinpointTargetingGetImportJobRequest jobId]
+-[AWSPinpointTargetingGetImportJobRequest setJobId:]
+-[AWSPinpointTargetingGetImportJobRequest .cxx_destruct]
++[AWSPinpointTargetingGetImportJobResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetImportJobResponse importJobResponseJSONTransformer]
+-[AWSPinpointTargetingGetImportJobResponse importJobResponse]
+-[AWSPinpointTargetingGetImportJobResponse setImportJobResponse:]
+-[AWSPinpointTargetingGetImportJobResponse .cxx_destruct]
++[AWSPinpointTargetingGetImportJobsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetImportJobsRequest applicationId]
+-[AWSPinpointTargetingGetImportJobsRequest setApplicationId:]
+-[AWSPinpointTargetingGetImportJobsRequest pageSize]
+-[AWSPinpointTargetingGetImportJobsRequest setPageSize:]
+-[AWSPinpointTargetingGetImportJobsRequest token]
+-[AWSPinpointTargetingGetImportJobsRequest setToken:]
+-[AWSPinpointTargetingGetImportJobsRequest .cxx_destruct]
++[AWSPinpointTargetingGetImportJobsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetImportJobsResponse importJobsResponseJSONTransformer]
+-[AWSPinpointTargetingGetImportJobsResponse importJobsResponse]
+-[AWSPinpointTargetingGetImportJobsResponse setImportJobsResponse:]
+-[AWSPinpointTargetingGetImportJobsResponse .cxx_destruct]
++[AWSPinpointTargetingGetSegmentImportJobsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest applicationId]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest setApplicationId:]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest pageSize]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest setPageSize:]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest segmentId]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest setSegmentId:]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest token]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest setToken:]
+-[AWSPinpointTargetingGetSegmentImportJobsRequest .cxx_destruct]
++[AWSPinpointTargetingGetSegmentImportJobsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetSegmentImportJobsResponse importJobsResponseJSONTransformer]
+-[AWSPinpointTargetingGetSegmentImportJobsResponse importJobsResponse]
+-[AWSPinpointTargetingGetSegmentImportJobsResponse setImportJobsResponse:]
+-[AWSPinpointTargetingGetSegmentImportJobsResponse .cxx_destruct]
++[AWSPinpointTargetingGetSegmentRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetSegmentRequest applicationId]
+-[AWSPinpointTargetingGetSegmentRequest setApplicationId:]
+-[AWSPinpointTargetingGetSegmentRequest segmentId]
+-[AWSPinpointTargetingGetSegmentRequest setSegmentId:]
+-[AWSPinpointTargetingGetSegmentRequest .cxx_destruct]
++[AWSPinpointTargetingGetSegmentResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetSegmentResponse segmentResponseJSONTransformer]
+-[AWSPinpointTargetingGetSegmentResponse segmentResponse]
+-[AWSPinpointTargetingGetSegmentResponse setSegmentResponse:]
+-[AWSPinpointTargetingGetSegmentResponse .cxx_destruct]
++[AWSPinpointTargetingGetSegmentVersionRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetSegmentVersionRequest applicationId]
+-[AWSPinpointTargetingGetSegmentVersionRequest setApplicationId:]
+-[AWSPinpointTargetingGetSegmentVersionRequest segmentId]
+-[AWSPinpointTargetingGetSegmentVersionRequest setSegmentId:]
+-[AWSPinpointTargetingGetSegmentVersionRequest version]
+-[AWSPinpointTargetingGetSegmentVersionRequest setVersion:]
+-[AWSPinpointTargetingGetSegmentVersionRequest .cxx_destruct]
++[AWSPinpointTargetingGetSegmentVersionResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetSegmentVersionResponse segmentResponseJSONTransformer]
+-[AWSPinpointTargetingGetSegmentVersionResponse segmentResponse]
+-[AWSPinpointTargetingGetSegmentVersionResponse setSegmentResponse:]
+-[AWSPinpointTargetingGetSegmentVersionResponse .cxx_destruct]
++[AWSPinpointTargetingGetSegmentVersionsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetSegmentVersionsRequest applicationId]
+-[AWSPinpointTargetingGetSegmentVersionsRequest setApplicationId:]
+-[AWSPinpointTargetingGetSegmentVersionsRequest pageSize]
+-[AWSPinpointTargetingGetSegmentVersionsRequest setPageSize:]
+-[AWSPinpointTargetingGetSegmentVersionsRequest segmentId]
+-[AWSPinpointTargetingGetSegmentVersionsRequest setSegmentId:]
+-[AWSPinpointTargetingGetSegmentVersionsRequest token]
+-[AWSPinpointTargetingGetSegmentVersionsRequest setToken:]
+-[AWSPinpointTargetingGetSegmentVersionsRequest .cxx_destruct]
++[AWSPinpointTargetingGetSegmentVersionsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetSegmentVersionsResponse segmentsResponseJSONTransformer]
+-[AWSPinpointTargetingGetSegmentVersionsResponse segmentsResponse]
+-[AWSPinpointTargetingGetSegmentVersionsResponse setSegmentsResponse:]
+-[AWSPinpointTargetingGetSegmentVersionsResponse .cxx_destruct]
++[AWSPinpointTargetingGetSegmentsRequest JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingGetSegmentsRequest applicationId]
+-[AWSPinpointTargetingGetSegmentsRequest setApplicationId:]
+-[AWSPinpointTargetingGetSegmentsRequest pageSize]
+-[AWSPinpointTargetingGetSegmentsRequest setPageSize:]
+-[AWSPinpointTargetingGetSegmentsRequest token]
+-[AWSPinpointTargetingGetSegmentsRequest setToken:]
+-[AWSPinpointTargetingGetSegmentsRequest .cxx_destruct]
++[AWSPinpointTargetingGetSegmentsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingGetSegmentsResponse segmentsResponseJSONTransformer]
+-[AWSPinpointTargetingGetSegmentsResponse segmentsResponse]
+-[AWSPinpointTargetingGetSegmentsResponse setSegmentsResponse:]
+-[AWSPinpointTargetingGetSegmentsResponse .cxx_destruct]
++[AWSPinpointTargetingImportJobRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingImportJobRequest formatJSONTransformer]
+___61+[AWSPinpointTargetingImportJobRequest formatJSONTransformer]_block_invoke
+___61+[AWSPinpointTargetingImportJobRequest formatJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingImportJobRequest defineSegment]
+-[AWSPinpointTargetingImportJobRequest setDefineSegment:]
+-[AWSPinpointTargetingImportJobRequest externalId]
+-[AWSPinpointTargetingImportJobRequest setExternalId:]
+-[AWSPinpointTargetingImportJobRequest format]
+-[AWSPinpointTargetingImportJobRequest setFormat:]
+-[AWSPinpointTargetingImportJobRequest registerEndpoints]
+-[AWSPinpointTargetingImportJobRequest setRegisterEndpoints:]
+-[AWSPinpointTargetingImportJobRequest roleArn]
+-[AWSPinpointTargetingImportJobRequest setRoleArn:]
+-[AWSPinpointTargetingImportJobRequest s3Url]
+-[AWSPinpointTargetingImportJobRequest setS3Url:]
+-[AWSPinpointTargetingImportJobRequest segmentId]
+-[AWSPinpointTargetingImportJobRequest setSegmentId:]
+-[AWSPinpointTargetingImportJobRequest segmentName]
+-[AWSPinpointTargetingImportJobRequest setSegmentName:]
+-[AWSPinpointTargetingImportJobRequest .cxx_destruct]
++[AWSPinpointTargetingImportJobResource JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingImportJobResource formatJSONTransformer]
+___62+[AWSPinpointTargetingImportJobResource formatJSONTransformer]_block_invoke
+___62+[AWSPinpointTargetingImportJobResource formatJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingImportJobResource defineSegment]
+-[AWSPinpointTargetingImportJobResource setDefineSegment:]
+-[AWSPinpointTargetingImportJobResource externalId]
+-[AWSPinpointTargetingImportJobResource setExternalId:]
+-[AWSPinpointTargetingImportJobResource format]
+-[AWSPinpointTargetingImportJobResource setFormat:]
+-[AWSPinpointTargetingImportJobResource registerEndpoints]
+-[AWSPinpointTargetingImportJobResource setRegisterEndpoints:]
+-[AWSPinpointTargetingImportJobResource roleArn]
+-[AWSPinpointTargetingImportJobResource setRoleArn:]
+-[AWSPinpointTargetingImportJobResource s3Url]
+-[AWSPinpointTargetingImportJobResource setS3Url:]
+-[AWSPinpointTargetingImportJobResource segmentId]
+-[AWSPinpointTargetingImportJobResource setSegmentId:]
+-[AWSPinpointTargetingImportJobResource segmentName]
+-[AWSPinpointTargetingImportJobResource setSegmentName:]
+-[AWSPinpointTargetingImportJobResource .cxx_destruct]
++[AWSPinpointTargetingImportJobResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingImportJobResponse definitionJSONTransformer]
++[AWSPinpointTargetingImportJobResponse jobStatusJSONTransformer]
+___65+[AWSPinpointTargetingImportJobResponse jobStatusJSONTransformer]_block_invoke
+___65+[AWSPinpointTargetingImportJobResponse jobStatusJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingImportJobResponse applicationId]
+-[AWSPinpointTargetingImportJobResponse setApplicationId:]
+-[AWSPinpointTargetingImportJobResponse completedPieces]
+-[AWSPinpointTargetingImportJobResponse setCompletedPieces:]
+-[AWSPinpointTargetingImportJobResponse completionDate]
+-[AWSPinpointTargetingImportJobResponse setCompletionDate:]
+-[AWSPinpointTargetingImportJobResponse creationDate]
+-[AWSPinpointTargetingImportJobResponse setCreationDate:]
+-[AWSPinpointTargetingImportJobResponse definition]
+-[AWSPinpointTargetingImportJobResponse setDefinition:]
+-[AWSPinpointTargetingImportJobResponse failedPieces]
+-[AWSPinpointTargetingImportJobResponse setFailedPieces:]
+-[AWSPinpointTargetingImportJobResponse failures]
+-[AWSPinpointTargetingImportJobResponse setFailures:]
+-[AWSPinpointTargetingImportJobResponse identifier]
+-[AWSPinpointTargetingImportJobResponse setIdentifier:]
+-[AWSPinpointTargetingImportJobResponse jobStatus]
+-[AWSPinpointTargetingImportJobResponse setJobStatus:]
+-[AWSPinpointTargetingImportJobResponse totalFailures]
+-[AWSPinpointTargetingImportJobResponse setTotalFailures:]
+-[AWSPinpointTargetingImportJobResponse totalPieces]
+-[AWSPinpointTargetingImportJobResponse setTotalPieces:]
+-[AWSPinpointTargetingImportJobResponse totalProcessed]
+-[AWSPinpointTargetingImportJobResponse setTotalProcessed:]
+-[AWSPinpointTargetingImportJobResponse types]
+-[AWSPinpointTargetingImportJobResponse setTypes:]
+-[AWSPinpointTargetingImportJobResponse .cxx_destruct]
++[AWSPinpointTargetingImportJobsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingImportJobsResponse itemJSONTransformer]
+-[AWSPinpointTargetingImportJobsResponse item]
+-[AWSPinpointTargetingImportJobsResponse setItem:]
+-[AWSPinpointTargetingImportJobsResponse nextToken]
+-[AWSPinpointTargetingImportJobsResponse setNextToken:]
+-[AWSPinpointTargetingImportJobsResponse .cxx_destruct]
++[AWSPinpointTargetingMessage JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingMessage actionJSONTransformer]
+___52+[AWSPinpointTargetingMessage actionJSONTransformer]_block_invoke
+___52+[AWSPinpointTargetingMessage actionJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingMessage action]
+-[AWSPinpointTargetingMessage setAction:]
+-[AWSPinpointTargetingMessage body]
+-[AWSPinpointTargetingMessage setBody:]
+-[AWSPinpointTargetingMessage imageIconUrl]
+-[AWSPinpointTargetingMessage setImageIconUrl:]
+-[AWSPinpointTargetingMessage imageUrl]
+-[AWSPinpointTargetingMessage setImageUrl:]
+-[AWSPinpointTargetingMessage jsonBody]
+-[AWSPinpointTargetingMessage setJsonBody:]
+-[AWSPinpointTargetingMessage mediaUrl]
+-[AWSPinpointTargetingMessage setMediaUrl:]
+-[AWSPinpointTargetingMessage silentPush]
+-[AWSPinpointTargetingMessage setSilentPush:]
+-[AWSPinpointTargetingMessage title]
+-[AWSPinpointTargetingMessage setTitle:]
+-[AWSPinpointTargetingMessage url]
+-[AWSPinpointTargetingMessage setUrl:]
+-[AWSPinpointTargetingMessage .cxx_destruct]
++[AWSPinpointTargetingMessageBody JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingMessageBody message]
+-[AWSPinpointTargetingMessageBody setMessage:]
+-[AWSPinpointTargetingMessageBody requestID]
+-[AWSPinpointTargetingMessageBody setRequestID:]
+-[AWSPinpointTargetingMessageBody .cxx_destruct]
++[AWSPinpointTargetingMessageConfiguration JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingMessageConfiguration APNSMessageJSONTransformer]
++[AWSPinpointTargetingMessageConfiguration defaultMessageJSONTransformer]
++[AWSPinpointTargetingMessageConfiguration GCMMessageJSONTransformer]
+-[AWSPinpointTargetingMessageConfiguration APNSMessage]
+-[AWSPinpointTargetingMessageConfiguration setAPNSMessage:]
+-[AWSPinpointTargetingMessageConfiguration defaultMessage]
+-[AWSPinpointTargetingMessageConfiguration setDefaultMessage:]
+-[AWSPinpointTargetingMessageConfiguration GCMMessage]
+-[AWSPinpointTargetingMessageConfiguration setGCMMessage:]
+-[AWSPinpointTargetingMessageConfiguration .cxx_destruct]
++[AWSPinpointTargetingQuietTime JSONKeyPathsByPropertyKey]
+-[AWSPinpointTargetingQuietTime end]
+-[AWSPinpointTargetingQuietTime setEnd:]
+-[AWSPinpointTargetingQuietTime start]
+-[AWSPinpointTargetingQuietTime setStart:]
+-[AWSPinpointTargetingQuietTime .cxx_destruct]
++[AWSPinpointTargetingRecencyDimension JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingRecencyDimension durationJSONTransformer]
+___63+[AWSPinpointTargetingRecencyDimension durationJSONTransformer]_block_invoke
+___63+[AWSPinpointTargetingRecencyDimension durationJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingRecencyDimension recencyTypeJSONTransformer]
+___66+[AWSPinpointTargetingRecencyDimension recencyTypeJSONTransformer]_block_invoke
+___66+[AWSPinpointTargetingRecencyDimension recencyTypeJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingRecencyDimension duration]
+-[AWSPinpointTargetingRecencyDimension setDuration:]
+-[AWSPinpointTargetingRecencyDimension recencyType]
+-[AWSPinpointTargetingRecencyDimension setRecencyType:]
++[AWSPinpointTargetingSchedule JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSchedule frequencyJSONTransformer]
+___56+[AWSPinpointTargetingSchedule frequencyJSONTransformer]_block_invoke
+___56+[AWSPinpointTargetingSchedule frequencyJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingSchedule quietTimeJSONTransformer]
+-[AWSPinpointTargetingSchedule endTime]
+-[AWSPinpointTargetingSchedule setEndTime:]
+-[AWSPinpointTargetingSchedule frequency]
+-[AWSPinpointTargetingSchedule setFrequency:]
+-[AWSPinpointTargetingSchedule isLocalTime]
+-[AWSPinpointTargetingSchedule setIsLocalTime:]
+-[AWSPinpointTargetingSchedule quietTime]
+-[AWSPinpointTargetingSchedule setQuietTime:]
+-[AWSPinpointTargetingSchedule startTime]
+-[AWSPinpointTargetingSchedule setStartTime:]
+-[AWSPinpointTargetingSchedule timezone]
+-[AWSPinpointTargetingSchedule setTimezone:]
+-[AWSPinpointTargetingSchedule .cxx_destruct]
++[AWSPinpointTargetingSegmentBehaviors JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentBehaviors recencyJSONTransformer]
+-[AWSPinpointTargetingSegmentBehaviors recency]
+-[AWSPinpointTargetingSegmentBehaviors setRecency:]
+-[AWSPinpointTargetingSegmentBehaviors .cxx_destruct]
++[AWSPinpointTargetingSegmentDemographics JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentDemographics appVersionJSONTransformer]
++[AWSPinpointTargetingSegmentDemographics deviceTypeJSONTransformer]
++[AWSPinpointTargetingSegmentDemographics makeJSONTransformer]
++[AWSPinpointTargetingSegmentDemographics modelJSONTransformer]
++[AWSPinpointTargetingSegmentDemographics platformJSONTransformer]
+-[AWSPinpointTargetingSegmentDemographics appVersion]
+-[AWSPinpointTargetingSegmentDemographics setAppVersion:]
+-[AWSPinpointTargetingSegmentDemographics deviceType]
+-[AWSPinpointTargetingSegmentDemographics setDeviceType:]
+-[AWSPinpointTargetingSegmentDemographics make]
+-[AWSPinpointTargetingSegmentDemographics setMake:]
+-[AWSPinpointTargetingSegmentDemographics model]
+-[AWSPinpointTargetingSegmentDemographics setModel:]
+-[AWSPinpointTargetingSegmentDemographics platform]
+-[AWSPinpointTargetingSegmentDemographics setPlatform:]
+-[AWSPinpointTargetingSegmentDemographics .cxx_destruct]
++[AWSPinpointTargetingSegmentDimensions JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentDimensions attributesJSONTransformer]
+___66+[AWSPinpointTargetingSegmentDimensions attributesJSONTransformer]_block_invoke
+___66+[AWSPinpointTargetingSegmentDimensions attributesJSONTransformer]_block_invoke_2
++[AWSPinpointTargetingSegmentDimensions behaviorJSONTransformer]
++[AWSPinpointTargetingSegmentDimensions demographicJSONTransformer]
++[AWSPinpointTargetingSegmentDimensions locationJSONTransformer]
+-[AWSPinpointTargetingSegmentDimensions attributes]
+-[AWSPinpointTargetingSegmentDimensions setAttributes:]
+-[AWSPinpointTargetingSegmentDimensions behavior]
+-[AWSPinpointTargetingSegmentDimensions setBehavior:]
+-[AWSPinpointTargetingSegmentDimensions demographic]
+-[AWSPinpointTargetingSegmentDimensions setDemographic:]
+-[AWSPinpointTargetingSegmentDimensions location]
+-[AWSPinpointTargetingSegmentDimensions setLocation:]
+-[AWSPinpointTargetingSegmentDimensions .cxx_destruct]
++[AWSPinpointTargetingSegmentImportResource JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentImportResource formatJSONTransformer]
+___66+[AWSPinpointTargetingSegmentImportResource formatJSONTransformer]_block_invoke
+___66+[AWSPinpointTargetingSegmentImportResource formatJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingSegmentImportResource externalId]
+-[AWSPinpointTargetingSegmentImportResource setExternalId:]
+-[AWSPinpointTargetingSegmentImportResource format]
+-[AWSPinpointTargetingSegmentImportResource setFormat:]
+-[AWSPinpointTargetingSegmentImportResource roleArn]
+-[AWSPinpointTargetingSegmentImportResource setRoleArn:]
+-[AWSPinpointTargetingSegmentImportResource s3Url]
+-[AWSPinpointTargetingSegmentImportResource setS3Url:]
+-[AWSPinpointTargetingSegmentImportResource size]
+-[AWSPinpointTargetingSegmentImportResource setSize:]
+-[AWSPinpointTargetingSegmentImportResource .cxx_destruct]
++[AWSPinpointTargetingSegmentLocation JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentLocation countryJSONTransformer]
+-[AWSPinpointTargetingSegmentLocation country]
+-[AWSPinpointTargetingSegmentLocation setCountry:]
+-[AWSPinpointTargetingSegmentLocation .cxx_destruct]
++[AWSPinpointTargetingSegmentResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentResponse dimensionsJSONTransformer]
++[AWSPinpointTargetingSegmentResponse importDefinitionJSONTransformer]
++[AWSPinpointTargetingSegmentResponse segmentTypeJSONTransformer]
+___65+[AWSPinpointTargetingSegmentResponse segmentTypeJSONTransformer]_block_invoke
+___65+[AWSPinpointTargetingSegmentResponse segmentTypeJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingSegmentResponse applicationId]
+-[AWSPinpointTargetingSegmentResponse setApplicationId:]
+-[AWSPinpointTargetingSegmentResponse creationDate]
+-[AWSPinpointTargetingSegmentResponse setCreationDate:]
+-[AWSPinpointTargetingSegmentResponse dimensions]
+-[AWSPinpointTargetingSegmentResponse setDimensions:]
+-[AWSPinpointTargetingSegmentResponse identifier]
+-[AWSPinpointTargetingSegmentResponse setIdentifier:]
+-[AWSPinpointTargetingSegmentResponse importDefinition]
+-[AWSPinpointTargetingSegmentResponse setImportDefinition:]
+-[AWSPinpointTargetingSegmentResponse lastModifiedDate]
+-[AWSPinpointTargetingSegmentResponse setLastModifiedDate:]
+-[AWSPinpointTargetingSegmentResponse name]
+-[AWSPinpointTargetingSegmentResponse setName:]
+-[AWSPinpointTargetingSegmentResponse segmentType]
+-[AWSPinpointTargetingSegmentResponse setSegmentType:]
+-[AWSPinpointTargetingSegmentResponse version]
+-[AWSPinpointTargetingSegmentResponse setVersion:]
+-[AWSPinpointTargetingSegmentResponse .cxx_destruct]
++[AWSPinpointTargetingSegmentsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSegmentsResponse itemJSONTransformer]
+-[AWSPinpointTargetingSegmentsResponse item]
+-[AWSPinpointTargetingSegmentsResponse setItem:]
+-[AWSPinpointTargetingSegmentsResponse nextToken]
+-[AWSPinpointTargetingSegmentsResponse setNextToken:]
+-[AWSPinpointTargetingSegmentsResponse .cxx_destruct]
++[AWSPinpointTargetingSetDimension JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingSetDimension dimensionTypeJSONTransformer]
+___64+[AWSPinpointTargetingSetDimension dimensionTypeJSONTransformer]_block_invoke
+___64+[AWSPinpointTargetingSetDimension dimensionTypeJSONTransformer]_block_invoke_2
+-[AWSPinpointTargetingSetDimension dimensionType]
+-[AWSPinpointTargetingSetDimension setDimensionType:]
+-[AWSPinpointTargetingSetDimension values]
+-[AWSPinpointTargetingSetDimension setValues:]
+-[AWSPinpointTargetingSetDimension .cxx_destruct]
++[AWSPinpointTargetingTreatmentResource JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingTreatmentResource messageConfigurationJSONTransformer]
++[AWSPinpointTargetingTreatmentResource scheduleJSONTransformer]
++[AWSPinpointTargetingTreatmentResource stateJSONTransformer]
+-[AWSPinpointTargetingTreatmentResource identifier]
+-[AWSPinpointTargetingTreatmentResource setIdentifier:]
+-[AWSPinpointTargetingTreatmentResource messageConfiguration]
+-[AWSPinpointTargetingTreatmentResource setMessageConfiguration:]
+-[AWSPinpointTargetingTreatmentResource schedule]
+-[AWSPinpointTargetingTreatmentResource setSchedule:]
+-[AWSPinpointTargetingTreatmentResource sizePercent]
+-[AWSPinpointTargetingTreatmentResource setSizePercent:]
+-[AWSPinpointTargetingTreatmentResource state]
+-[AWSPinpointTargetingTreatmentResource setState:]
+-[AWSPinpointTargetingTreatmentResource treatmentDescription]
+-[AWSPinpointTargetingTreatmentResource setTreatmentDescription:]
+-[AWSPinpointTargetingTreatmentResource treatmentName]
+-[AWSPinpointTargetingTreatmentResource setTreatmentName:]
+-[AWSPinpointTargetingTreatmentResource .cxx_destruct]
++[AWSPinpointTargetingUpdateApnsChannelRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateApnsChannelRequest APNSChannelRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateApnsChannelRequest APNSChannelRequest]
+-[AWSPinpointTargetingUpdateApnsChannelRequest setAPNSChannelRequest:]
+-[AWSPinpointTargetingUpdateApnsChannelRequest applicationId]
+-[AWSPinpointTargetingUpdateApnsChannelRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateApnsChannelRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateApnsChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateApnsChannelResponse APNSChannelResponseJSONTransformer]
+-[AWSPinpointTargetingUpdateApnsChannelResponse APNSChannelResponse]
+-[AWSPinpointTargetingUpdateApnsChannelResponse setAPNSChannelResponse:]
+-[AWSPinpointTargetingUpdateApnsChannelResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateApplicationSettingsRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateApplicationSettingsRequest writeApplicationSettingsRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateApplicationSettingsRequest applicationId]
+-[AWSPinpointTargetingUpdateApplicationSettingsRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateApplicationSettingsRequest writeApplicationSettingsRequest]
+-[AWSPinpointTargetingUpdateApplicationSettingsRequest setWriteApplicationSettingsRequest:]
+-[AWSPinpointTargetingUpdateApplicationSettingsRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateApplicationSettingsResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateApplicationSettingsResponse applicationSettingsResourceJSONTransformer]
+-[AWSPinpointTargetingUpdateApplicationSettingsResponse applicationSettingsResource]
+-[AWSPinpointTargetingUpdateApplicationSettingsResponse setApplicationSettingsResource:]
+-[AWSPinpointTargetingUpdateApplicationSettingsResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateCampaignRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateCampaignRequest writeCampaignRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateCampaignRequest applicationId]
+-[AWSPinpointTargetingUpdateCampaignRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateCampaignRequest campaignId]
+-[AWSPinpointTargetingUpdateCampaignRequest setCampaignId:]
+-[AWSPinpointTargetingUpdateCampaignRequest writeCampaignRequest]
+-[AWSPinpointTargetingUpdateCampaignRequest setWriteCampaignRequest:]
+-[AWSPinpointTargetingUpdateCampaignRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateCampaignResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateCampaignResponse campaignResponseJSONTransformer]
+-[AWSPinpointTargetingUpdateCampaignResponse campaignResponse]
+-[AWSPinpointTargetingUpdateCampaignResponse setCampaignResponse:]
+-[AWSPinpointTargetingUpdateCampaignResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateEndpointRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateEndpointRequest endpointRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateEndpointRequest applicationId]
+-[AWSPinpointTargetingUpdateEndpointRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateEndpointRequest endpointId]
+-[AWSPinpointTargetingUpdateEndpointRequest setEndpointId:]
+-[AWSPinpointTargetingUpdateEndpointRequest endpointRequest]
+-[AWSPinpointTargetingUpdateEndpointRequest setEndpointRequest:]
+-[AWSPinpointTargetingUpdateEndpointRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateEndpointResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateEndpointResponse messageBodyJSONTransformer]
+-[AWSPinpointTargetingUpdateEndpointResponse messageBody]
+-[AWSPinpointTargetingUpdateEndpointResponse setMessageBody:]
+-[AWSPinpointTargetingUpdateEndpointResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateEndpointsBatchRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateEndpointsBatchRequest endpointBatchRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateEndpointsBatchRequest applicationId]
+-[AWSPinpointTargetingUpdateEndpointsBatchRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateEndpointsBatchRequest endpointBatchRequest]
+-[AWSPinpointTargetingUpdateEndpointsBatchRequest setEndpointBatchRequest:]
+-[AWSPinpointTargetingUpdateEndpointsBatchRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateEndpointsBatchResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateEndpointsBatchResponse messageBodyJSONTransformer]
+-[AWSPinpointTargetingUpdateEndpointsBatchResponse messageBody]
+-[AWSPinpointTargetingUpdateEndpointsBatchResponse setMessageBody:]
+-[AWSPinpointTargetingUpdateEndpointsBatchResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateGcmChannelRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateGcmChannelRequest GCMChannelRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateGcmChannelRequest applicationId]
+-[AWSPinpointTargetingUpdateGcmChannelRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateGcmChannelRequest GCMChannelRequest]
+-[AWSPinpointTargetingUpdateGcmChannelRequest setGCMChannelRequest:]
+-[AWSPinpointTargetingUpdateGcmChannelRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateGcmChannelResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateGcmChannelResponse GCMChannelResponseJSONTransformer]
+-[AWSPinpointTargetingUpdateGcmChannelResponse GCMChannelResponse]
+-[AWSPinpointTargetingUpdateGcmChannelResponse setGCMChannelResponse:]
+-[AWSPinpointTargetingUpdateGcmChannelResponse .cxx_destruct]
++[AWSPinpointTargetingUpdateSegmentRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateSegmentRequest writeSegmentRequestJSONTransformer]
+-[AWSPinpointTargetingUpdateSegmentRequest applicationId]
+-[AWSPinpointTargetingUpdateSegmentRequest setApplicationId:]
+-[AWSPinpointTargetingUpdateSegmentRequest segmentId]
+-[AWSPinpointTargetingUpdateSegmentRequest setSegmentId:]
+-[AWSPinpointTargetingUpdateSegmentRequest writeSegmentRequest]
+-[AWSPinpointTargetingUpdateSegmentRequest setWriteSegmentRequest:]
+-[AWSPinpointTargetingUpdateSegmentRequest .cxx_destruct]
++[AWSPinpointTargetingUpdateSegmentResponse JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingUpdateSegmentResponse segmentResponseJSONTransformer]
+-[AWSPinpointTargetingUpdateSegmentResponse segmentResponse]
+-[AWSPinpointTargetingUpdateSegmentResponse setSegmentResponse:]
+-[AWSPinpointTargetingUpdateSegmentResponse .cxx_destruct]
++[AWSPinpointTargetingWriteApplicationSettingsRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingWriteApplicationSettingsRequest limitsJSONTransformer]
++[AWSPinpointTargetingWriteApplicationSettingsRequest quietTimeJSONTransformer]
+-[AWSPinpointTargetingWriteApplicationSettingsRequest limits]
+-[AWSPinpointTargetingWriteApplicationSettingsRequest setLimits:]
+-[AWSPinpointTargetingWriteApplicationSettingsRequest quietTime]
+-[AWSPinpointTargetingWriteApplicationSettingsRequest setQuietTime:]
+-[AWSPinpointTargetingWriteApplicationSettingsRequest .cxx_destruct]
++[AWSPinpointTargetingWriteCampaignRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingWriteCampaignRequest additionalTreatmentsJSONTransformer]
++[AWSPinpointTargetingWriteCampaignRequest limitsJSONTransformer]
++[AWSPinpointTargetingWriteCampaignRequest messageConfigurationJSONTransformer]
++[AWSPinpointTargetingWriteCampaignRequest scheduleJSONTransformer]
+-[AWSPinpointTargetingWriteCampaignRequest additionalTreatments]
+-[AWSPinpointTargetingWriteCampaignRequest setAdditionalTreatments:]
+-[AWSPinpointTargetingWriteCampaignRequest detail]
+-[AWSPinpointTargetingWriteCampaignRequest setDetail:]
+-[AWSPinpointTargetingWriteCampaignRequest holdoutPercent]
+-[AWSPinpointTargetingWriteCampaignRequest setHoldoutPercent:]
+-[AWSPinpointTargetingWriteCampaignRequest isPaused]
+-[AWSPinpointTargetingWriteCampaignRequest setIsPaused:]
+-[AWSPinpointTargetingWriteCampaignRequest limits]
+-[AWSPinpointTargetingWriteCampaignRequest setLimits:]
+-[AWSPinpointTargetingWriteCampaignRequest messageConfiguration]
+-[AWSPinpointTargetingWriteCampaignRequest setMessageConfiguration:]
+-[AWSPinpointTargetingWriteCampaignRequest name]
+-[AWSPinpointTargetingWriteCampaignRequest setName:]
+-[AWSPinpointTargetingWriteCampaignRequest schedule]
+-[AWSPinpointTargetingWriteCampaignRequest setSchedule:]
+-[AWSPinpointTargetingWriteCampaignRequest segmentId]
+-[AWSPinpointTargetingWriteCampaignRequest setSegmentId:]
+-[AWSPinpointTargetingWriteCampaignRequest segmentVersion]
+-[AWSPinpointTargetingWriteCampaignRequest setSegmentVersion:]
+-[AWSPinpointTargetingWriteCampaignRequest treatmentDescription]
+-[AWSPinpointTargetingWriteCampaignRequest setTreatmentDescription:]
+-[AWSPinpointTargetingWriteCampaignRequest treatmentName]
+-[AWSPinpointTargetingWriteCampaignRequest setTreatmentName:]
+-[AWSPinpointTargetingWriteCampaignRequest .cxx_destruct]
++[AWSPinpointTargetingWriteSegmentRequest JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingWriteSegmentRequest dimensionsJSONTransformer]
+-[AWSPinpointTargetingWriteSegmentRequest dimensions]
+-[AWSPinpointTargetingWriteSegmentRequest setDimensions:]
+-[AWSPinpointTargetingWriteSegmentRequest name]
+-[AWSPinpointTargetingWriteSegmentRequest setName:]
+-[AWSPinpointTargetingWriteSegmentRequest .cxx_destruct]
++[AWSPinpointTargetingWriteTreatmentResource JSONKeyPathsByPropertyKey]
++[AWSPinpointTargetingWriteTreatmentResource messageConfigurationJSONTransformer]
++[AWSPinpointTargetingWriteTreatmentResource scheduleJSONTransformer]
+-[AWSPinpointTargetingWriteTreatmentResource messageConfiguration]
+-[AWSPinpointTargetingWriteTreatmentResource setMessageConfiguration:]
+-[AWSPinpointTargetingWriteTreatmentResource schedule]
+-[AWSPinpointTargetingWriteTreatmentResource setSchedule:]
+-[AWSPinpointTargetingWriteTreatmentResource sizePercent]
+-[AWSPinpointTargetingWriteTreatmentResource setSizePercent:]
+-[AWSPinpointTargetingWriteTreatmentResource treatmentDescription]
+-[AWSPinpointTargetingWriteTreatmentResource setTreatmentDescription:]
+-[AWSPinpointTargetingWriteTreatmentResource treatmentName]
+-[AWSPinpointTargetingWriteTreatmentResource setTreatmentName:]
+-[AWSPinpointTargetingWriteTreatmentResource .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelRequest._certificate
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelRequest._privateKey
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._isArchived
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._lastModifiedBy
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._lastModifiedDate
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._platform
+_OBJC_IVAR_$_AWSPinpointTargetingAPNSChannelResponse._version
+_OBJC_IVAR_$_AWSPinpointTargetingActivitiesResponse._item
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._end
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._result
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._scheduledStart
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._start
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._state
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._successfulEndpointCount
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._totalEndpointCount
+_OBJC_IVAR_$_AWSPinpointTargetingActivityResponse._treatmentId
+_OBJC_IVAR_$_AWSPinpointTargetingApplicationSettingsResource._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingApplicationSettingsResource._lastModifiedDate
+_OBJC_IVAR_$_AWSPinpointTargetingApplicationSettingsResource._limits
+_OBJC_IVAR_$_AWSPinpointTargetingApplicationSettingsResource._quietTime
+___block_literal_global
+___block_descriptor_tmp.251
+___block_literal_global.252
+_OBJC_IVAR_$_AWSPinpointTargetingAttributeDimension._attributeType
+_OBJC_IVAR_$_AWSPinpointTargetingAttributeDimension._values
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignLimits._daily
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignLimits._total
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._additionalTreatments
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._defaultState
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._detail
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._holdoutPercent
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._isPaused
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._lastModifiedDate
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._limits
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._messageConfiguration
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._name
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._schedule
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._segmentVersion
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._state
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._treatmentDescription
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._treatmentName
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignResponse._version
+___block_descriptor_tmp.428
+___block_literal_global.429
+___block_descriptor_tmp.430
+___block_literal_global.431
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignState._campaignStatus
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignsResponse._item
+_OBJC_IVAR_$_AWSPinpointTargetingCampaignsResponse._nextToken
+_OBJC_IVAR_$_AWSPinpointTargetingCreateCampaignRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingCreateCampaignRequest._writeCampaignRequest
+_OBJC_IVAR_$_AWSPinpointTargetingCreateCampaignResponse._campaignResponse
+_OBJC_IVAR_$_AWSPinpointTargetingCreateImportJobRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingCreateImportJobRequest._importJobRequest
+_OBJC_IVAR_$_AWSPinpointTargetingCreateImportJobResponse._importJobResponse
+_OBJC_IVAR_$_AWSPinpointTargetingCreateSegmentRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingCreateSegmentRequest._writeSegmentRequest
+_OBJC_IVAR_$_AWSPinpointTargetingCreateSegmentResponse._segmentResponse
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteApnsChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteApnsChannelResponse._APNSChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteCampaignRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteCampaignRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteCampaignResponse._campaignResponse
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteGcmChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteGcmChannelResponse._GCMChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteSegmentRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteSegmentRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingDeleteSegmentResponse._segmentResponse
+___block_descriptor_tmp.618
+___block_literal_global.619
+___block_descriptor_tmp.620
+___block_literal_global.621
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._address
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._attributes
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._channelType
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._demographic
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._effectiveDate
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._endpointStatus
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._location
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._metrics
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._optOut
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._requestId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchItem._user
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointBatchRequest._item
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._appVersion
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._locale
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._make
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._model
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._modelVersion
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._platform
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._platformVersion
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointDemographic._timezone
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._city
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._country
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._latitude
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._longitude
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._postalCode
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointLocation._region
+___block_descriptor_tmp.814
+___block_literal_global.815
+___block_descriptor_tmp.816
+___block_literal_global.817
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._address
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._attributes
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._channelType
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._demographic
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._effectiveDate
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._endpointStatus
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._location
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._metrics
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._optOut
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._requestId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointRequest._user
+___block_descriptor_tmp.828
+___block_literal_global.829
+___block_descriptor_tmp.830
+___block_literal_global.831
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._address
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._attributes
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._channelType
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._cohortId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._demographic
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._effectiveDate
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._endpointStatus
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._location
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._metrics
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._optOut
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._requestId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._shardId
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointResponse._user
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointUser._userAttributes
+_OBJC_IVAR_$_AWSPinpointTargetingEndpointUser._userId
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelRequest._apiKey
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._credential
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._isArchived
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._lastModifiedBy
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._lastModifiedDate
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._platform
+_OBJC_IVAR_$_AWSPinpointTargetingGCMChannelResponse._version
+_OBJC_IVAR_$_AWSPinpointTargetingGetApnsChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetApnsChannelResponse._APNSChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetApplicationSettingsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetApplicationSettingsResponse._applicationSettingsResource
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignActivitiesRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignActivitiesRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignActivitiesRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignActivitiesRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignActivitiesResponse._activitiesResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignResponse._campaignResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionRequest._version
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionResponse._campaignResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionsRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignVersionsResponse._campaignsResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetCampaignsResponse._campaignsResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetEndpointRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetEndpointRequest._endpointId
+_OBJC_IVAR_$_AWSPinpointTargetingGetEndpointResponse._endpointResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetGcmChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetGcmChannelResponse._GCMChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobRequest._jobId
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobResponse._importJobResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetImportJobsResponse._importJobsResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentImportJobsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentImportJobsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentImportJobsRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentImportJobsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentImportJobsResponse._importJobsResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentResponse._segmentResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionRequest._version
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionResponse._segmentResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionsRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentVersionsResponse._segmentsResponse
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentsRequest._pageSize
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentsRequest._token
+_OBJC_IVAR_$_AWSPinpointTargetingGetSegmentsResponse._segmentsResponse
+___block_descriptor_tmp.1091
+___block_literal_global.1092
+___block_descriptor_tmp.1093
+___block_literal_global.1094
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._defineSegment
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._externalId
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._format
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._registerEndpoints
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._roleArn
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._s3Url
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobRequest._segmentName
+___block_descriptor_tmp.1133
+___block_literal_global.1134
+___block_descriptor_tmp.1135
+___block_literal_global.1136
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._defineSegment
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._externalId
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._format
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._registerEndpoints
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._roleArn
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._s3Url
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResource._segmentName
+___block_descriptor_tmp.1192
+___block_literal_global.1193
+___block_descriptor_tmp.1194
+___block_literal_global.1195
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._completedPieces
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._completionDate
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._definition
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._failedPieces
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._failures
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._jobStatus
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._totalFailures
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._totalPieces
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._totalProcessed
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobResponse._types
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobsResponse._item
+_OBJC_IVAR_$_AWSPinpointTargetingImportJobsResponse._nextToken
+___block_descriptor_tmp.1295
+___block_literal_global.1296
+___block_descriptor_tmp.1297
+___block_literal_global.1298
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._action
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._body
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._imageIconUrl
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._imageUrl
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._jsonBody
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._mediaUrl
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._silentPush
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._title
+_OBJC_IVAR_$_AWSPinpointTargetingMessage._url
+_OBJC_IVAR_$_AWSPinpointTargetingMessageBody._message
+_OBJC_IVAR_$_AWSPinpointTargetingMessageBody._requestID
+_OBJC_IVAR_$_AWSPinpointTargetingMessageConfiguration._APNSMessage
+_OBJC_IVAR_$_AWSPinpointTargetingMessageConfiguration._defaultMessage
+_OBJC_IVAR_$_AWSPinpointTargetingMessageConfiguration._GCMMessage
+_OBJC_IVAR_$_AWSPinpointTargetingQuietTime._end
+_OBJC_IVAR_$_AWSPinpointTargetingQuietTime._start
+___block_descriptor_tmp.1415
+___block_literal_global.1416
+___block_descriptor_tmp.1417
+___block_literal_global.1418
+___block_descriptor_tmp.1423
+___block_literal_global.1424
+___block_descriptor_tmp.1425
+___block_literal_global.1426
+_OBJC_IVAR_$_AWSPinpointTargetingRecencyDimension._duration
+_OBJC_IVAR_$_AWSPinpointTargetingRecencyDimension._recencyType
+___block_descriptor_tmp.1466
+___block_literal_global.1467
+___block_descriptor_tmp.1468
+___block_literal_global.1469
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._endTime
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._frequency
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._isLocalTime
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._quietTime
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._startTime
+_OBJC_IVAR_$_AWSPinpointTargetingSchedule._timezone
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentBehaviors._recency
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDemographics._appVersion
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDemographics._deviceType
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDemographics._make
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDemographics._model
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDemographics._platform
+___block_descriptor_tmp.1538
+___block_literal_global.1539
+___block_descriptor_tmp.1542
+___block_literal_global.1543
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDimensions._attributes
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDimensions._behavior
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDimensions._demographic
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentDimensions._location
+___block_descriptor_tmp.1565
+___block_literal_global.1566
+___block_descriptor_tmp.1567
+___block_literal_global.1568
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentImportResource._externalId
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentImportResource._format
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentImportResource._roleArn
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentImportResource._s3Url
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentImportResource._size
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentLocation._country
+___block_descriptor_tmp.1598
+___block_literal_global.1599
+___block_descriptor_tmp.1600
+___block_literal_global.1601
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._creationDate
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._dimensions
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._importDefinition
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._lastModifiedDate
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._name
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._segmentType
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentResponse._version
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentsResponse._item
+_OBJC_IVAR_$_AWSPinpointTargetingSegmentsResponse._nextToken
+___block_descriptor_tmp.1630
+___block_literal_global.1631
+___block_descriptor_tmp.1632
+___block_literal_global.1633
+_OBJC_IVAR_$_AWSPinpointTargetingSetDimension._dimensionType
+_OBJC_IVAR_$_AWSPinpointTargetingSetDimension._values
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._identifier
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._messageConfiguration
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._schedule
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._sizePercent
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._state
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._treatmentDescription
+_OBJC_IVAR_$_AWSPinpointTargetingTreatmentResource._treatmentName
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApnsChannelRequest._APNSChannelRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApnsChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApnsChannelResponse._APNSChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApplicationSettingsRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApplicationSettingsRequest._writeApplicationSettingsRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateApplicationSettingsResponse._applicationSettingsResource
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateCampaignRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateCampaignRequest._campaignId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateCampaignRequest._writeCampaignRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateCampaignResponse._campaignResponse
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointRequest._endpointId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointRequest._endpointRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointResponse._messageBody
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointsBatchRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointsBatchRequest._endpointBatchRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateEndpointsBatchResponse._messageBody
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateGcmChannelRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateGcmChannelRequest._GCMChannelRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateGcmChannelResponse._GCMChannelResponse
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateSegmentRequest._applicationId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateSegmentRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateSegmentRequest._writeSegmentRequest
+_OBJC_IVAR_$_AWSPinpointTargetingUpdateSegmentResponse._segmentResponse
+_OBJC_IVAR_$_AWSPinpointTargetingWriteApplicationSettingsRequest._limits
+_OBJC_IVAR_$_AWSPinpointTargetingWriteApplicationSettingsRequest._quietTime
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._additionalTreatments
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._detail
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._holdoutPercent
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._isPaused
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._limits
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._messageConfiguration
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._name
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._schedule
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._segmentId
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._segmentVersion
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._treatmentDescription
+_OBJC_IVAR_$_AWSPinpointTargetingWriteCampaignRequest._treatmentName
+_OBJC_IVAR_$_AWSPinpointTargetingWriteSegmentRequest._dimensions
+_OBJC_IVAR_$_AWSPinpointTargetingWriteSegmentRequest._name
+_OBJC_IVAR_$_AWSPinpointTargetingWriteTreatmentResource._messageConfiguration
+_OBJC_IVAR_$_AWSPinpointTargetingWriteTreatmentResource._schedule
+_OBJC_IVAR_$_AWSPinpointTargetingWriteTreatmentResource._sizePercent
+_OBJC_IVAR_$_AWSPinpointTargetingWriteTreatmentResource._treatmentDescription
+_OBJC_IVAR_$_AWSPinpointTargetingWriteTreatmentResource._treatmentName
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingModel.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingModel.h
+__64+[AWSPinpointTargetingSetDimension dimensionTypeJSONTransformer]_block_invoke_2
+__64+[AWSPinpointTargetingSetDimension dimensionTypeJSONTransformer]_block_invoke
+__65+[AWSPinpointTargetingSegmentResponse segmentTypeJSONTransformer]_block_invoke_2
+__65+[AWSPinpointTargetingSegmentResponse segmentTypeJSONTransformer]_block_invoke
+__66+[AWSPinpointTargetingSegmentImportResource formatJSONTransformer]_block_invoke_2
+__66+[AWSPinpointTargetingSegmentImportResource formatJSONTransformer]_block_invoke
+__66+[AWSPinpointTargetingSegmentDimensions attributesJSONTransformer]_block_invoke_2
+__66+[AWSPinpointTargetingSegmentDimensions attributesJSONTransformer]_block_invoke
+__56+[AWSPinpointTargetingSchedule frequencyJSONTransformer]_block_invoke_2
+__56+[AWSPinpointTargetingSchedule frequencyJSONTransformer]_block_invoke
+__66+[AWSPinpointTargetingRecencyDimension recencyTypeJSONTransformer]_block_invoke_2
+__66+[AWSPinpointTargetingRecencyDimension recencyTypeJSONTransformer]_block_invoke
+__63+[AWSPinpointTargetingRecencyDimension durationJSONTransformer]_block_invoke_2
+__63+[AWSPinpointTargetingRecencyDimension durationJSONTransformer]_block_invoke
+__52+[AWSPinpointTargetingMessage actionJSONTransformer]_block_invoke_2
+__52+[AWSPinpointTargetingMessage actionJSONTransformer]_block_invoke
+__65+[AWSPinpointTargetingImportJobResponse jobStatusJSONTransformer]_block_invoke_2
+__65+[AWSPinpointTargetingImportJobResponse jobStatusJSONTransformer]_block_invoke
+__62+[AWSPinpointTargetingImportJobResource formatJSONTransformer]_block_invoke_2
+__62+[AWSPinpointTargetingImportJobResource formatJSONTransformer]_block_invoke
+__61+[AWSPinpointTargetingImportJobRequest formatJSONTransformer]_block_invoke_2
+__61+[AWSPinpointTargetingImportJobRequest formatJSONTransformer]_block_invoke
+__66+[AWSPinpointTargetingEndpointResponse channelTypeJSONTransformer]_block_invoke_2
+__66+[AWSPinpointTargetingEndpointResponse channelTypeJSONTransformer]_block_invoke
+__65+[AWSPinpointTargetingEndpointRequest channelTypeJSONTransformer]_block_invoke_2
+__65+[AWSPinpointTargetingEndpointRequest channelTypeJSONTransformer]_block_invoke
+__67+[AWSPinpointTargetingEndpointBatchItem channelTypeJSONTransformer]_block_invoke_2
+__67+[AWSPinpointTargetingEndpointBatchItem channelTypeJSONTransformer]_block_invoke
+__66+[AWSPinpointTargetingCampaignState campaignStatusJSONTransformer]_block_invoke_2
+__66+[AWSPinpointTargetingCampaignState campaignStatusJSONTransformer]_block_invoke
+__70+[AWSPinpointTargetingAttributeDimension attributeTypeJSONTransformer]_block_invoke_2
+__70+[AWSPinpointTargetingAttributeDimension attributeTypeJSONTransformer]_block_invoke
+-[AWSPinpointSessionClient init]
+-[AWSPinpointSessionClient initWithContext:]
+-[AWSPinpointSessionClient saveSession]
+-[AWSPinpointSessionClient applicationDidEnterBackground:]
+-[AWSPinpointSessionClient applicationDidEnterForeground:]
+-[AWSPinpointSessionClient dealloc]
+-[AWSPinpointSessionClient session]
+-[AWSPinpointSessionClient startSession]
+-[AWSPinpointSessionClient stopSession]
+-[AWSPinpointSessionClient pauseSessionWithTimeoutEnabled:timeoutCompletionBlock:]
+-[AWSPinpointSessionClient resumeSession]
+-[AWSPinpointSessionClient startNewSession]
+-[AWSPinpointSessionClient endCurrentSession]
+-[AWSPinpointSessionClient endCurrentSessionTimeoutWithTimer:]
+-[AWSPinpointSessionClient endCurrentSessionWithBlock:]
+___55-[AWSPinpointSessionClient endCurrentSessionWithBlock:]_block_invoke
+___55-[AWSPinpointSessionClient endCurrentSessionWithBlock:]_block_invoke_2
+___copy_helper_block_.156
+___destroy_helper_block_.157
+-[AWSPinpointSessionClient pauseCurrentSessionWithTimeoutEnabled:timeoutCompletionBlock:]
+___89-[AWSPinpointSessionClient pauseCurrentSessionWithTimeoutEnabled:timeoutCompletionBlock:]_block_invoke
+___copy_helper_block_.164
+___destroy_helper_block_.165
+-[AWSPinpointSessionClient resumeCurrentSession]
+-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]
+___69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke
+___69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke_2
+___copy_helper_block_.171
+___destroy_helper_block_.172
+___69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke.191
+___copy_helper_block_.192
+___destroy_helper_block_.193
+___69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke.195
+___copy_helper_block_.196
+___destroy_helper_block_.197
+___copy_helper_block_.199
+___destroy_helper_block_.200
+-[AWSPinpointSessionClient setSession:]
+-[AWSPinpointSessionClient context]
+-[AWSPinpointSessionClient setContext:]
+-[AWSPinpointSessionClient bgTask]
+-[AWSPinpointSessionClient setBgTask:]
+-[AWSPinpointSessionClient bgTimer]
+-[AWSPinpointSessionClient setBgTimer:]
+-[AWSPinpointSessionClient .cxx_destruct]
+-[AWSPinpointSession initWithCoder:]
+-[AWSPinpointSession encodeWithCoder:]
+-[AWSPinpointSession initWithContext:]
+-[AWSPinpointSession initWithSessionId:withStartTime:withStopTime:]
+-[AWSPinpointSession timeDurationInMillis]
+-[AWSPinpointSession stop]
+-[AWSPinpointSession isPaused]
+-[AWSPinpointSession pause]
+-[AWSPinpointSession resume]
++[AWSPinpointSession generateSessionIdWithContext:]
+-[AWSPinpointSession startTime]
+-[AWSPinpointSession setStartTime:]
+-[AWSPinpointSession stopTime]
+-[AWSPinpointSession setStopTime:]
+-[AWSPinpointSession sessionId]
+-[AWSPinpointSession setSessionId:]
+-[AWSPinpointSession .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointSessionClient._context
+_OBJC_IVAR_$_AWSPinpointSessionClient._session
+___block_descriptor_tmp.159
+___block_descriptor_tmp.166
+___block_descriptor_tmp.173
+___block_descriptor_tmp.194
+___block_descriptor_tmp.198
+___block_descriptor_tmp.201
+_OBJC_IVAR_$_AWSPinpointSessionClient._bgTask
+_OBJC_IVAR_$_AWSPinpointSessionClient._bgTimer
+_OBJC_IVAR_$_AWSPinpointSession._sessionId
+_OBJC_IVAR_$_AWSPinpointSession._startTime
+_OBJC_IVAR_$_AWSPinpointSession._stopTime
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointSessionClient.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointSessionClient.h
+__69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke.195
+__69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke.191
+__69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke_2
+__69-[AWSPinpointSessionClient waitForSessionTimeoutWithCompletionBlock:]_block_invoke
+__89-[AWSPinpointSessionClient pauseCurrentSessionWithTimeoutEnabled:timeoutCompletionBlock:]_block_invoke
+__55-[AWSPinpointSessionClient endCurrentSessionWithBlock:]_block_invoke_2
+__55-[AWSPinpointSessionClient endCurrentSessionWithBlock:]_block_invoke
+-[AWSPinpointNotificationManager init]
+-[AWSPinpointNotificationManager initWithContext:]
++[AWSPinpointNotificationManager isNotificationEnabled]
++[AWSPinpointNotificationManager validCampaignPushForNotification:]
+-[AWSPinpointNotificationManager interceptDidFinishLaunchingWithOptions:]
+-[AWSPinpointNotificationManager interceptDidRegisterForRemoteNotificationsWithDeviceToken:]
+-[AWSPinpointNotificationManager interceptDidReceiveRemoteNotification:fetchCompletionHandler:]
+-[AWSPinpointNotificationManager handleNotificationDeepLinkForNotification:]
+___76-[AWSPinpointNotificationManager handleNotificationDeepLinkForNotification:]_block_invoke
+-[AWSPinpointNotificationManager handleNotificationReceived:withNotification:]
+-[AWSPinpointNotificationManager recordMessageReceivedEventForNotification:eventType:withApplicationState:]
+-[AWSPinpointNotificationManager recordMessageOpenedEventForNotification:withIdentifier:withApplicationState:]
+-[AWSPinpointNotificationManager addCampaignMetadataForEvent:withNotification:]
+-[AWSPinpointNotificationManager addGlobalCampaignMetadataForNotification:]
+-[AWSPinpointNotificationManager addApplicationStateAttributeToEvent:withApplicationState:]
+-[AWSPinpointNotificationManager context]
+-[AWSPinpointNotificationManager setContext:]
+-[AWSPinpointNotificationManager .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointNotificationManager._context
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointNotificationManager.m
+__76-[AWSPinpointNotificationManager handleNotificationDeepLinkForNotification:]_block_invoke
+-[AWSPinpointTargetingClient init]
+-[AWSPinpointTargetingClient initWithContext:]
+-[AWSPinpointTargetingClient currentEndpointProfile]
+-[AWSPinpointTargetingClient updateEndpointProfile:]
+-[AWSPinpointTargetingClient updateEndpointProfile]
+-[AWSPinpointTargetingClient executeUpdate:]
+___44-[AWSPinpointTargetingClient executeUpdate:]_block_invoke
+-[AWSPinpointTargetingClient verifyMinimumLengthForKey:]
+-[AWSPinpointTargetingClient addAttribute:forKey:]
+-[AWSPinpointTargetingClient removeAttributeForKey:]
+-[AWSPinpointTargetingClient addMetric:forKey:]
+-[AWSPinpointTargetingClient removeMetricForKey:]
+-[AWSPinpointTargetingClient endpointDemographicModelForDemographic:]
+-[AWSPinpointTargetingClient locationModelForLocation:]
+-[AWSPinpointTargetingClient userModelForUser:]
+-[AWSPinpointTargetingClient updateEndpointRequestForEndpoint:]
+-[AWSPinpointTargetingClient context]
+-[AWSPinpointTargetingClient setContext:]
+-[AWSPinpointTargetingClient endpointObservers]
+-[AWSPinpointTargetingClient setEndpointObservers:]
+-[AWSPinpointTargetingClient globalAttributes]
+-[AWSPinpointTargetingClient setGlobalAttributes:]
+-[AWSPinpointTargetingClient globalMetrics]
+-[AWSPinpointTargetingClient setGlobalMetrics:]
+-[AWSPinpointTargetingClient .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointTargetingClient._context
+_OBJC_IVAR_$_AWSPinpointTargetingClient._globalAttributes
+_OBJC_IVAR_$_AWSPinpointTargetingClient._globalMetrics
+_OBJC_IVAR_$_AWSPinpointTargetingClient._endpointObservers
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargetingClient.m
+__44-[AWSPinpointTargetingClient executeUpdate:]_block_invoke
+-[AWSPinpointEvent initWithEventType:session:]
+-[AWSPinpointEvent initWithEventType:eventTimestamp:session:]
+-[AWSPinpointEvent initWithEventType:eventTimestamp:session:attributes:metrics:]
+-[AWSPinpointEvent currentNumOfAttributesAndMetrics]
+-[AWSPinpointEvent attributes]
+-[AWSPinpointEvent metrics]
+-[AWSPinpointEvent validateEventType:]
+-[AWSPinpointEvent attributeForKey:]
+-[AWSPinpointEvent addAttribute:forKey:]
+-[AWSPinpointEvent hasAttributeForKey:]
+-[AWSPinpointEvent allAttributes]
+-[AWSPinpointEvent metricForKey:]
+-[AWSPinpointEvent addMetric:forKey:]
+-[AWSPinpointEvent hasMetricForKey:]
+-[AWSPinpointEvent allMetrics]
++[AWSPinpointEvent trimKey:forType:]
++[AWSPinpointEvent trimValue:]
+-[AWSPinpointEvent toDictionary]
+-[AWSPinpointEvent eventType]
+-[AWSPinpointEvent setEventType:]
+-[AWSPinpointEvent eventTimestamp]
+-[AWSPinpointEvent setEventTimestamp:]
+-[AWSPinpointEvent session]
+-[AWSPinpointEvent setSession:]
+-[AWSPinpointEvent setAttributes:]
+-[AWSPinpointEvent setMetrics:]
+-[AWSPinpointEvent .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointEvent._eventType
+_OBJC_IVAR_$_AWSPinpointEvent._eventTimestamp
+_OBJC_IVAR_$_AWSPinpointEvent._session
+_OBJC_IVAR_$_AWSPinpointEvent._attributes
+_OBJC_IVAR_$_AWSPinpointEvent._metrics
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEvent.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEvent.h
++[AWSPinpointTargetingResponseSerializer initialize]
+-[AWSPinpointTargetingResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSPinpointTargeting initialize]
++[AWSPinpointTargeting defaultPinpointTargeting]
+___48+[AWSPinpointTargeting defaultPinpointTargeting]_block_invoke
++[AWSPinpointTargeting registerPinpointTargetingWithConfiguration:forKey:]
+___74+[AWSPinpointTargeting registerPinpointTargetingWithConfiguration:forKey:]_block_invoke
++[AWSPinpointTargeting PinpointTargetingForKey:]
++[AWSPinpointTargeting removePinpointTargetingForKey:]
+-[AWSPinpointTargeting init]
+-[AWSPinpointTargeting initWithConfiguration:]
+-[AWSPinpointTargeting invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSPinpointTargeting createCampaign:]
+-[AWSPinpointTargeting createCampaign:completionHandler:]
+___57-[AWSPinpointTargeting createCampaign:completionHandler:]_block_invoke
+-[AWSPinpointTargeting createImportJob:]
+-[AWSPinpointTargeting createImportJob:completionHandler:]
+___58-[AWSPinpointTargeting createImportJob:completionHandler:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[AWSPinpointTargeting createSegment:]
+-[AWSPinpointTargeting createSegment:completionHandler:]
+___56-[AWSPinpointTargeting createSegment:completionHandler:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[AWSPinpointTargeting deleteApnsChannel:]
+-[AWSPinpointTargeting deleteApnsChannel:completionHandler:]
+___60-[AWSPinpointTargeting deleteApnsChannel:completionHandler:]_block_invoke
+___copy_helper_block_.261
+___destroy_helper_block_.262
+-[AWSPinpointTargeting deleteCampaign:]
+-[AWSPinpointTargeting deleteCampaign:completionHandler:]
+___57-[AWSPinpointTargeting deleteCampaign:completionHandler:]_block_invoke
+___copy_helper_block_.271
+___destroy_helper_block_.272
+-[AWSPinpointTargeting deleteGcmChannel:]
+-[AWSPinpointTargeting deleteGcmChannel:completionHandler:]
+___59-[AWSPinpointTargeting deleteGcmChannel:completionHandler:]_block_invoke
+___copy_helper_block_.281
+___destroy_helper_block_.282
+-[AWSPinpointTargeting deleteSegment:]
+-[AWSPinpointTargeting deleteSegment:completionHandler:]
+___56-[AWSPinpointTargeting deleteSegment:completionHandler:]_block_invoke
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[AWSPinpointTargeting getApnsChannel:]
+-[AWSPinpointTargeting getApnsChannel:completionHandler:]
+___57-[AWSPinpointTargeting getApnsChannel:completionHandler:]_block_invoke
+___copy_helper_block_.299
+___destroy_helper_block_.300
+-[AWSPinpointTargeting getApplicationSettings:]
+-[AWSPinpointTargeting getApplicationSettings:completionHandler:]
+___65-[AWSPinpointTargeting getApplicationSettings:completionHandler:]_block_invoke
+___copy_helper_block_.309
+___destroy_helper_block_.310
+-[AWSPinpointTargeting getCampaign:]
+-[AWSPinpointTargeting getCampaign:completionHandler:]
+___54-[AWSPinpointTargeting getCampaign:completionHandler:]_block_invoke
+___copy_helper_block_.317
+___destroy_helper_block_.318
+-[AWSPinpointTargeting getCampaignActivities:]
+-[AWSPinpointTargeting getCampaignActivities:completionHandler:]
+___64-[AWSPinpointTargeting getCampaignActivities:completionHandler:]_block_invoke
+___copy_helper_block_.327
+___destroy_helper_block_.328
+-[AWSPinpointTargeting getCampaignVersion:]
+-[AWSPinpointTargeting getCampaignVersion:completionHandler:]
+___61-[AWSPinpointTargeting getCampaignVersion:completionHandler:]_block_invoke
+___copy_helper_block_.337
+___destroy_helper_block_.338
+-[AWSPinpointTargeting getCampaignVersions:]
+-[AWSPinpointTargeting getCampaignVersions:completionHandler:]
+___62-[AWSPinpointTargeting getCampaignVersions:completionHandler:]_block_invoke
+___copy_helper_block_.347
+___destroy_helper_block_.348
+-[AWSPinpointTargeting getCampaigns:]
+-[AWSPinpointTargeting getCampaigns:completionHandler:]
+___55-[AWSPinpointTargeting getCampaigns:completionHandler:]_block_invoke
+___copy_helper_block_.355
+___destroy_helper_block_.356
+-[AWSPinpointTargeting getEndpoint:]
+-[AWSPinpointTargeting getEndpoint:completionHandler:]
+___54-[AWSPinpointTargeting getEndpoint:completionHandler:]_block_invoke
+___copy_helper_block_.365
+___destroy_helper_block_.366
+-[AWSPinpointTargeting getGcmChannel:]
+-[AWSPinpointTargeting getGcmChannel:completionHandler:]
+___56-[AWSPinpointTargeting getGcmChannel:completionHandler:]_block_invoke
+___copy_helper_block_.373
+___destroy_helper_block_.374
+-[AWSPinpointTargeting getImportJob:]
+-[AWSPinpointTargeting getImportJob:completionHandler:]
+___55-[AWSPinpointTargeting getImportJob:completionHandler:]_block_invoke
+___copy_helper_block_.383
+___destroy_helper_block_.384
+-[AWSPinpointTargeting getImportJobs:]
+-[AWSPinpointTargeting getImportJobs:completionHandler:]
+___56-[AWSPinpointTargeting getImportJobs:completionHandler:]_block_invoke
+___copy_helper_block_.391
+___destroy_helper_block_.392
+-[AWSPinpointTargeting getSegment:]
+-[AWSPinpointTargeting getSegment:completionHandler:]
+___53-[AWSPinpointTargeting getSegment:completionHandler:]_block_invoke
+___copy_helper_block_.399
+___destroy_helper_block_.400
+-[AWSPinpointTargeting getSegmentImportJobs:]
+-[AWSPinpointTargeting getSegmentImportJobs:completionHandler:]
+___63-[AWSPinpointTargeting getSegmentImportJobs:completionHandler:]_block_invoke
+___copy_helper_block_.409
+___destroy_helper_block_.410
+-[AWSPinpointTargeting getSegmentVersion:]
+-[AWSPinpointTargeting getSegmentVersion:completionHandler:]
+___60-[AWSPinpointTargeting getSegmentVersion:completionHandler:]_block_invoke
+___copy_helper_block_.419
+___destroy_helper_block_.420
+-[AWSPinpointTargeting getSegmentVersions:]
+-[AWSPinpointTargeting getSegmentVersions:completionHandler:]
+___61-[AWSPinpointTargeting getSegmentVersions:completionHandler:]_block_invoke
+___copy_helper_block_.429
+___destroy_helper_block_.430
+-[AWSPinpointTargeting getSegments:]
+-[AWSPinpointTargeting getSegments:completionHandler:]
+___54-[AWSPinpointTargeting getSegments:completionHandler:]_block_invoke
+___copy_helper_block_.437
+___destroy_helper_block_.438
+-[AWSPinpointTargeting updateApnsChannel:]
+-[AWSPinpointTargeting updateApnsChannel:completionHandler:]
+___60-[AWSPinpointTargeting updateApnsChannel:completionHandler:]_block_invoke
+___copy_helper_block_.445
+___destroy_helper_block_.446
+-[AWSPinpointTargeting updateApplicationSettings:]
+-[AWSPinpointTargeting updateApplicationSettings:completionHandler:]
+___68-[AWSPinpointTargeting updateApplicationSettings:completionHandler:]_block_invoke
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[AWSPinpointTargeting updateCampaign:]
+-[AWSPinpointTargeting updateCampaign:completionHandler:]
+___57-[AWSPinpointTargeting updateCampaign:completionHandler:]_block_invoke
+___copy_helper_block_.461
+___destroy_helper_block_.462
+-[AWSPinpointTargeting updateEndpoint:]
+-[AWSPinpointTargeting updateEndpoint:completionHandler:]
+___57-[AWSPinpointTargeting updateEndpoint:completionHandler:]_block_invoke
+___copy_helper_block_.469
+___destroy_helper_block_.470
+-[AWSPinpointTargeting updateEndpointsBatch:]
+-[AWSPinpointTargeting updateEndpointsBatch:completionHandler:]
+___63-[AWSPinpointTargeting updateEndpointsBatch:completionHandler:]_block_invoke
+___copy_helper_block_.479
+___destroy_helper_block_.480
+-[AWSPinpointTargeting updateGcmChannel:]
+-[AWSPinpointTargeting updateGcmChannel:completionHandler:]
+___59-[AWSPinpointTargeting updateGcmChannel:completionHandler:]_block_invoke
+___copy_helper_block_.487
+___destroy_helper_block_.488
+-[AWSPinpointTargeting updateSegment:]
+-[AWSPinpointTargeting updateSegment:completionHandler:]
+___56-[AWSPinpointTargeting updateSegment:completionHandler:]_block_invoke
+___copy_helper_block_.495
+___destroy_helper_block_.496
+-[AWSPinpointTargeting configuration]
+-[AWSPinpointTargeting setConfiguration:]
+-[AWSPinpointTargeting networking]
+-[AWSPinpointTargeting setNetworking:]
+-[AWSPinpointTargeting .cxx_destruct]
+_errorCodeDictionary
+__serviceClients
+_defaultPinpointTargeting._defaultPinpointTargeting
+_defaultPinpointTargeting.onceToken
+_registerPinpointTargetingWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.126
+___block_literal_global.127
+_OBJC_IVAR_$_AWSPinpointTargeting._configuration
+_OBJC_IVAR_$_AWSPinpointTargeting._networking
+___block_descriptor_tmp.231
+___block_descriptor_tmp.243
+___block_descriptor_tmp.253
+___block_descriptor_tmp.263
+___block_descriptor_tmp.273
+___block_descriptor_tmp.283
+___block_descriptor_tmp.293
+___block_descriptor_tmp.301
+___block_descriptor_tmp.311
+___block_descriptor_tmp.319
+___block_descriptor_tmp.329
+___block_descriptor_tmp.339
+___block_descriptor_tmp.349
+___block_descriptor_tmp.357
+___block_descriptor_tmp.367
+___block_descriptor_tmp.375
+___block_descriptor_tmp.385
+___block_descriptor_tmp.393
+___block_descriptor_tmp.401
+___block_descriptor_tmp.411
+___block_descriptor_tmp.421
+___block_descriptor_tmp.431
+___block_descriptor_tmp.439
+___block_descriptor_tmp.447
+___block_descriptor_tmp.455
+___block_descriptor_tmp.463
+___block_descriptor_tmp.471
+___block_descriptor_tmp.481
+___block_descriptor_tmp.489
+___block_descriptor_tmp.497
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingService.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingService.h
+__56-[AWSPinpointTargeting updateSegment:completionHandler:]_block_invoke
+__59-[AWSPinpointTargeting updateGcmChannel:completionHandler:]_block_invoke
+__63-[AWSPinpointTargeting updateEndpointsBatch:completionHandler:]_block_invoke
+__57-[AWSPinpointTargeting updateEndpoint:completionHandler:]_block_invoke
+__57-[AWSPinpointTargeting updateCampaign:completionHandler:]_block_invoke
+__68-[AWSPinpointTargeting updateApplicationSettings:completionHandler:]_block_invoke
+__60-[AWSPinpointTargeting updateApnsChannel:completionHandler:]_block_invoke
+__54-[AWSPinpointTargeting getSegments:completionHandler:]_block_invoke
+__61-[AWSPinpointTargeting getSegmentVersions:completionHandler:]_block_invoke
+__60-[AWSPinpointTargeting getSegmentVersion:completionHandler:]_block_invoke
+__63-[AWSPinpointTargeting getSegmentImportJobs:completionHandler:]_block_invoke
+__53-[AWSPinpointTargeting getSegment:completionHandler:]_block_invoke
+__56-[AWSPinpointTargeting getImportJobs:completionHandler:]_block_invoke
+__55-[AWSPinpointTargeting getImportJob:completionHandler:]_block_invoke
+__56-[AWSPinpointTargeting getGcmChannel:completionHandler:]_block_invoke
+__54-[AWSPinpointTargeting getEndpoint:completionHandler:]_block_invoke
+__55-[AWSPinpointTargeting getCampaigns:completionHandler:]_block_invoke
+__62-[AWSPinpointTargeting getCampaignVersions:completionHandler:]_block_invoke
+__61-[AWSPinpointTargeting getCampaignVersion:completionHandler:]_block_invoke
+__64-[AWSPinpointTargeting getCampaignActivities:completionHandler:]_block_invoke
+__54-[AWSPinpointTargeting getCampaign:completionHandler:]_block_invoke
+__65-[AWSPinpointTargeting getApplicationSettings:completionHandler:]_block_invoke
+__57-[AWSPinpointTargeting getApnsChannel:completionHandler:]_block_invoke
+__56-[AWSPinpointTargeting deleteSegment:completionHandler:]_block_invoke
+__59-[AWSPinpointTargeting deleteGcmChannel:completionHandler:]_block_invoke
+__57-[AWSPinpointTargeting deleteCampaign:completionHandler:]_block_invoke
+__60-[AWSPinpointTargeting deleteApnsChannel:completionHandler:]_block_invoke
+__56-[AWSPinpointTargeting createSegment:completionHandler:]_block_invoke
+__58-[AWSPinpointTargeting createImportJob:completionHandler:]_block_invoke
+__57-[AWSPinpointTargeting createCampaign:completionHandler:]_block_invoke
+__74+[AWSPinpointTargeting registerPinpointTargetingWithConfiguration:forKey:]_block_invoke
+__48+[AWSPinpointTargeting defaultPinpointTargeting]_block_invoke
++[AWSPinpointDateUtils isoTimestampLocale]
++[AWSPinpointDateUtils isoDateTimeWithTimestamp:]
++[AWSPinpointDateUtils isoDateTime:]
++[AWSPinpointDateUtils utcTimeMillisNow]
++[AWSPinpointDateUtils utcTimeMillisFromDate:]
++[AWSPinpointDateUtils utcTimeMillisFromISO8061String:]
++[AWSPinpointDateUtils dateFromutcTimeMillis:]
++[AWSPinpointDateUtils timestampLocale]
++[AWSPinpointDateUtils iso8061FormatDateStamp:]
++[AWSPinpointDateUtils iso8061FormatDateTime:]
++[AWSPinpointDateUtils dateFromISO8061String:]
+_isoTimestampLocale._tsLoc
+_timestampLocale._tsLoc
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/Internal/AWSPinpointDateUtils.m
++[AWSPinpointTargetingResources sharedInstance]
+___47+[AWSPinpointTargetingResources sharedInstance]_block_invoke
+-[AWSPinpointTargetingResources JSONObject]
+-[AWSPinpointTargetingResources init]
+-[AWSPinpointTargetingResources definitionString]
+-[AWSPinpointTargetingResources definitionDictionary]
+-[AWSPinpointTargetingResources setDefinitionDictionary:]
+-[AWSPinpointTargetingResources .cxx_destruct]
+_sharedInstance._sharedResources
+_sharedInstance.once_token
+_OBJC_IVAR_$_AWSPinpointTargetingResources._definitionDictionary
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointTargeting/AWSPinpointTargetingResources.m
+__47+[AWSPinpointTargetingResources sharedInstance]_block_invoke
++[AWSPinpoint pinpointWithConfiguration:]
+___41+[AWSPinpoint pinpointWithConfiguration:]_block_invoke
+-[AWSPinpoint init]
+-[AWSPinpoint initWithConfiguration:]
+-[AWSPinpoint targetingClient]
+-[AWSPinpoint analyticsClient]
+-[AWSPinpoint sessionClient]
+-[AWSPinpoint notificationManager]
+-[AWSPinpoint setNotificationManager:]
+-[AWSPinpoint configuration]
+-[AWSPinpoint setConfiguration:]
+-[AWSPinpoint setSessionClient:]
+-[AWSPinpoint setTargetingClient:]
+-[AWSPinpoint setAnalyticsClient:]
+-[AWSPinpoint pinpointContext]
+-[AWSPinpoint setPinpointContext:]
+-[AWSPinpoint .cxx_destruct]
+__pinpointForAppNamespace
+_pinpointWithConfiguration:.onceToken
+_OBJC_IVAR_$_AWSPinpoint._configuration
+_OBJC_IVAR_$_AWSPinpoint._pinpointContext
+_OBJC_IVAR_$_AWSPinpoint._targetingClient
+_OBJC_IVAR_$_AWSPinpoint._sessionClient
+_OBJC_IVAR_$_AWSPinpoint._analyticsClient
+_OBJC_IVAR_$_AWSPinpoint._notificationManager
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointService.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointService.h
+__41+[AWSPinpoint pinpointWithConfiguration:]_block_invoke
+-[AWSPinpointEventRecorder init]
+-[AWSPinpointEventRecorder initWithContext:]
+___44-[AWSPinpointEventRecorder initWithContext:]_block_invoke
++[AWSPinpointEventRecorder sharedQueue]
+___39+[AWSPinpointEventRecorder sharedQueue]_block_invoke
+-[AWSPinpointEventRecorder saveEvent:]
+___38-[AWSPinpointEventRecorder saveEvent:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.86
+___38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.160
+___copy_helper_block_.163
+___destroy_helper_block_.164
+___38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.174
+___copy_helper_block_.177
+___destroy_helper_block_.178
+___38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.182
+___copy_helper_block_.187
+___destroy_helper_block_.188
+___copy_helper_block_.190
+___destroy_helper_block_.191
+-[AWSPinpointEventRecorder updateSessionStartWithCampaignAttributes:]
+___69-[AWSPinpointEventRecorder updateSessionStartWithCampaignAttributes:]_block_invoke
+___69-[AWSPinpointEventRecorder updateSessionStartWithCampaignAttributes:]_block_invoke_2
+___copy_helper_block_.204
+___destroy_helper_block_.205
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[AWSPinpointEventRecorder getCurrentSession:]
+___46-[AWSPinpointEventRecorder getCurrentSession:]_block_invoke
+___46-[AWSPinpointEventRecorder getCurrentSession:]_block_invoke_2
+___copy_helper_block_.240
+___destroy_helper_block_.241
+___copy_helper_block_.243
+___destroy_helper_block_.244
+-[AWSPinpointEventRecorder getEvents]
+___37-[AWSPinpointEventRecorder getEvents]_block_invoke
+___37-[AWSPinpointEventRecorder getEvents]_block_invoke_2
+___copy_helper_block_.255
+___destroy_helper_block_.256
+___copy_helper_block_.258
+___destroy_helper_block_.259
+-[AWSPinpointEventRecorder getDirtyEvents]
+___42-[AWSPinpointEventRecorder getDirtyEvents]_block_invoke
+___42-[AWSPinpointEventRecorder getDirtyEvents]_block_invoke_2
+___copy_helper_block_.263
+___destroy_helper_block_.264
+___copy_helper_block_.266
+___destroy_helper_block_.267
+-[AWSPinpointEventRecorder submitAllEvents]
+___43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke
+___43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke_2
+___43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke_3
+___copy_helper_block_.294
+___destroy_helper_block_.295
+___copy_helper_block_.297
+___destroy_helper_block_.298
+-[AWSPinpointEventRecorder removeAllEvents]
+___43-[AWSPinpointEventRecorder removeAllEvents]_block_invoke
+___43-[AWSPinpointEventRecorder removeAllEvents]_block_invoke_2
+___copy_helper_block_.302
+___destroy_helper_block_.303
+___copy_helper_block_.305
+___destroy_helper_block_.306
+-[AWSPinpointEventRecorder removeAllDirtyEvents]
+___48-[AWSPinpointEventRecorder removeAllDirtyEvents]_block_invoke
+___48-[AWSPinpointEventRecorder removeAllDirtyEvents]_block_invoke_2
+___copy_helper_block_.308
+___destroy_helper_block_.309
+___copy_helper_block_.311
+___destroy_helper_block_.312
+-[AWSPinpointEventRecorder diskBytesUsed]
+-[AWSPinpointEventRecorder setBatchRecordsByteLimit:]
+-[AWSPinpointEventRecorder checkByteThresholdForNotification:notificationSender:fileSize:]
+-[AWSPinpointEventRecorder submitEvents:db:error:eventIDs:stop:]
+___64-[AWSPinpointEventRecorder submitEvents:db:error:eventIDs:stop:]_block_invoke
+___copy_helper_block_.367
+___destroy_helper_block_.368
+-[AWSPinpointEventRecorder putEventsInputForEvents:]
+-[AWSPinpointEventRecorder notificationByteThreshold]
+-[AWSPinpointEventRecorder setNotificationByteThreshold:]
+-[AWSPinpointEventRecorder diskByteLimit]
+-[AWSPinpointEventRecorder setDiskByteLimit:]
+-[AWSPinpointEventRecorder diskAgeLimit]
+-[AWSPinpointEventRecorder setDiskAgeLimit:]
+-[AWSPinpointEventRecorder batchRecordsByteLimit]
+-[AWSPinpointEventRecorder databaseQueue]
+-[AWSPinpointEventRecorder setDatabaseQueue:]
+-[AWSPinpointEventRecorder databasePath]
+-[AWSPinpointEventRecorder setDatabasePath:]
+-[AWSPinpointEventRecorder context]
+-[AWSPinpointEventRecorder setContext:]
+-[AWSPinpointEventRecorder .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointEventRecorder._context
+_OBJC_IVAR_$_AWSPinpointEventRecorder._databasePath
+_OBJC_IVAR_$_AWSPinpointEventRecorder._diskByteLimit
+_OBJC_IVAR_$_AWSPinpointEventRecorder._diskAgeLimit
+_OBJC_IVAR_$_AWSPinpointEventRecorder._batchRecordsByteLimit
+_OBJC_IVAR_$_AWSPinpointEventRecorder._databaseQueue
+_sharedQueue.queue
+_sharedQueue.predicate
+___block_descriptor_tmp.61
+___block_literal_global.62
+___block_descriptor_tmp.165
+___block_descriptor_tmp.179
+___block_descriptor_tmp.189
+___block_descriptor_tmp.193
+___block_descriptor_tmp.207
+___block_descriptor_tmp.212
+___block_descriptor_tmp.242
+___block_descriptor_tmp.245
+___block_descriptor_tmp.257
+___block_descriptor_tmp.260
+___block_descriptor_tmp.265
+___block_descriptor_tmp.268
+___block_descriptor_tmp.296
+___block_descriptor_tmp.299
+___block_descriptor_tmp.304
+___block_descriptor_tmp.307
+___block_descriptor_tmp.310
+___block_descriptor_tmp.313
+___block_descriptor_tmp.369
+_OBJC_IVAR_$_AWSPinpointEventRecorder._notificationByteThreshold
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEventRecorder.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEventRecorder.h
+__64-[AWSPinpointEventRecorder submitEvents:db:error:eventIDs:stop:]_block_invoke
+__48-[AWSPinpointEventRecorder removeAllDirtyEvents]_block_invoke_2
+__48-[AWSPinpointEventRecorder removeAllDirtyEvents]_block_invoke
+__43-[AWSPinpointEventRecorder removeAllEvents]_block_invoke_2
+__43-[AWSPinpointEventRecorder removeAllEvents]_block_invoke
+__43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke_3
+__43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke_2
+__43-[AWSPinpointEventRecorder submitAllEvents]_block_invoke
+__42-[AWSPinpointEventRecorder getDirtyEvents]_block_invoke_2
+__42-[AWSPinpointEventRecorder getDirtyEvents]_block_invoke
+__37-[AWSPinpointEventRecorder getEvents]_block_invoke_2
+__37-[AWSPinpointEventRecorder getEvents]_block_invoke
+__46-[AWSPinpointEventRecorder getCurrentSession:]_block_invoke_2
+__46-[AWSPinpointEventRecorder getCurrentSession:]_block_invoke
+__69-[AWSPinpointEventRecorder updateSessionStartWithCampaignAttributes:]_block_invoke_2
+__69-[AWSPinpointEventRecorder updateSessionStartWithCampaignAttributes:]_block_invoke
+__38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.182
+__38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.174
+__38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.160
+__38-[AWSPinpointEventRecorder saveEvent:]_block_invoke.86
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__38-[AWSPinpointEventRecorder saveEvent:]_block_invoke
+__39+[AWSPinpointEventRecorder sharedQueue]_block_invoke
+__44-[AWSPinpointEventRecorder initWithContext:]_block_invoke
++[AWSPinpointAnalyticsEvent JSONKeyPathsByPropertyKey]
++[AWSPinpointAnalyticsEvent sessionJSONTransformer]
+-[AWSPinpointAnalyticsEvent attributes]
+-[AWSPinpointAnalyticsEvent setAttributes:]
+-[AWSPinpointAnalyticsEvent eventType]
+-[AWSPinpointAnalyticsEvent setEventType:]
+-[AWSPinpointAnalyticsEvent metrics]
+-[AWSPinpointAnalyticsEvent setMetrics:]
+-[AWSPinpointAnalyticsEvent session]
+-[AWSPinpointAnalyticsEvent setSession:]
+-[AWSPinpointAnalyticsEvent timestamp]
+-[AWSPinpointAnalyticsEvent setTimestamp:]
+-[AWSPinpointAnalyticsEvent version]
+-[AWSPinpointAnalyticsEvent setVersion:]
+-[AWSPinpointAnalyticsEvent .cxx_destruct]
++[AWSPinpointAnalyticsPutEventsInput JSONKeyPathsByPropertyKey]
++[AWSPinpointAnalyticsPutEventsInput eventsJSONTransformer]
+-[AWSPinpointAnalyticsPutEventsInput clientContext]
+-[AWSPinpointAnalyticsPutEventsInput setClientContext:]
+-[AWSPinpointAnalyticsPutEventsInput events]
+-[AWSPinpointAnalyticsPutEventsInput setEvents:]
+-[AWSPinpointAnalyticsPutEventsInput .cxx_destruct]
++[AWSPinpointAnalyticsSession JSONKeyPathsByPropertyKey]
+-[AWSPinpointAnalyticsSession duration]
+-[AWSPinpointAnalyticsSession setDuration:]
+-[AWSPinpointAnalyticsSession identifier]
+-[AWSPinpointAnalyticsSession setIdentifier:]
+-[AWSPinpointAnalyticsSession startTimestamp]
+-[AWSPinpointAnalyticsSession setStartTimestamp:]
+-[AWSPinpointAnalyticsSession stopTimestamp]
+-[AWSPinpointAnalyticsSession setStopTimestamp:]
+-[AWSPinpointAnalyticsSession .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._attributes
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._eventType
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._metrics
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._session
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._timestamp
+_OBJC_IVAR_$_AWSPinpointAnalyticsEvent._version
+_OBJC_IVAR_$_AWSPinpointAnalyticsPutEventsInput._clientContext
+_OBJC_IVAR_$_AWSPinpointAnalyticsPutEventsInput._events
+_OBJC_IVAR_$_AWSPinpointAnalyticsSession._duration
+_OBJC_IVAR_$_AWSPinpointAnalyticsSession._identifier
+_OBJC_IVAR_$_AWSPinpointAnalyticsSession._startTimestamp
+_OBJC_IVAR_$_AWSPinpointAnalyticsSession._stopTimestamp
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalytics/AWSPinpointAnalyticsModel.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalytics/AWSPinpointAnalyticsModel.h
+-[AWSPinpointEnvironment init]
+-[AWSPinpointEnvironment appVersion]
+-[AWSPinpointEnvironment setAppVersion:]
+-[AWSPinpointEnvironment appBuild]
+-[AWSPinpointEnvironment setAppBuild:]
+-[AWSPinpointEnvironment appPackageName]
+-[AWSPinpointEnvironment setAppPackageName:]
+-[AWSPinpointEnvironment appName]
+-[AWSPinpointEnvironment setAppName:]
+-[AWSPinpointEnvironment .cxx_destruct]
++[AWSPinpointConfiguration analyticsServiceConfiguration]
++[AWSPinpointConfiguration targetingServiceConfiguration]
++[AWSPinpointConfiguration appId]
++[AWSPinpointConfiguration defaultPinpointConfigurationWithLaunchOptions:]
+-[AWSPinpointConfiguration init]
+-[AWSPinpointConfiguration initWithAppId:launchOptions:]
+-[AWSPinpointConfiguration initWithAppId:launchOptions:maxStorageSize:sessionTimeout:]
+-[AWSPinpointConfiguration initWithAppId:launchOptions:maxStorageSize:sessionTimeout:serviceConfiguration:targetingServiceConfiguration:]
+-[AWSPinpointConfiguration attributes]
+-[AWSPinpointConfiguration setAttributes:]
+-[AWSPinpointConfiguration environment]
+-[AWSPinpointConfiguration setEnvironment:]
+-[AWSPinpointConfiguration enableEvents]
+-[AWSPinpointConfiguration setEnableEvents:]
+-[AWSPinpointConfiguration enableTargeting]
+-[AWSPinpointConfiguration setEnableTargeting:]
+-[AWSPinpointConfiguration enableAutoSessionRecording]
+-[AWSPinpointConfiguration setEnableAutoSessionRecording:]
+-[AWSPinpointConfiguration serviceConfiguration]
+-[AWSPinpointConfiguration setServiceConfiguration:]
+-[AWSPinpointConfiguration targetingServiceConfiguration]
+-[AWSPinpointConfiguration setTargetingServiceConfiguration:]
+-[AWSPinpointConfiguration maxStorageSize]
+-[AWSPinpointConfiguration setMaxStorageSize:]
+-[AWSPinpointConfiguration sessionTimeout]
+-[AWSPinpointConfiguration setSessionTimeout:]
+-[AWSPinpointConfiguration appId]
+-[AWSPinpointConfiguration setAppId:]
+-[AWSPinpointConfiguration launchOptions]
+-[AWSPinpointConfiguration setLaunchOptions:]
+-[AWSPinpointConfiguration completionBlock]
+-[AWSPinpointConfiguration setCompletionBlock:]
+-[AWSPinpointConfiguration .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointEnvironment._appVersion
+_OBJC_IVAR_$_AWSPinpointEnvironment._appBuild
+_OBJC_IVAR_$_AWSPinpointEnvironment._appPackageName
+_OBJC_IVAR_$_AWSPinpointEnvironment._appName
+_OBJC_IVAR_$_AWSPinpointConfiguration._appId
+_OBJC_IVAR_$_AWSPinpointConfiguration._launchOptions
+_OBJC_IVAR_$_AWSPinpointConfiguration._attributes
+_OBJC_IVAR_$_AWSPinpointConfiguration._environment
+_OBJC_IVAR_$_AWSPinpointConfiguration._enableEvents
+_OBJC_IVAR_$_AWSPinpointConfiguration._enableTargeting
+_OBJC_IVAR_$_AWSPinpointConfiguration._enableAutoSessionRecording
+_OBJC_IVAR_$_AWSPinpointConfiguration._serviceConfiguration
+_OBJC_IVAR_$_AWSPinpointConfiguration._targetingServiceConfiguration
+_OBJC_IVAR_$_AWSPinpointConfiguration._maxStorageSize
+_OBJC_IVAR_$_AWSPinpointConfiguration._sessionTimeout
+_OBJC_IVAR_$_AWSPinpointConfiguration._completionBlock
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointConfiguration.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointConfiguration.h
++[AWSPinpointAnalyticsResponseSerializer initialize]
+-[AWSPinpointAnalyticsResponseSerializer responseObjectForResponse:originalRequest:currentRequest:data:error:]
++[AWSPinpointAnalytics initialize]
++[AWSPinpointAnalytics defaultPinpointAnalytics]
+___48+[AWSPinpointAnalytics defaultPinpointAnalytics]_block_invoke
++[AWSPinpointAnalytics registerPinpointAnalyticsWithConfiguration:forKey:]
+___74+[AWSPinpointAnalytics registerPinpointAnalyticsWithConfiguration:forKey:]_block_invoke
++[AWSPinpointAnalytics PinpointAnalyticsForKey:]
++[AWSPinpointAnalytics removePinpointAnalyticsForKey:]
+-[AWSPinpointAnalytics init]
+-[AWSPinpointAnalytics initWithConfiguration:]
+-[AWSPinpointAnalytics invokeRequest:HTTPMethod:URLString:targetPrefix:operationName:outputClass:]
+-[AWSPinpointAnalytics putEvents:]
+-[AWSPinpointAnalytics putEvents:completionHandler:]
+___52-[AWSPinpointAnalytics putEvents:completionHandler:]_block_invoke
+-[AWSPinpointAnalytics configuration]
+-[AWSPinpointAnalytics setConfiguration:]
+-[AWSPinpointAnalytics networking]
+-[AWSPinpointAnalytics setNetworking:]
+-[AWSPinpointAnalytics .cxx_destruct]
+_defaultPinpointAnalytics._defaultPinpointAnalytics
+_defaultPinpointAnalytics.onceToken
+_registerPinpointAnalyticsWithConfiguration:forKey:.onceToken
+___block_descriptor_tmp.116
+___block_literal_global.117
+_OBJC_IVAR_$_AWSPinpointAnalytics._configuration
+_OBJC_IVAR_$_AWSPinpointAnalytics._networking
+___block_descriptor_tmp.224
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalytics/AWSPinpointAnalyticsService.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalytics/AWSPinpointAnalyticsService.h
+__52-[AWSPinpointAnalytics putEvents:completionHandler:]_block_invoke
+__74+[AWSPinpointAnalytics registerPinpointAnalyticsWithConfiguration:forKey:]_block_invoke
+__48+[AWSPinpointAnalytics defaultPinpointAnalytics]_block_invoke
+-[AWSPinpointEndpointProfile initWithApplicationId:endpointId:]
++[AWSPinpointEndpointProfile processAttributeValues:]
++[AWSPinpointEndpointProfile trimKey:forType:]
++[AWSPinpointEndpointProfile trimValue:]
+-[AWSPinpointEndpointProfile currentNumOfAttributesAndMetrics]
+-[AWSPinpointEndpointProfile addAttribute:forKey:]
+-[AWSPinpointEndpointProfile attributeForKey:]
+-[AWSPinpointEndpointProfile hasAttributeForKey:]
+-[AWSPinpointEndpointProfile allAttributes]
+-[AWSPinpointEndpointProfile addMetric:forKey:]
+-[AWSPinpointEndpointProfile metricForKey:]
+-[AWSPinpointEndpointProfile hasMetricForKey:]
+-[AWSPinpointEndpointProfile allMetrics]
+-[AWSPinpointEndpointProfile quotedString:]
+-[AWSPinpointEndpointProfile description]
+-[AWSPinpointEndpointProfile toDictionary]
+-[AWSPinpointEndpointProfile applicationId]
+-[AWSPinpointEndpointProfile setApplicationId:]
+-[AWSPinpointEndpointProfile endpointId]
+-[AWSPinpointEndpointProfile setEndpointId:]
+-[AWSPinpointEndpointProfile channelType]
+-[AWSPinpointEndpointProfile setChannelType:]
+-[AWSPinpointEndpointProfile address]
+-[AWSPinpointEndpointProfile setAddress:]
+-[AWSPinpointEndpointProfile optOut]
+-[AWSPinpointEndpointProfile setOptOut:]
+-[AWSPinpointEndpointProfile effectiveDate]
+-[AWSPinpointEndpointProfile setEffectiveDate:]
+-[AWSPinpointEndpointProfile location]
+-[AWSPinpointEndpointProfile setLocation:]
+-[AWSPinpointEndpointProfile demographic]
+-[AWSPinpointEndpointProfile setDemographic:]
+-[AWSPinpointEndpointProfile user]
+-[AWSPinpointEndpointProfile setUser:]
+-[AWSPinpointEndpointProfile attributes]
+-[AWSPinpointEndpointProfile setAttributes:]
+-[AWSPinpointEndpointProfile metrics]
+-[AWSPinpointEndpointProfile setMetrics:]
+-[AWSPinpointEndpointProfile .cxx_destruct]
++[AWSPinpointEndpointProfileDemographic defaultAWSPinpointEndpointProfileDemographic]
+-[AWSPinpointEndpointProfileDemographic make]
+-[AWSPinpointEndpointProfileDemographic quotedString:]
+-[AWSPinpointEndpointProfileDemographic description]
+-[AWSPinpointEndpointProfileDemographic model]
+-[AWSPinpointEndpointProfileDemographic setModel:]
+-[AWSPinpointEndpointProfileDemographic timezone]
+-[AWSPinpointEndpointProfileDemographic setTimezone:]
+-[AWSPinpointEndpointProfileDemographic locale]
+-[AWSPinpointEndpointProfileDemographic setLocale:]
+-[AWSPinpointEndpointProfileDemographic appVersion]
+-[AWSPinpointEndpointProfileDemographic setAppVersion:]
+-[AWSPinpointEndpointProfileDemographic platform]
+-[AWSPinpointEndpointProfileDemographic setPlatform:]
+-[AWSPinpointEndpointProfileDemographic platformVersion]
+-[AWSPinpointEndpointProfileDemographic setPlatformVersion:]
+-[AWSPinpointEndpointProfileDemographic .cxx_destruct]
+-[AWSPinpointEndpointProfileLocation quotedString:]
+-[AWSPinpointEndpointProfileLocation description]
+-[AWSPinpointEndpointProfileLocation latitude]
+-[AWSPinpointEndpointProfileLocation setLatitude:]
+-[AWSPinpointEndpointProfileLocation longitude]
+-[AWSPinpointEndpointProfileLocation setLongitude:]
+-[AWSPinpointEndpointProfileLocation postalCode]
+-[AWSPinpointEndpointProfileLocation setPostalCode:]
+-[AWSPinpointEndpointProfileLocation city]
+-[AWSPinpointEndpointProfileLocation setCity:]
+-[AWSPinpointEndpointProfileLocation region]
+-[AWSPinpointEndpointProfileLocation setRegion:]
+-[AWSPinpointEndpointProfileLocation country]
+-[AWSPinpointEndpointProfileLocation setCountry:]
+-[AWSPinpointEndpointProfileLocation .cxx_destruct]
+-[AWSPinpointEndpointProfileUser quotedString:]
+-[AWSPinpointEndpointProfileUser description]
+-[AWSPinpointEndpointProfileUser userId]
+-[AWSPinpointEndpointProfileUser setUserId:]
+-[AWSPinpointEndpointProfileUser .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._applicationId
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._endpointId
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._channelType
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._address
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._location
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._demographic
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._effectiveDate
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._optOut
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._attributes
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._metrics
+_OBJC_IVAR_$_AWSPinpointEndpointProfile._user
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._model
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._timezone
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._locale
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._appVersion
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._platform
+_OBJC_IVAR_$_AWSPinpointEndpointProfileDemographic._platformVersion
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._latitude
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._longitude
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._postalCode
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._city
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._region
+_OBJC_IVAR_$_AWSPinpointEndpointProfileLocation._country
+_OBJC_IVAR_$_AWSPinpointEndpointProfileUser._userId
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEndpointProfile.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointEndpointProfile.h
++[AWSPinpointStringUtils clipString:toMaxChars:andAppendEllipses:]
++[AWSPinpointStringUtils trimString:toLength:orPadWith:]
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/Internal/AWSPinpointStringUtils.m
+-[AWSPinpointAnalyticsClient init]
+-[AWSPinpointAnalyticsClient initWithContext:]
+-[AWSPinpointAnalyticsClient eventTypeAttributes]
+-[AWSPinpointAnalyticsClient eventTypeMetrics]
+-[AWSPinpointAnalyticsClient globalAttributes]
+-[AWSPinpointAnalyticsClient globalMetrics]
+-[AWSPinpointAnalyticsClient createEventWithEventType:]
+-[AWSPinpointAnalyticsClient createAppleMonetizationEventWithTransaction:withProduct:]
+-[AWSPinpointAnalyticsClient createVirtualMonetizationEventWithProductId:withItemPrice:withQuantity:withCurrency:]
+-[AWSPinpointAnalyticsClient submitEvents]
+-[AWSPinpointAnalyticsClient submitEventsWithCompletionBlock:]
+___62-[AWSPinpointAnalyticsClient submitEventsWithCompletionBlock:]_block_invoke
+-[AWSPinpointAnalyticsClient recordEvent:]
+-[AWSPinpointAnalyticsClient verifyMinimumLengthForKey:]
+-[AWSPinpointAnalyticsClient verifyMinimumLengthForEventType:]
+-[AWSPinpointAnalyticsClient addGlobalAttribute:forKey:]
+-[AWSPinpointAnalyticsClient addGlobalAttribute:forKey:forEventType:]
+-[AWSPinpointAnalyticsClient addGlobalMetric:forKey:]
+-[AWSPinpointAnalyticsClient addGlobalMetric:forKey:forEventType:]
+-[AWSPinpointAnalyticsClient removeGlobalAttributeForKey:]
+-[AWSPinpointAnalyticsClient removeGlobalAttributeForKey:forEventType:]
+-[AWSPinpointAnalyticsClient removeGlobalMetricForKey:]
+-[AWSPinpointAnalyticsClient removeGlobalMetricForKey:forEventType:]
+-[AWSPinpointAnalyticsClient setCampaignAttributes:]
+-[AWSPinpointAnalyticsClient removeAllGlobalCampaignAttributes]
+-[AWSPinpointAnalyticsClient eventRecorder]
+-[AWSPinpointAnalyticsClient setEventRecorder:]
+-[AWSPinpointAnalyticsClient setEventTypeAttributes:]
+-[AWSPinpointAnalyticsClient setEventTypeMetrics:]
+-[AWSPinpointAnalyticsClient setGlobalAttributes:]
+-[AWSPinpointAnalyticsClient setGlobalMetrics:]
+-[AWSPinpointAnalyticsClient globalCampaignAttributes]
+-[AWSPinpointAnalyticsClient setGlobalCampaignAttributes:]
+-[AWSPinpointAnalyticsClient context]
+-[AWSPinpointAnalyticsClient setContext:]
+-[AWSPinpointAnalyticsClient .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._context
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._eventRecorder
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._eventTypeAttributes
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._eventTypeMetrics
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._globalAttributes
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._globalMetrics
+_OBJC_IVAR_$_AWSPinpointAnalyticsClient._globalCampaignAttributes
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalyticsClient.m
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalyticsClient.h
+__62-[AWSPinpointAnalyticsClient submitEventsWithCompletionBlock:]_block_invoke
++[AWSPinpointAnalyticsResources sharedInstance]
+___47+[AWSPinpointAnalyticsResources sharedInstance]_block_invoke
+-[AWSPinpointAnalyticsResources JSONObject]
+-[AWSPinpointAnalyticsResources init]
+-[AWSPinpointAnalyticsResources definitionString]
+-[AWSPinpointAnalyticsResources definitionDictionary]
+-[AWSPinpointAnalyticsResources setDefinitionDictionary:]
+-[AWSPinpointAnalyticsResources .cxx_destruct]
+_OBJC_IVAR_$_AWSPinpointAnalyticsResources._definitionDictionary
+/Abby/Mac Projects/Wiley/Pro AWS For Mobile Developers/Manuscript/from Author/Lesson12/code/Carthage/AWSSDKWithCarthage/Carthage/Checkouts/aws-sdk-ios/AWSPinpoint/AWSPinpointAnalytics/AWSPinpointAnalyticsResources.m
+__47+[AWSPinpointAnalyticsResources sharedInstance]_block_invoke
+/Users/abhishekmishra/Library/Developer/Xcode/DerivedData/AWSiOSSDKv2-eivfqyjasjqboyexyyrqgmlqdazh/Build/Intermediates/AWSiOSSDKv2.build/Release-iphoneos/AWSPinpoint.build/DerivedSources/AWSPinpoint_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.2
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
