@@ -292,16 +292,14 @@ extension ChatViewController : UITableViewDataSource , UITableViewDelegate {
                 // sent by this user
                 let cell = tableView.dequeueReusableCell(withIdentifier: "SentImageTableViewCell", for: indexPath) as? SentImageTableViewCell
                 
-                // replace this with code to show preview image
-                cell?.messageImageView.image = UIImage(named: "placeholder")
+                cell?.loadImage(imageFile:messageImagePreview)
                 return cell!
                 
             } else {
                 // sent by friend
                 let cell = tableView.dequeueReusableCell(withIdentifier: "ReceivedImageTableViewCell", for: indexPath) as? ReceivedImageTableViewCell
                 
-                // replace this with code to show preview image
-                cell?.messageImageView.image = UIImage(named: "placeholder")
+                cell?.loadImage(imageFile:messageImagePreview)
                 return cell!
             }
         }

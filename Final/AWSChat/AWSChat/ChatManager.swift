@@ -194,8 +194,8 @@ class ChatManager {
         
         let documentsDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         let fileName = NSUUID().uuidString
-        let previewFileName = "NA"
-        let localFilePath = documentsDirectory.appending("\(fileName).png")
+        let previewFileName = "thumbnail-\(fileName)"
+        let localFilePath = documentsDirectory.appending("/\(fileName).png")
         
         do {
             try imageData.write(to:URL(fileURLWithPath: localFilePath), options: .atomicWrite)
