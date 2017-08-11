@@ -17,6 +17,14 @@ exports.handler = function(event, context, callback) {
     console.log("Reading options from event:\n", util.inspect(event, {depth: 5}));
 
 	// source and destination buckets
+	//
+	// this code assumes that your source and destination buckets
+	// differ only by the last word of the name.
+	//
+	// For example:
+	// source (image) bucket name = com.asmtechnology.awschat.images
+	// destination (thumbnail) bucket name = com.asmtechnology.awschat.thumbnails
+	
     var srcBucket = event.Records[0].s3.bucket.name;
 
 	var components = srcBucket.split('.');
