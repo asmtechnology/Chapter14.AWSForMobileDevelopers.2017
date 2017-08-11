@@ -12,8 +12,9 @@ import AWSCognitoIdentityProvider
 
 class CognitoIdentityPoolController {
     
+    //TO DO: Insert your Cognito identity pool settings here
     let identityPoolRegion: AWSRegionType = .USEast1
-    let identityPoolD = "us-east-1:3a7a90d7-b0e7-4730-b0aa-866c9a16ec85"
+    let identityPoolD = "insert your identity pool id"
     
     private var credentialsProvider: AWSCognitoCredentialsProvider?
     private var configuration: AWSServiceConfiguration?

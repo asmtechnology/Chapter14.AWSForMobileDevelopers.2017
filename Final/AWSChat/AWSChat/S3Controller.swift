@@ -11,8 +11,9 @@ import AWSS3
 
 class S3Controller {
     
-    private let imageBucketName = "com.asmtechnology.awschat.images"
-    private let thumbnailsBucketName = "com.asmtechnology.awschat.thumbnails"
+    //TO DO: Insert your S3 bucket names here
+    private let imageBucketName = "your image bucket"
+    private let thumbnailsBucketName = "your thumbnail bucket"
     static let sharedInstance: S3Controller = S3Controller()
     
     private init() { }

@@ -38,7 +38,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>1080694568742908</string>
+	<string>insert your facebook app id</string>
 	<key>FacebookDisplayName</key>
 	<string>AWSChat</string>
 	<key>LSApplicationQueriesSchemes</key>
